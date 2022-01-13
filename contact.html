@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <!-- RWD-viewport設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>Ocean Life</title>
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/rwd_contact.css">
+    <link href="./images/logo_icons.ico" rel="shortcut icon">
+
+    <!-- jonsuh套件(漢堡選單) -->
+    <link href="./vendors/jonsuh/hamburgers.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- header -->
+    <header id="header">
+      <div class="block_1100">
+        <a href="./index.html" class="header_logo">
+          <img class="logo_02" src="./images/logo_02.svg" alt="">
+        </a>
+
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li><a href="./latest-news.html">最新消息</a></li>
+            <li>
+              <div class="information_block">
+                <a class="on" href="./ticket.html">入館資訊</a> <!-- 設定所在位置,增加class -->
+                <ul class="information_list">
+                  <li class="buy_ticket"><a href="./ticket.html">票價&amp;購票</a></li>
+                  <li><a href="./transportation.html">交通指南</a></li>
+                  <li><a href="./FAQ.html">常見問答</a></li>
+                  <li><a href="./contact.html">聯絡我們</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="explore_block">
+                <a href="./explore.html">探索之旅</a>
+                <ul class="explore_list">
+                  <li><a href="./explore.html">館內導覽</a></li>
+                  <li><a href="./restaurant.html">特色餐廳</a></li>
+                  <li><a href="./gift.html">紀念品店</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="./activity.html">館內活動</a></li>
+            <li class="language_list">
+              <a class="language_icon" href="#"><img class="svg language" src="./images/language.svg" alt=""></a>
+              <div class="language_block">
+                <a href="#">Language</a>
+                <ul class="language_list">
+                  <li><a href="#">繁體中文</a></li>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">日本語</a></li>
+                </ul>
+              </div>
+              <a class="arrow_icon" href="#"><img class="svg arrow" src="./images/language_arrow.svg" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 漢堡選單 -->
+        <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div class="burger_nav">
+          <div class="burger_container">
+            <ul class="burger_ul">
+              <li>
+                <div class="burger_li">
+                  <a href="./latest-news.html">最新消息</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">入館資訊</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./ticket.html">票價&amp;購票</a>
+                  <a href="./transportation.html">交通指南</a>
+                  <a href="./FAQ.html">常見問答</a>
+                  <a href="./contact.html">聯絡我們</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">探索之旅</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./explore.html">館內導覽</a>
+                  <a href="./restaurant.html">特色餐廳</a>
+                  <a href="./gift.html">紀念品店</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="./activity.html">館內活動</a>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="buy_ticket">
+              <p>網路購票</p>
+            </a>
+
+            <ul class="burger_language">
+              <li class="-on">
+                <a href="#">繁體中文</a>
+              </li>
+              <li>
+                <a href="#">English</a>
+              </li>
+              <li>
+                <a href="#">日本語</a>
+              </li>
+            </ul>
+
+            <div class="burger_follow">
+              <!-- <p>Follow Us</p>
+              <p>|</p> -->
+              <a href="#">
+                <img src="./images/circle_fb.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./images/circle_yt.svg" alt=""></a>
+              <a href="#">
+                <img src="./images/circle_ig.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+<!-- 購票視窗 -->
+    <div class="ticketLink">
+      <a href="https://www.kkday.com/zh-tw" target="_blank">
+        <img src="./images/fixed_ticket.png" alt="">
+      </a>
+    </div>
+
+
+<!-- 聯絡我們 -->
+    <section class="contact">
+      <div class="contact_bg"></div>
+      <ul class="change_bt_1100">
+        <li class="one">
+          <a href="./ticket.html">
+            <img class="svg ticket" src="./images/buy_ticket.svg" alt="">
+            <h5>票價&amp;購票</h5>
+          </a>
+        </li>
+        <li class="two">
+          <a href="./transportation.html">
+            <img class="svg car" src="./images/car.svg" alt="">
+            <h5>交通指南</h5>
+          </a>
+        </li>
+        <li class="three">
+          <a href="./FAQ.html">
+            <img class="svg FAQ" src="./images/FAQ.svg" alt="">
+            <h5>常見問答</h5>
+          </a>
+        </li>
+        <li class="four">
+          <a href="./contact.html">
+            <img class="svg email" src="./images/email_blue.svg" alt="">
+            <h5>聯絡我們</h5>
+          </a>
+        </li>
+      </ul>
+
+      <div class="service">
+        <h3>服務資訊</h3>
+        <h5>需要協助？有任何問題？歡迎先看看我們的【常見問題】，為你快速解答！</h5>
+        <h4 class="service_time">服務時間:9:00~18:00</h4>
+        <h4>客服專線:02-2690-9031</h4>
+      </div>
+
+      <div class="form">
+        <div class="line_dot"></div>
+        <h3>諮詢服務</h3>
+        <h5>請提供您的聯絡資訊及訊息，OCEAN LIFE客服團隊很樂意為您服務</h5>
+        <form name="myForm" action="#" method="get" enctype="multipart/form-data" accept=".image,.pdf">
+          <div class="item_block">
+            <label for="name">姓名：</label>
+            <br>
+            <input class="name" type="text" name="name" id="name" required>
+            <input type="radio" name="sex" value="" id="male" checked required>
+            <label class="male" for="male">先生</label>
+            <input type="radio" name="sex" value="" id="female" required>
+            <label for="female">小姐</label>
+          </div>
+          <div class="item_block">
+            <label for="email" name="email">可聯繫您的信箱：</label>
+            <br>
+            <input class="email" type="text" name="email" id="email" required>
+          </div>
+          <div class="item_block">
+            <label for="content">內容描述：</label>
+            <br>
+            <textarea class="content" name="content" id="content" required></textarea>
+          </div>
+          <!-- <p>*可接受檔案數量上限為3，僅支援圖片(jpg / jpeg / png)與PDF檔案，且大小必須小於4.5MB</p>
+          <input class="file" type="file" multiple name="the_file" value="">
+          <br> -->
+          <button class="btn" type="submit" name="button" >發送訊息</button>
+        </form>
+      </div>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_flex">
+        <div class="TOP_bt" id="BackTop">
+          <a href="#"><img src="./images/TOP.svg" alt=""></a>
+        </div>
+        <div class="follow_icon">
+          <p class="more_information">更多情報</p>
+          <p class="line">|</p>
+          <a href="https://www.facebook.com/" target="_blank"><img class="svg facebook" src="./images/facebook.svg" alt=""></a>
+          <a href="https://www.youtube.com/" target="_blank"><img class="svg youtube" src="./images/youtube.svg" alt=""></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="svg ig" src="./images/ig.svg" alt=""></a>
+        </div>
+        <div class="content">
+          <h5>地址：202基隆市中正區北寧路367號 | TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a>，後續會由專人協助處理</p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+        <div class="rwd_content">
+          <h5>地址：202基隆市中正區北寧路367號<br>TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a></p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script> -->
+    <script src="./js/common/svg_change.js"></script>
+    <script src="./js/common/top_back.js"></script>
+
+    <script src="./js/common/header.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
+</html>

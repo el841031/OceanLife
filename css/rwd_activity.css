@@ -1,0 +1,907 @@
+@media (min-width: 1200px){
+  /* section.activity > div.title_1100 > div.title{
+    left: 155px;
+  } */
+}
+
+/* 多加的斷點 */
+@media (min-width: 1115px) and (max-width:1199.98px){
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+
+
+  /* 最新消息-banner */
+  section.activity > div.title_box > div.activity_title{
+    /* text-align: center; */
+    width: calc(100% - 65px);
+    margin: 0 auto;
+    /* left: 0; */
+  }
+  section.activity > div.activity_bg{
+    /* background-image: url(../images/activity_bg04.jpg); */
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+    background-position: right;
+  }
+
+  /* 活動一 */
+  section.activity > div.box01_1100{
+    /* flex-direction: column-reverse; */
+    padding: 0px 50px;
+    /* margin: 44px auto 80px auto;
+    align-items: center; */
+  }
+
+  /* 活動一-照片 */
+  section.activity > div.box01_1100 > div.activity_box{
+    /* width: 85%; */
+    width: 67%;
+    margin-left: 60px;
+  }
+  section.activity > div.box01_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動一-文字 */
+  section.activity > div.box01_1100 > div.text > h5:nth-child(2){
+    display: none;
+  }
+  section.activity > div.box01_1100 > div.text > h5:nth-child(3){
+    display: inline-block;
+  }
+  section.activity > div.box01_1100 > div.text > h3{
+    margin-bottom: 20px;
+  }
+  /* 活動一-表格 */
+  section.activity > div.box01_1100 > div.text > table{
+    margin: 20px auto;
+  }
+
+
+
+  /* 活動二 */
+  section.activity > div.box02_1100{
+    /* flex-direction: column-reverse; */
+    padding: 0px 50px;
+    /* margin: 44px auto 80px auto;
+    align-items: center; */
+    justify-content: normal;
+    /* position: relative; */
+  }
+
+  /* 活動二-照片 */
+  section.activity{
+    position: relative;
+  }
+  section.activity > div.box02_1100 > div.activity_box{
+    width: 67%;
+    margin-right: 60px;
+  }
+  section.activity > div.box02_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  /* 活動二-背景圖 */
+  section.activity > div.box02_1100 > div.activity_bg02{
+    left: 0px;
+    top: 930px;
+    height: 640px;
+  }
+  /* 活動二-文字 */
+  /* section.activity > div.box02_1100 > div.text > h5:nth-child(2){
+    display: none;
+  }
+  section.activity > div.box02_1100 > div.text > h5:nth-child(3){
+    display: inline-block;
+  } */
+  section.activity > div.box02_1100 > div.text > h3{
+    margin-bottom: 20px;
+  }
+  section.activity > div.box02_1100 > div.text > h5:nth-child(4){
+    display: none;
+  }
+  section.activity > div.box02_1100 > div.text > h5:nth-child(5){
+    display: inline-block;
+    width: 346px;
+  }
+
+
+
+  /* 活動三 */
+  section.activity > div.box03_1100{
+    /* flex-direction: column-reverse; */
+    padding: 0px 50px;
+    /* margin: 44px auto 80px auto;
+    align-items: center; */
+  }
+
+  /* 活動三-照片 */
+  section.activity > div.box03_1100 > div.activity_box{
+    /* width: 85%; */
+    width: 67%;
+    margin-left: 60px;
+  }
+  section.activity > div.box03_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動三-文字 */
+  /* section.activity > div.box03_1100 > div.text > h5:nth-child(2){
+    display: none;
+  }
+  section.activity > div.box03_1100 > div.text > h5:nth-child(3){
+    display: inline-block;
+  } */
+  section.activity > div.box03_1100 > div.text > h3{
+    margin-bottom: 20px;
+  }
+  /* 活動三-表格 */
+  section.activity > div.box03_1100 > div.text > table{
+    margin: 20px auto;
+  }
+}
+/* @media (min-width: 1198px) and (max-width:1114.98px) */
+
+
+
+/* @media (min-width: 992px) and (max-width:1199.98px) */
+@media (min-width: 992px) and (max-width:1114.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+
+
+  /* 最新消息-banner */
+  section.activity > div.title_box > div.activity_title{
+    /* text-align: center; */
+    width: calc(100% - 65px);
+    margin: 0 auto;
+    /* left: 0; */
+  }
+  section.activity > div.activity_bg{
+    /* background-image: url(../images/activity_bg04.jpg); */
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+    background-position: right;
+  }
+
+  /* 活動一 */
+  section.activity > div.box01_1100{
+    /* flex-direction: column-reverse; */
+    padding: 0px 50px;
+    /* margin: 44px auto 80px auto;
+    align-items: center; */
+  }
+
+  /* 活動一-照片 */
+  section.activity > div.box01_1100 > div.activity_box{
+    /* width: 85%; */
+    width: 67%;
+    margin-left: 60px;
+  }
+  section.activity > div.box01_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動一-文字 */
+  section.activity > div.box01_1100 > div.text > h5:nth-child(2){
+    display: none;
+  }
+  section.activity > div.box01_1100 > div.text > h5:nth-child(3){
+    display: inline-block;
+  }
+  section.activity > div.box01_1100 > div.text > h3{
+    margin-bottom: 20px;
+  }
+  /* 活動一-表格 */
+  section.activity > div.box01_1100 > div.text > table{
+    margin: 20px auto;
+  }
+
+
+
+  /* 活動二 */
+  section.activity > div.box02_1100{
+    /* flex-direction: column-reverse; */
+    padding: 0px 50px;
+    /* margin: 44px auto 80px auto;
+    align-items: center; */
+    justify-content: normal;
+    position: relative;
+  }
+
+  /* 活動二-照片 */
+  section.activity{
+    position: relative;
+  }
+  section.activity > div.box02_1100 > div.activity_box{
+    width: 67%;
+    margin-right: 60px;
+  }
+  section.activity > div.box02_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  /* 活動二-背景圖 */
+  section.activity > div.box02_1100 > div.activity_bg02{
+    left: 0px;
+    top: -95px;
+    height: calc(100% + 200px);
+  }
+  /* 活動二-文字 */
+  /* section.activity > div.box02_1100 > div.text > h5:nth-child(2){
+    display: none;
+  }
+  section.activity > div.box02_1100 > div.text > h5:nth-child(3){
+    display: inline-block;
+  } */
+  section.activity > div.box02_1100 > div.text > h3{
+    margin-bottom: 20px;
+  }
+  section.activity > div.box02_1100 > div.text > h5:nth-child(4){
+    display: none;
+  }
+  section.activity > div.box02_1100 > div.text > h5:nth-child(5){
+    display: inline-block;
+    width: 346px;
+  }
+
+
+
+  /* 活動三 */
+  section.activity > div.box03_1100{
+    /* flex-direction: column-reverse; */
+    padding: 0px 50px;
+    /* margin: 44px auto 80px auto;
+    align-items: center; */
+  }
+
+  /* 活動三-照片 */
+  section.activity > div.box03_1100 > div.activity_box{
+    /* width: 85%; */
+    width: 67%;
+    margin-left: 60px;
+  }
+  section.activity > div.box03_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動三-文字 */
+  /* section.activity > div.box03_1100 > div.text > h5:nth-child(2){
+    display: none;
+  }
+  section.activity > div.box03_1100 > div.text > h5:nth-child(3){
+    display: inline-block;
+  } */
+  section.activity > div.box03_1100 > div.text > h3{
+    margin-bottom: 20px;
+  }
+  /* 活動三-表格 */
+  section.activity > div.box03_1100 > div.text > table{
+    margin: 20px auto;
+  }
+
+}
+
+
+@media (min-width: 768px) and (max-width:991.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 最新消息-banner */
+  section.activity > div.title_box > div.activity_title{
+    /* text-align: center; */
+    width: calc(100% - 65px);
+    margin: 0 auto;
+    /* left: 0; */
+  }
+  section.activity > div.activity_bg{
+    background-image: url(../images/activity_bg04.jpg);
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+    background-position: right;
+  }
+
+  /* 活動一 */
+  section.activity > div.box01_1100{
+    flex-direction: column-reverse;
+    padding: 0px 60px;
+    margin: 44px auto 80px auto;
+    align-items: center;
+  }
+  section.activity > div.box01_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動一-大標 */
+  section.activity > div.box01_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box01_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動一-照片 */
+  section.activity > div.box01_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動一-文字 */
+  section.activity > div.box01_1100 > div.text > h5{
+    /* font-size: 14px; */
+    margin-top: 30px;
+  }
+
+
+  /* 活動二 */
+  section.activity > div.box02_1100{
+    flex-direction: column;
+    padding: 0px 60px;
+    margin-bottom: 80px;
+    align-items: center;
+
+    position: relative;
+  }
+  section.activity > div.box02_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動二-大標 */
+  section.activity > div.box02_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box02_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動二-照片 */
+  section.activity > div.box02_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+  /* 活動二-背景圖 */
+  section.activity > div.box02_1100 > div.activity_bg02{
+    top: -85px;
+    height: calc(100% + 140px);
+  }
+  section.activity > div.box02_1100 > div.text > h5{
+    /* font-size: 14px; */
+    margin-top: 30px;
+  }
+  /* 活動二-表格 */
+  section.activity > div.box02_1100 > div.text > table{
+    margin: 30px auto;
+  }
+
+
+  /* 活動三 */
+  section.activity > div.box03_1100{
+    flex-direction: column-reverse;
+    padding: 0px 60px;
+    margin: 60px auto 90px auto;
+  }
+  section.activity > div.box03_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動三-大標 */
+  section.activity > div.box03_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box03_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動三-照片 */
+  section.activity > div.box03_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動三-文字 */
+  section.activity > div.box03_1100 > div.text > h5{
+    /* font-size: 14px; */
+    margin-top: 30px;
+  }
+
+
+
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 最新消息-banner */
+  section.activity > div.title_box > div.activity_title{
+    /* text-align: center; */
+    width: calc(100% - 65px);
+    margin: 0 auto;
+    /* left: 0; */
+  }
+  section.activity > div.activity_bg{
+    background-image: url(../images/activity_bg03.jpg);
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+    background-position: right;
+  }
+
+  /* 活動一 */
+  section.activity > div.box01_1100{
+    flex-direction: column-reverse;
+    padding: 0px 50px;
+    margin: 44px auto 80px auto;
+    align-items: center;
+  }
+  section.activity > div.box01_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動一-大標 */
+  section.activity > div.box01_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box01_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動一-照片 */
+  section.activity > div.box01_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動一-文字 */
+  section.activity > div.box01_1100 > div.text > h5{
+    /* font-size: 14px; */
+    margin-top: 30px;
+  }
+
+
+  /* 活動二 */
+  section.activity > div.box02_1100{
+    flex-direction: column;
+    padding: 0px 50px;
+    margin-bottom: 80px;
+    align-items: center;
+
+    position: relative;
+  }
+  section.activity > div.box02_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動二-大標 */
+  section.activity > div.box02_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box02_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動二-照片 */
+  section.activity > div.box02_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+  /* 活動二-背景圖 */
+  section.activity > div.box02_1100 > div.activity_bg02{
+    top: -75px;
+    height: calc(100% + 126px);
+  }
+  section.activity > div.box02_1100 > div.text > h5{
+    /* font-size: 14px; */
+    margin-top: 30px;
+  }
+  /* 活動二-表格 */
+  section.activity > div.box02_1100 > div.text > table{
+    margin: 30px auto;
+  }
+
+
+  /* 活動三 */
+  section.activity > div.box03_1100{
+    flex-direction: column-reverse;
+    padding: 0px 50px;
+    margin: 60px auto 90px auto;
+  }
+  section.activity > div.box03_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動三-大標 */
+  section.activity > div.box03_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box03_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動三-照片 */
+  section.activity > div.box03_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動三-文字 */
+  section.activity > div.box03_1100 > div.text > h5{
+    /* font-size: 14px; */
+    margin-top: 30px;
+  }
+
+
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-width: 575.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    /* border: 1.5px solid rgba(255, 255, 255, 0.65); */
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    color: #55F4FF;
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
+  /* header */
+  header#header{
+    width: 100%;
+  }
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+  /* 最新消息-banner */
+  section.activity > div.title_box > div.activity_title{
+    /* text-align: center; */
+    width: calc(100% - 65px);
+    margin: 0 auto;
+    /* left: 0; */
+  }
+  section.activity > div.activity_bg{
+    background-image: url(../images/activity_bg02.jpg);
+    width: 100%;
+    height: 360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+
+    background-position: right;
+  }
+
+  /* 活動一 */
+  section.activity > div.box01_1100{
+    flex-direction: column-reverse;
+    padding: 0px 40px;
+    margin: 44px auto 80px auto;
+    align-items: center;
+  }
+  section.activity > div.box01_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動一-大標 */
+  section.activity > div.box01_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box01_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動一-照片 */
+  section.activity > div.box01_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動一-文字 */
+  section.activity > div.box01_1100 > div.text > h5{
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+
+  /* 活動二 */
+  section.activity > div.box02_1100{
+    flex-direction: column;
+    padding: 0px 40px;
+    margin-bottom: 80px;
+    align-items: center;
+
+    position: relative;
+  }
+  section.activity > div.box02_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動二-大標 */
+  section.activity > div.box02_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box02_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動二-照片 */
+  section.activity > div.box02_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+  /* 活動二-背景圖 */
+  section.activity > div.box02_1100 > div.activity_bg02{
+    top: -70px;
+    height: calc(100% + 125px);
+  }
+  section.activity > div.box02_1100 > div.text > h5{
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  /* 活動二-表格 */
+  section.activity > div.box02_1100 > div.text > table{
+    margin: 30px auto;
+  }
+
+
+  /* 活動三 */
+  section.activity > div.box03_1100{
+    flex-direction: column-reverse;
+    padding: 0px 40px;
+    margin: 60px auto 90px auto;
+  }
+  section.activity > div.box03_1100 > div.activity_box{
+    text-align: center;
+  }
+  /* 活動三-大標 */
+  section.activity > div.box03_1100 > div.text > h3{
+    display: none;
+  }
+  section.activity > div.box03_1100 > div.activity_box > h3{
+    display: inline-block;
+  }
+  /* 活動三-照片 */
+  section.activity > div.box03_1100 > div.activity_box > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 活動三-文字 */
+  section.activity > div.box03_1100 > div.text > h5{
+    font-size: 14px;
+    margin-top: 30px;
+  }
+
+
+  /* footer */
+  div.content{
+    display: none;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content {
+    display: inline-block;
+    font-size: 10px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}

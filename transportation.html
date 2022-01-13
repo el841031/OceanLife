@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <!-- RWD-viewport設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>Ocean Life</title>
+    <link rel="stylesheet" href="./css/transportation.css">
+    <link rel="stylesheet" href="./css/rwd_transportation.css">
+    <link href="./images/logo_icons.ico" rel="shortcut icon">
+
+    <!-- jonsuh套件(漢堡選單) -->
+    <link href="./vendors/jonsuh/hamburgers.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- header -->
+    <header id="header">
+      <div class="block_1100">
+        <a href="./index.html" class="header_logo">
+          <img class="logo_02" src="./images/logo_02.svg" alt="">
+        </a>
+
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li><a href="./latest-news.html">最新消息</a></li>
+            <li>
+              <div class="information_block">
+                <a class="on" href="./ticket.html">入館資訊</a> <!-- 設定所在位置,增加class -->
+                <ul class="information_list">
+                  <li class="buy_ticket"><a href="./ticket.html">票價&amp;購票</a></li>
+                  <li><a href="./transportation.html">交通指南</a></li>
+                  <li><a href="./FAQ.html">常見問答</a></li>
+                  <li><a href="./contact.html">聯絡我們</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="explore_block">
+                <a href="./explore.html">探索之旅</a>
+                <ul class="explore_list">
+                  <li><a href="./explore.html">館內導覽</a></li>
+                  <li><a href="./restaurant.html">特色餐廳</a></li>
+                  <li><a href="./gift.html">紀念品店</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="./activity.html">館內活動</a></li>
+            <li class="language_list">
+              <a class="language_icon" href="#"><img class="svg language" src="./images/language.svg" alt=""></a>
+              <div class="language_block">
+                <a href="#">Language</a>
+                <ul class="language_list">
+                  <li><a href="#">繁體中文</a></li>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">日本語</a></li>
+                </ul>
+              </div>
+              <a class="arrow_icon" href="#"><img class="svg arrow" src="./images/language_arrow.svg" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 漢堡選單 -->
+        <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div class="burger_nav">
+          <div class="burger_container">
+            <ul class="burger_ul">
+              <li>
+                <div class="burger_li">
+                  <a href="./latest-news.html">最新消息</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">入館資訊</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./ticket.html">票價&amp;購票</a>
+                  <a href="./transportation.html">交通指南</a>
+                  <a href="./FAQ.html">常見問答</a>
+                  <a href="./contact.html">聯絡我們</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">探索之旅</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./explore.html">館內導覽</a>
+                  <a href="./restaurant.html">特色餐廳</a>
+                  <a href="./gift.html">紀念品店</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="./activity.html">館內活動</a>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="buy_ticket">
+              <p>網路購票</p>
+            </a>
+
+            <ul class="burger_language">
+              <li class="-on">
+                <a href="#">繁體中文</a>
+              </li>
+              <li>
+                <a href="#">English</a>
+              </li>
+              <li>
+                <a href="#">日本語</a>
+              </li>
+            </ul>
+
+            <div class="burger_follow">
+              <!-- <p>Follow Us</p>
+              <p>|</p> -->
+              <a href="#">
+                <img src="./images/circle_fb.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./images/circle_yt.svg" alt=""></a>
+              <a href="#">
+                <img src="./images/circle_ig.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+<!-- 購票視窗 -->
+    <div class="ticketLink">
+      <a href="https://www.kkday.com/zh-tw" target="_blank">
+        <img src="./images/fixed_ticket.png" alt="">
+      </a>
+    </div>
+
+
+<!-- 交通指南 -->
+    <section class="transportation">
+      <div class="transportation_bg"></div>
+      <ul class="change_bt_1100">
+        <li class="one">
+          <a href="./ticket.html">
+            <img class="svg ticket" src="./images/buy_ticket.svg" alt="">
+            <h5>票價&amp;購票</h5>
+          </a>
+        </li>
+        <li class="two">
+          <a href="./transportation.html">
+            <img class="svg car" src="./images/car_blue.svg" alt="">
+            <h5>交通指南</h5>
+          </a>
+        </li>
+        <li class="three">
+          <a href="./FAQ.html">
+            <img class="svg FAQ" src="./images/FAQ.svg" alt="">
+            <h5>常見問答</h5>
+          </a>
+        </li>
+        <li class="four">
+          <a href="./contact.html">
+            <img class="svg email" src="./images/email.svg" alt="">
+            <h5>聯絡我們</h5>
+          </a>
+        </li>
+      </ul>
+
+      <div class="open_1100">
+        <h3>營業相關</h3>
+        <img src="./images/open.jpg" alt="">
+        <div class="right_box">
+          <h3>營業相關</h3>
+          <table>
+            <tbody>
+              <tr>
+                <th>週日~週五</th>
+                <td>10:00 ~ 20:30</td>
+              </tr>
+              <tr>
+                <th>週六(含國定假日)</th>
+                <td>9:30 ~ 22:00</td>
+              </tr>
+            </tbody>
+          </table>
+          <h5>* 最終入場時間為閉館前1小時。</h5>
+          <h5>* 本館全年無休，若遇任何天候或其它因素而休館將另<br>&emsp;行公告，敬請留意本館最新消息。</h5>
+          <p>* 本館全年無休，若遇任何天候或其它因素而休館將另行公告，敬請留意本館最新消息。</p>
+        </div>
+      </div>
+
+      <div class="map_1100">
+        <div class="line_dot"></div>
+        <h3>交通指南</h3>
+
+        <div class="map_box">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.868532056656!2d121.7970616150084!3d25.140135183922723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d4f9d5531aa59%3A0xd5ccbfae9a4e35d6!2zMjAy5Z-66ZqG5biC5Lit5q2j5Y2A5YyX5a-n6LevMzY36Jmf!5e0!3m2!1szh-TW!2stw!4v1629112278844!5m2!1szh-TW!2stw" width="900" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div>地址: 202基隆市中正區北寧路367號</div>
+        </div>
+
+        <div class="HowToGo">
+
+          <div class="one">
+            <div class="icon_box">
+              <img src="./images/train.svg" alt="">
+              <h5>火車</h5>
+            </div>
+            <ul>
+              <li>搭乘東部幹線→瑞芳車站→深澳線至「海科館站」→步行5分鐘即可抵達</li>
+              <li>搭乘西部幹線→基隆車站→基隆市公車103路線至「海科館/碧水巷」→步行2分鐘即可抵達</li>
+              <li>搭乘西部幹線→七堵車站→基隆客運R66路線至「海科館/碧水巷」→步行2分鐘即可抵達</li>
+            </ul>
+          </div>
+
+          <div class="two">
+            <div class="icon_box">
+              <img src="./images/bus.svg" alt="">
+              <h5>公車</h5>
+            </div>
+            <ul>
+              <li>大都會客運 - 2088：搭乘至海科館站(終點站)下車，步行3分鐘即可抵</li>
+              <li>首都客運 - 1579：搭乘至海科館站(終點站)下車，步行3分鐘即可抵達</li>
+            </ul>
+          </div>
+
+          <div class="three">
+            <div class="icon_box">
+              <img src="./images/car02.svg" alt="">
+              <h5>汽車</h5>
+            </div>
+            <ul>
+              <li>中山高速公路 → 大華系統交流道 → (往瑞濱) 台62線快速道路 →(瑞芳過後靠右)八斗子匝道<br>→調和街 → 北寧路(右轉過後靠左) →即可抵達OCEAN LIFE</li>
+              <h5>貼心提醒：本館有設置停車場，竭誠歡迎您蒞臨</h5>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_flex">
+        <div class="TOP_bt" id="BackTop">
+          <a href="#"><img src="./images/TOP.svg" alt=""></a>
+        </div>
+        <div class="follow_icon">
+          <p class="more_information">更多情報</p>
+          <p class="line">|</p>
+          <a href="https://www.facebook.com/" target="_blank"><img class="svg facebook" src="./images/facebook.svg" alt=""></a>
+          <a href="https://www.youtube.com/" target="_blank"><img class="svg youtube" src="./images/youtube.svg" alt=""></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="svg ig" src="./images/ig.svg" alt=""></a>
+        </div>
+        <div class="content">
+          <h5>地址：202基隆市中正區北寧路367號 | TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a>，後續會由專人協助處理</p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+        <div class="rwd_content">
+          <h5>地址：202基隆市中正區北寧路367號<br>TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a></p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script> -->
+    <script src="./js/common/svg_change.js"></script>
+    <script src="./js/common/top_back.js"></script>
+
+    <script src="./js/common/header.js"></script>
+
+  </body>
+</html>

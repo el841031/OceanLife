@@ -1,0 +1,432 @@
+/* @media (min-width: 1200px){
+  section.news > div.title_1100 > div.title{
+    left: 155px;
+  }
+} */
+
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width:991.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* FAQ */
+  section.FAQ > div.FAQ_1100{
+    padding: 0 45px;
+  }
+  section.FAQ > div.FAQ_1100 > div{
+    width: 100%;
+  }
+  /* FQA-解答 */
+  div > dt > div.content{
+    width: 100%;
+    text-align: left;
+  }
+
+  /* FAQ-聯絡專區 */
+  section.FAQ > div.FAQ_1100_box{
+    width: 100%;
+    padding: 0px 45px;
+  }
+
+  section.FAQ > div.FAQ_1100 > div > dl > div > dt > button{
+    width: 100%;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 選項 */
+  section.FAQ > ul.change_bt_1100 > li{
+    /* margin: 50px 40px 40px 0px; */
+    margin: 50px 0px 0px 0px;
+  }
+  section.FAQ > ul.change_bt_1100 > li:nth-child(2){
+    margin: auto 40px 0px 40px;
+  }
+  section.FAQ > ul.change_bt_1100 > li:nth-child(3){
+    margin: auto 40px 0px 0px;
+  }
+
+  /* FAQ */
+  section.FAQ > div.FAQ_1100{
+    padding: 0 40px;
+  }
+  section.FAQ > div.FAQ_1100 > div{
+    width: 100%;
+  }
+  /* FQA-解答 */
+  div > dt > div.content{
+    width: 100%;
+    text-align: left;
+  }
+  /* FAQ文字 */
+  section.FAQ > div.FAQ_1100 > div > dl > div > dt > button > span:nth-child(2){
+    width: 80%;
+  }
+
+  section.FAQ > div.FAQ_1100 > div > dl > div > dt > button{
+    width: 100%;
+  }
+
+  /* FAQ-聯絡專區 */
+  section.FAQ > div.FAQ_1100_box{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  section.FAQ > div.FAQ_1100_box > div.question_box{
+    flex-direction: column;
+    align-items: center;
+  }
+  section.FAQ > div.FAQ_1100_box > div.question_box > div.btn{
+    margin-top: 30px;
+  }
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-width: 575.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    /* border: 1.5px solid rgba(255, 255, 255, 0.65); */
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    color: #55F4FF;
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
+  /* header */
+  header#header{
+    width: 100%;
+  }
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 選項 */
+  section.FAQ > ul.change_bt_1100 > li{
+    /* margin: 50px 40px 40px 0px; */
+    margin: 50px 0px 0px 0px;
+  }
+  section.FAQ > ul.change_bt_1100 > li:nth-child(2){
+    margin: auto 23px 0px 23px;
+  }
+  section.FAQ > ul.change_bt_1100 > li:nth-child(3){
+    margin: auto 23px 0px 0px;
+  }
+  /* 選項-圖示1 */
+  section.FAQ > ul.change_bt_1100 > li.one > a > .ticket{
+    width: 54px;
+    height: 47px;
+  }
+  /* 選項-文字1 */
+  section.FAQ > ul.change_bt_1100 > li.one > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示2 */
+  section.FAQ > ul.change_bt_1100 > li.two > a > .car{
+    width: 67px;
+    height: 33px;
+  }
+  /* 選項-文字2 */
+  section.FAQ > ul.change_bt_1100 > li.two > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示3 */
+  section.FAQ > ul.change_bt_1100 > li.three > a > .FAQ{
+    width: 49px;
+    height: 41px;
+  }
+  /* 選項-文字3 */
+  section.FAQ > ul.change_bt_1100 > li > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示4 */
+  section.FAQ > ul.change_bt_1100 > li.four > a > .email{
+    width: 48px;
+    height: 32px;
+  }
+  /* 選項-文字4 */
+  section.FAQ > ul.change_bt_1100 > li:last-child > a > h5{
+    font-size: 14px;
+  }
+
+  /* FAQ */
+  section.FAQ > div.FAQ_1100{
+    padding: 0 40px;
+  }
+  section.FAQ > div.FAQ_1100 > div{
+    width: 100%;
+  }
+  /* FQA-解答 */
+  div > dt > div.content{
+    width: 100%;
+    text-align: left;
+  }
+  /* FAQ文字 */
+  section.FAQ > div.FAQ_1100 > div > dl > div > dt > button > span:first-child{
+    margin-right: 15px;
+  }
+  section.FAQ > div.FAQ_1100 > div > dl > div > dt > button > span{
+    font-size: 15px;
+  }
+  section.FAQ > div.FAQ_1100 > div > dl > div > dt > button > span:nth-child(2){
+    width: 78%;
+  }
+  div > dt > div.content > p{
+    font-size: 15px;
+  }
+  div > dt > div.content > p > a{
+    font-size: 15px;
+  }
+  /* 加號 */
+  section.FAQ > div.FAQ_1100 > div > dl > div > dt > button.collapsible::after{
+    font-size: 30px;
+  }
+
+  /* FAQ-聯絡專區 */
+  section.FAQ > div.FAQ_1100_box{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  section.FAQ > div.FAQ_1100_box > div.question_box{
+    flex-direction: column;
+    align-items: center;
+  }
+  section.FAQ > div.FAQ_1100_box > div.question_box > div.btn{
+    margin-top: 30px;
+  }
+  section.FAQ > div.FAQ_1100 > div > dl > div > dt > button{
+    width: 100%;
+  }
+
+  /* footer */
+  footer.footer > div.footer_flex > div.content{
+    display: none;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content {
+    display: inline-block;
+    font-size: 10px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}

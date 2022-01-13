@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <!-- RWD-viewport設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>Ocean Life</title>
+    <link rel="stylesheet" href="./css/FAQ.css">
+    <link rel="stylesheet" href="./css/rwd_FAQ.css">
+    <link href="./images/logo_icons.ico" rel="shortcut icon">
+
+    <!-- jonsuh套件(漢堡選單) -->
+    <link href="./vendors/jonsuh/hamburgers.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- header -->
+    <header id="header">
+      <div class="block_1100">
+        <a href="./index.html" class="header_logo">
+          <img class="logo_02" src="./images/logo_02.svg" alt="">
+        </a>
+
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li><a href="./latest-news.html">最新消息</a></li>
+            <li>
+              <div class="information_block">
+                <a class="on" href="./ticket.html">入館資訊</a> <!-- 設定所在位置,增加class -->
+                <ul class="information_list">
+                  <li class="buy_ticket"><a href="./ticket.html">票價&amp;購票</a></li>
+                  <li><a href="./transportation.html">交通指南</a></li>
+                  <li><a href="./FAQ.html">常見問答</a></li>
+                  <li><a href="./contact.html">聯絡我們</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="explore_block">
+                <a href="./explore.html">探索之旅</a>
+                <ul class="explore_list">
+                  <li><a href="./explore.html">館內導覽</a></li>
+                  <li><a href="./restaurant.html">特色餐廳</a></li>
+                  <li><a href="./gift.html">紀念品店</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="./activity.html">館內活動</a></li>
+            <li class="language_list">
+              <a class="language_icon" href="#"><img class="svg language" src="./images/language.svg" alt=""></a>
+              <div class="language_block">
+                <a href="#">Language</a>
+                <ul class="language_list">
+                  <li><a href="#">繁體中文</a></li>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">日本語</a></li>
+                </ul>
+              </div>
+              <a class="arrow_icon" href="#"><img class="svg arrow" src="./images/language_arrow.svg" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 漢堡選單 -->
+        <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div class="burger_nav">
+          <div class="burger_container">
+            <ul class="burger_ul">
+              <li>
+                <div class="burger_li">
+                  <a href="./latest-news.html">最新消息</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">入館資訊</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./ticket.html">票價&amp;購票</a>
+                  <a href="./transportation.html">交通指南</a>
+                  <a href="./FAQ.html">常見問答</a>
+                  <a href="./contact.html">聯絡我們</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">探索之旅</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./explore.html">館內導覽</a>
+                  <a href="./restaurant.html">特色餐廳</a>
+                  <a href="./gift.html">紀念品店</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="./activity.html">館內活動</a>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="buy_ticket">
+              <p>網路購票</p>
+            </a>
+
+            <ul class="burger_language">
+              <li class="-on">
+                <a href="#">繁體中文</a>
+              </li>
+              <li>
+                <a href="#">English</a>
+              </li>
+              <li>
+                <a href="#">日本語</a>
+              </li>
+            </ul>
+
+            <div class="burger_follow">
+              <!-- <p>Follow Us</p>
+              <p>|</p> -->
+              <a href="#">
+                <img src="./images/circle_fb.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./images/circle_yt.svg" alt=""></a>
+              <a href="#">
+                <img src="./images/circle_ig.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+<!-- 購票視窗 -->
+    <div class="ticketLink">
+      <a href="https://www.kkday.com/zh-tw" target="_blank">
+        <img src="./images/fixed_ticket.png" alt="">
+      </a>
+    </div>
+
+
+<!-- 內文 -->
+    <section class="FAQ">
+      <div class="FAQ_bg"></div>
+      <ul class="change_bt_1100">
+        <li class="one">
+          <a href="./ticket.html">
+            <img class="svg ticket" src="./images/buy_ticket.svg" alt="">
+            <h5>票價&amp;購票</h5>
+          </a>
+        </li>
+        <li class="two">
+          <a href="./transportation.html">
+            <img class="svg car" src="./images/car.svg" alt="">
+            <h5>交通指南</h5>
+          </a>
+        </li>
+        <li class="three">
+          <a href="./FAQ.html">
+            <img class="svg FAQ" src="./images/FAQ_blue.svg" alt="">
+            <h5>常見問答</h5>
+          </a>
+        </li>
+        <li class="four">
+          <a href="./contact.html">
+            <img class="svg email" src="./images/email.svg" alt="">
+            <h5>聯絡我們</h5>
+          </a>
+        </li>
+      </ul>
+
+      <div class="FAQ_1100">
+        <div class="open">
+          <h4>營業相關</h4>
+          <dl>
+
+            <div class="open_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>平假日營業時間為何？過年會休館嗎？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>全年無休，營業時間為週日至週五 10:00-20:30；週六(含國定假日) 9:30-22:00。<br>最後入館時間為閉店前一小時，若遇特殊狀況請依官方網站或粉絲專頁公告為主。</p>
+                </div>
+              </dt>
+            </div>
+
+            <div class="open_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>是否有吸菸室？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>館內並未設有吸菸室，且所有區域全面禁菸，敬請配合。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="open_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>我是外籍旅客，購票或購物後是否可以退稅？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>Ocean Life無提供退稅之服務，敬請見諒。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+            <div class="open_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>若有相關的合作提案，可以與誰聯繫呢？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>請將您的提案寄至<a href="mailto:service@OceanLife.com.tw">service@OceanLife.com.tw</a>，若有需要會主動與您聯繫。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="FAQ_1100">
+        <div class="transportation">
+          <h4>交通相關</h4>
+          <dl>
+
+            <div class="transportation_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>如何抵達OCEAN LIFE?</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>請參考<a href="./transportation.html">交通方式</a>。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="transportation_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>有附設停車場嗎？停車費如何計算？購票可折抵停車費嗎？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>本館有設置停車場，竭誠歡迎您蒞臨。停車費平日一小時40元、假日一小時50元。<br>一張成人票券可折抵一小時，一台汽車限抵一張(不累計)，於停車場操作繳費機並掃描票券Qrcode即可折抵。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="transportation_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>是否有接駁車？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>Ocean Life無提供接駁車之服務。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+
+      <div class="FAQ_1100">
+        <div class="ticket">
+          <h4>票務問題</h4>
+          <dl>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>如何購票？票價怎麼計算？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>請參考<a href="./ticket.html">票價&amp;購票。</a></p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>購票只能用現金支付嗎？可否使用信用卡？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>現場購票接受現金、信用卡(VISA、MASTER、JCB及手機PAY等服務)，線上購票請見購票網站說明。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>可以退票嗎？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>退票將會酌收相關手續費用，詳情請洽售票網站及現場公告。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>可使用國旅卡嗎？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>可使用國旅卡於售票口處購票。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+      <div class="FAQ_1100">
+        <div class="service">
+          <h4>參觀及服務</h4>
+          <dl>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>有置物櫃或行李托放服務服務嗎?</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>館內並未設有置物櫃或行李托放之服務。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>有提供嬰兒車或輪椅嗎?</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>館內提供嬰兒車租借(借用方式請洽服務台)，未提供輪椅租借。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>可攜帶寵物入館嗎？有提供寵物寄放嗎？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>館內禁止攜帶寵物(導盲犬除外)進入參觀，亦無提供寄放服務。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>館內有餐廳嗎？可攜帶外食入場嗎？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>館內有設置「Ocean Blue」餐廳。<br>為維護觀覽品質館內禁帶外食，必要性食物(例如：嬰兒副食品、水、無碘飲食……等)除外。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>館內有提供素食餐點嗎？</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>館內有設置「Ocean Blue」餐廳，並提供部分素食餐點，詳情請參考店鋪菜單或詢問現場工作人員。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>紀念品店需要門票才能進入嗎?</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>「Ocean Fun」紀念品商店目前不對外開放，需要購買門票才能進入參觀選購。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+
+            <div class="ticket_01">
+              <dt>
+                <button class="collapsible" type="button">
+                  <span>Q</span>
+                  <span>紀念品店是否有線上購物平台?</span>
+                  <div class="add-icon">
+                    <!-- <span></span>
+                    <span></span> -->
+                  </div>
+                </button>
+                <div class="content">
+                  <p>目前無線上購物平台，敬請見諒。</p>
+                </div>
+              </dt>
+              <dd></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+
+
+      <div class="FAQ_1100_box">
+        <div class="question_box">
+          <p>如果您有任何其他問題及疑問，歡迎隨時與我們聯繫詢問。</p>
+          <div class="btn">
+            <a href="./contact.html">聯絡我們</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_flex">
+        <div class="TOP_bt" id="BackTop">
+          <a href="#"><img src="./images/TOP.svg" alt=""></a>
+        </div>
+        <div class="follow_icon">
+          <p class="more_information">更多情報</p>
+          <p class="line">|</p>
+          <a href="https://www.facebook.com/" target="_blank"><img class="svg facebook" src="./images/facebook.svg" alt=""></a>
+          <a href="https://www.youtube.com/" target="_blank"><img class="svg youtube" src="./images/youtube.svg" alt=""></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="svg ig" src="./images/ig.svg" alt=""></a>
+        </div>
+        <div class="content">
+          <h5>地址：202基隆市中正區北寧路367號 | TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a>，後續會由專人協助處理</p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+        <div class="rwd_content">
+          <h5>地址：202基隆市中正區北寧路367號<br>TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a></p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script> -->
+    <script src="./js/common/svg_change.js"></script>
+    <script src="./js/common/top_back.js"></script>
+    <script src="./js/FAQ.js"></script>
+
+    <script src="./js/common/header.js"></script>
+  </body>
+</html>

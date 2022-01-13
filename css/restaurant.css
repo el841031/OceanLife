@@ -1,0 +1,341 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+@import "./common/font.css";
+@import "./common/ticket.css";
+
+/* 設定頁面所在位置,探索之旅 */
+header#header > div.block_1100 > nav.nav > ul.nav_list > li > div.explore_block > a.on{
+  color: #55F4FF;
+}
+
+/* ---------------選單切換--------------- */
+section.restaurant{
+  /* min-width: 1100px; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  position: relative;
+  /* padding-top: 78px; */
+
+}
+
+/* 背景圖 */
+section.restaurant > div.restauran_bg{
+  background-image: url(../images/common_bg.svg);
+  background-repeat: repeat no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 220px;
+
+  position: absolute;
+  z-index: -1;
+}
+
+section.restaurant> ul.change_bt_1100 > li{
+  margin: 50px 30px 0px 30px;
+  text-align: center;
+}
+
+/* icon */
+section.restaurant > ul.change_bt_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  margin-bottom: 150px;
+}
+
+/* 圖片 */
+section.restaurant > ul.change_bt_1100 > li.one > a > .animals{
+  width: 68px;
+  height: 51px;
+}
+section.restaurant > ul.change_bt_1100 > li.two > a > .eat{
+  width: 51px;
+  height: 58px;
+}
+section.restaurant > ul.change_bt_1100 > li.three > a > .gift{
+  width: 50px;
+  height: 52px;
+}
+
+/* 文字 */
+section.restaurant > ul.change_bt_1100 > li > a > h5{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+  font-weight: 600;
+}
+section.restaurant > ul.change_bt_1100 > li.two > a > h5{
+  font-weight: 600;
+}
+section.restaurant > ul.change_bt_1100 > li:first-child > a > h5{
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+  color: #BEBEBE;
+}
+section.restaurant > ul.change_bt_1100 > li:last-child > a > h5{
+  margin-top: 5px;
+  color: #BEBEBE;
+}
+
+/* 店鋪資訊 */
+section.restaurant > div.introduce{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+
+  display: flex;
+  justify-content: flex-end;
+
+  /* padding: 0px 45px; */
+}
+
+/* 照片 */
+section.restaurant > div.introduce > div.right_restaurant > img:nth-child(2){
+  width: 550px;
+  height: 390px;
+}
+section.restaurant > div.introduce > div.right_restaurant > img:last-child{
+  width: 260px;
+  height: 180px;
+  border: 1.5px solid white;
+
+  position: absolute;
+  bottom: -60px;
+  left: -72px;
+}
+section.restaurant > div.introduce > div.right_restaurant{
+  position: relative;
+
+}
+
+section.restaurant > div.introduce > div.right_restaurant > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+  display: none;
+}
+
+/* 文字 */
+section.restaurant > div.introduce > div.left_introduce > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin-top: 26px;
+}
+section.restaurant > div.introduce > div.left_introduce > h4{
+  color: #474747;
+  letter-spacing: 1.5px;
+  margin: 30px auto 20px auto;
+  margin-left: -10px;
+  font-weight: 500;
+}
+section.restaurant > div.introduce > div.left_introduce > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+
+/* 營業時間 */
+section.restaurant > div.introduce > div.left_introduce > div.time_bg{
+  background-color: #F5F5F5;
+  width: 290px;
+  height: 95px;
+  margin-top: 33px;
+
+  border-radius: 3px;
+  /* border: 1px solid rgba(18,30,46,.1); */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.restaurant > div.introduce > div.left_introduce > div.time_bg > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0;
+  /* margin-left: 40px;
+  margin-top: 25px; */
+}
+
+/* 外距 */
+section.restaurant > div.introduce > div.left_introduce{
+  margin-left: 47px;
+  margin-right: 135px;
+}
+
+
+/* ------------推薦餐點------------- */
+section.restaurant > div.menu{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: center;
+  /* margin-bottom: 90px; */
+  margin-bottom: 120px;
+
+  position: relative;
+  cursor: grab;
+}
+
+/* 照片 */
+/* section.restaurant > div.menu > div > div > img{
+  width: 260px;
+  height: 260px;
+}
+section.restaurant > div.menu > div > div:first-child > img{
+  width: 260px;
+  height: 260px;
+  margin-top: 50px;
+}
+section.restaurant > div.menu > div > div:last-child > img{
+  width: 260px;
+  height: 260px;
+  margin-top: 50px;
+} */
+
+/* 文字 */
+section.restaurant > div.menu > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+section.restaurant > div.menu > h6{
+  font-size: 13px;
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  margin-bottom: 30px;
+}
+/* section.restaurant > div.menu > div > div > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  margin-top: 5px;
+} */
+
+/* 餐點 */
+/* section.restaurant > div.menu > div.menu_box{
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+/* icon */
+/* section.restaurant > div.menu > div.left_icon{
+  background-image: url(../images/menu_left_arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 30px;
+
+  position: absolute;
+  bottom: 140px;
+  left: 25px;
+}
+section.restaurant > div.menu > div.right_icon{
+  background-image: url(../images/menu_right_arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 30px;
+
+  position: absolute;
+  bottom: 140px;
+  right: 25px;
+} */
+
+section.restaurant > div.menu > div.left_icon > .menu_left_arrow{
+  width: 16px;
+  height: 30px;
+  cursor: pointer;
+
+  position: absolute;
+  bottom: 140px;
+  left: 25px;
+}
+section.restaurant > div.menu > div.right_icon > .menu_right_arrow{
+  width: 16px;
+  height: 30px;
+  cursor: pointer;
+
+
+  position: absolute;
+  bottom: 140px;
+  right: 25px;
+}
+
+
+/* ---------SVG特效--------- */
+/* 館內導覽 */
+section.restaurant > ul.change_bt_1100 > li.one:hover .animals path{
+  fill: #2978D7;
+}
+section.restaurant > ul.change_bt_1100 > li.one:hover > a > h5{
+  color: #2978D7;
+}
+
+
+/* 特色餐廳 */
+section.restaurant > ul.change_bt_1100 > li.two:hover .eat path{
+  fill: #2978D7;
+}
+section.restaurant> ul.change_bt_1100 > li.two:hover > a > h5{
+  color: #2978D7;
+}
+
+/* 紀念品店 */
+section.restaurant > ul.change_bt_1100 > li.three:hover .gift path{
+  fill: #2978D7;
+}
+section.restaurant > ul.change_bt_1100 > li.three:hover > a > h5{
+  color: #2978D7;
+}
+
+
+/* 特色餐廳的BUG */
+section.restaurant > ul.change_bt_1100 > li.two .eat path{
+  fill: #1152A0;
+}
+
+
+
+/* ---------SVG箭頭特效--------- */
+/* 箭頭BUG */
+section.restaurant > div.menu > div.left_icon > .menu_left_arrow path{
+  fill: #1152A0;
+}
+section.restaurant > div.menu > div.right_icon > .menu_right_arrow path{
+  fill: #1152A0;
+}
+
+/* 箭頭hover */
+section.restaurant > div.menu > div.left_icon > .menu_left_arrow:hover path{
+  fill: #55F4FF;
+}
+section.restaurant > div.menu > div.right_icon > .menu_right_arrow:hover path{
+  fill: #55F4FF;
+}
+
+
+/* footer bug */
+div.footer_flex > div > h5{
+  margin: 10px 0px 0px 0px;
+}

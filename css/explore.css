@@ -1,0 +1,1088 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+@import "./common/font.css";
+@import "./common/ticket.css";
+
+/* 設定頁面所在位置,探索之旅 */
+header#header > div.block_1100 > nav.nav > ul.nav_list > li > div.explore_block > a.on{
+  color: #55F4FF;
+}
+
+/* 網頁尺寸不得低於1100px */
+section.explore{
+  /* min-width: 1100px; */
+  /* max-width: 1100px;
+  width: 100%; */
+  min-width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  /* position: relative; */
+  /* 波浪背景定位 */
+  /* padding-top: 78px; */
+}
+
+/* ----------------背景圖---------------- */
+/* 背景一 */
+section.bg{
+  /* max-width: 1300px; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  position: relative;
+  z-index: -1;
+}
+
+section.bg > div.explore_bg_01{
+  background-image: url(../images/explore_bg_wave.svg);
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  position: absolute;
+  top: 355px;
+}
+
+/* 背景二 */
+section.bg > div.explore_bg_02{
+  background: linear-gradient(#0B437C 0%,#182C46 100%);
+  width: 100%;
+  height: 5600px;
+
+  position: absolute;
+  top: 550px;
+}
+
+/* 背景三 */
+section.bg > div.explore_bg_03{
+  background-image: url(../images/explore_bg_bottom01.png);
+  width: 100%;
+  height: 1200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  position: absolute;
+  top: 4790px;
+}
+
+
+/* ----------------切換選單---------------- */
+section.explore > ul.change_bt_1100{
+  /* width: 1100px; */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+section.explore > ul.change_bt_1100 > li{
+  margin: 50px 30px 0px 30px;
+  text-align: center;
+}
+
+/* 圖片 */
+section.explore > ul.change_bt_1100 > li.one > a > .animals{
+  width: 68px;
+  height: 51px;
+}
+section.explore > ul.change_bt_1100 > li.two > a > .eat{
+  width: 51px;
+  height: 58px;
+}
+section.explore > ul.change_bt_1100 > li.three > a > .gift{
+  width: 50px;
+  height: 52px;
+}
+
+/* 文字 */
+section.explore > ul.change_bt_1100 > li > a > h5{
+  color: #BEBEBE;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+}
+section.explore > ul.change_bt_1100 > li:first-child > a > h5{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+section.explore > ul.change_bt_1100 > li:last-child > a > h5{
+  margin-top: 5px;
+}
+
+
+/* ----------------大標題區塊---------------- */
+section.explore > div.text_1100{
+  width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 60px;
+
+  position: relative;
+}
+
+/* 文字 */
+section.explore > div.text_1100 > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  text-align: center;
+
+  margin-bottom: 135px;
+}
+section.explore > div.text_1100 > h3 > span{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+/* scroll+箭頭 */
+section.explore > div.text_1100 > div.scrool_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: 2s cubic-bezier(0.1, 0.1, 0.88, 0.88) 0s infinite normal none running scroll_float;
+
+  cursor: default;
+}
+section.explore > div.text_1100 > div.scrool_box > a:first-child{
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  color: white;
+  /* margin-bottom: 5px; */
+
+  cursor: default;
+}
+section.explore > div.text_1100 > div.scrool_box > a > img{
+  width: 19px;
+  height: 11px;
+}
+section.explore > div.text_1100 > div.scrool_box > a.scroll_01 , a.scroll_02{
+  display: inline-block;
+  width: 19px;
+  height: 10px;
+  margin-bottom: 3px;
+
+  cursor: default;
+}
+
+/* 小魚 */
+section.explore > div.text_1100 > div.fishUP_img{
+  background-image: url(../images/explore_fishUp.svg);
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  right: 200px;
+  bottom: 138px;
+
+  /* animation-name: fish_jump;
+  animation-duration: 2s;
+  animation-iteration-count:infinite; */
+}
+
+
+/* ----------------公司開幕---------------- */
+section.explore > div.company_1100{
+  width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  margin-top: 120px;
+}
+
+/* 文字 */
+section.explore > div.company_1100 > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+}
+
+/* 圖片 */
+section.explore > div.company_1100 > div.company_img{
+  background-image: url(../images/company.svg);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 130px;
+
+  margin-right: 20px;
+}
+
+
+
+/* ----------------特色一|數量---------------- */
+section.explore > div.quantity_1100{
+  width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 160px;
+}
+
+
+/* 照片 */
+section.explore > div.quantity_1100 > div.right_box{
+  background-image: url(../images/explore_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 647px;
+  height: 431px;
+}
+
+/* 文字 */
+section.explore > div.quantity_1100 > div.left_box > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  margin-top: 50px;
+  margin-bottom: 211px;
+}
+section.explore > div.quantity_1100 > div.left_box > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+section.explore > div.quantity_1100 > div.left_box > h6{
+  color: #4AE5F0;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+section.explore > div.quantity_1100 > div.left_box > h6 > span{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* 小圖示 */
+section.explore > div.quantity_1100 > div.left_box > div.left_img{
+  background-image: url(../images/quantity_fish_left.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 275px;
+  height: 88px;
+
+  position: absolute;
+  right: -125px;
+  bottom: 110px;
+
+  z-index: 1;
+
+  animation-name: fish_move01;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+}
+section.explore > div.quantity_1100 > div.left_box{
+  position: relative;
+}
+
+section.explore > div.quantity_1100 > div.left_box > div.dialog_svg{
+  background-image: url(../images/dialog_box.svg);
+  background-repeat: no-repeat;
+  background-size: 268px 60px;
+  width: 268px;
+  height: 60px;
+
+  position: absolute;
+  bottom: 0px;
+  left: -22px;
+}
+section.explore > div.quantity_1100 > div.right_box{
+  position: relative;
+}
+section.explore > div.quantity_1100 > div.right_box > div.right_img{
+  background-image: url(../images/quantity_fish_right.svg);
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  width: 118px;
+  height: 43px;
+
+  position: absolute;
+  right: -55px;
+  bottom: 40px;
+
+  animation-name: fish_move02;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+  animation-delay: 2s;
+}
+
+
+/* ----------------特色二|水量---------------- */
+section.explore > div.Water_volume_1100{
+  width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  display: flex;
+  /* align-items: flex-end;
+  justify-content: center; */
+
+  margin-top: 160px;
+}
+
+/* 照片 */
+section.explore > div.Water_volume_1100 > div.left_box > div.water_img{
+  background-image: url(../images/explore_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 809px;
+  height: 449px;
+}
+
+/* 文字 */
+section.explore > div.Water_volume_1100 > div.right_box{
+  margin-left: 65px;
+
+  position: relative;
+}
+section.explore > div.Water_volume_1100 > div.left_box > div.water_cup{
+  display: inline-block;
+  margin: 32px 125px 0px 150px;
+
+  position: relative; /* 圓點定位 */
+}
+section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups{
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+section.explore > div.Water_volume_1100 > div.right_box > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  margin-top: 50px;
+  margin-bottom: 197px;
+
+  text-align: right;
+}
+section.explore > div.Water_volume_1100 > div.right_box > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+section.explore > div.Water_volume_1100 > div.right_box > h6{
+  color: #4AE5F0;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  text-align: right;
+}
+
+section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups > p{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  font-size: 10px;
+
+}
+section.explore > div.Water_volume_1100 > div.left_box > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  display: inline-block;
+}
+section.explore > div.Water_volume_1100 > div.left_box > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* 小圖示 */
+section.explore > div.Water_volume_1100 > div.right_box > div.wave_img{
+  background-image: url(../images/explore_wave.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 159px;
+  height: 26px;
+
+  position: absolute;
+  top:255px;
+  left: 40px;
+}
+section.explore > div.Water_volume_1100 > div.right_box > div.dialog_svg{
+  background-image: url(../images/dialog_box.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 165px;
+  height: 45px;
+
+  transform: scaleX(-1); /* 水平翻轉 */
+
+  position: absolute;
+  bottom: 51px;
+  left: 25px;
+}
+
+section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups > div.cup_icon{
+  background-image: url(../images/water_cup.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 32px;
+  height: 51px;
+
+  position: absolute;
+  top: -55px;
+  left: 4px;
+}
+section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.three_dot{
+  background-image: url(../images/dot.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 44px;
+  height: 8px;
+
+  display: inline-block;
+
+  position: absolute;
+  top: -20px;
+  left: 170px;
+}
+
+
+
+/* ----------------特色三|水族館尺寸---------------- */
+section.explore > div.size_1100{
+  width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-end;
+
+  margin-top: 160px;
+}
+section.explore > div.dialog_box_1100{
+  /* width: 1100px; */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  position: relative;
+}
+
+/* 照片 */
+section.explore > div.size_1100 > div.left_box {
+  position: relative;
+
+  margin-right: 90px;
+}
+
+section.explore > div.size_1100 > div.left_box > div.middle{
+  background-image: url(../images/explore_04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 400px;
+  height: 280px;
+
+
+  position: absolute;
+  top: 152px;
+  /* right: -118px; */
+  right: -111px;
+  z-index: 1;
+}
+section.explore > div.size_1100 > div.right_box > div.siz01_img{
+  background-image: url(../images/explore_03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 495px;
+  height: 580px;
+
+}
+
+/* 文字 */
+section.explore > div.size_1100 > div.left_box > div.top > div.text > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+section.explore > div.size_1100 > div.left_box >  div.top > div.text > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+section.explore > div.size_1100 > div.left_box > div.bottom > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+section.explore > div.size_1100 > div.left_box >  div.bottom > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+
+section.explore > div.size_1100 > div.left_box >  div.top{
+  margin-top: 20px;
+  margin-bottom: 355px;
+
+  position: relative;
+}
+
+/* 小圖示 */
+section.explore > div.size_1100 > div.left_box > div.top > div.size_svg{
+  background-image: url(../images/water_depth.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 109px;
+  height: 80px;
+
+  position: absolute;
+  top: 12px;
+  left: 170px;
+}
+section.explore > div.size_1100 > div.right_box > div.tortoise_svg{
+  background-image: url(../images/tortoise.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 79px;
+
+  position: absolute;
+  bottom: -45px;
+  left: -40px;
+
+  animation-name: move;
+  animation-duration: 5s;
+  animation-iteration-count:infinite;
+}
+section.explore > div.size_1100 > div.right_box{
+  position: relative;
+}
+
+
+/* ----------------特色四|水族館玻璃厚度---------------- */
+section.explore > div.thickness_bg_box{
+  /* min-width: 1100px; */
+  /* width: 100%;
+  max-width: 1100px; */
+  min-width: 100%;
+  margin: 0 auto;
+  border: 1px solid transparent;   /* 這邊框如果隱藏,會整個位置跑掉,所以框顏色改透明 */
+
+  margin-top: 160px;
+  position: relative;
+}
+section.explore >  div.thickness_1100{
+  /* width: 1100px; */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 160px;
+}
+
+/* 照片 */
+section.explore > div.thickness_bg_box > div.thickness_img{
+  background-image: url(../images/explore_05.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  height: 418px;
+
+  position: absolute;
+  z-index: -1;
+}
+
+/* 文字 */
+section.explore > div.thickness_1100 > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  text-align: right;
+  margin-right: 30px;
+}
+section.explore > div.thickness_1100 > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+section.explore > div.dialog_box_1100 >  h6{
+  color: #4AE5F0;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  margin-top: 200px;
+  margin-right: 70px;
+  text-align: right;
+}
+
+
+/* 小圖示 */
+section.explore > div.thickness_1100 > div.Cube_svg{
+  background-image: url(../images/Cube.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 98px;
+  height: 98px;
+}
+section.explore > div.dialog_box_1100 > div.dialog_svg{
+  background-image: url(../images/dialog_box01.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  width: 280px;
+  height: 57px;
+
+  position: absolute;
+  bottom: -20px;
+  right: 53px;
+}
+
+
+/* ----------------特色五|海底隧道 ---------------- */
+section.explore > div.tunnel_1100{
+  /* width: 1100px; */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  margin-top: 160px;
+
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+}
+section.explore > div.tunnel_1100 > div.right_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 70px;
+}
+
+/* 照片 */
+section.explore > div.tunnel_1100 > div.left_box >div.tunnel_img{
+  background-image: url(../images/explore_06.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 780px;
+  height: 480px;
+}
+
+/* 文字 */
+section.explore > div.tunnel_1100 > div.right_box >h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  /* margin-left: 30px; */
+}
+section.explore > div.tunnel_1100 > div.right_box > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+
+/* 小圖示 */
+section.explore > div.tunnel_1100 > div.right_box > div.tunnel{
+  background-image: url(../images/tunnel.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 160px;
+  height: 105px;
+
+  margin-top: 60px;
+}
+
+
+/* ----------------特色六|水母專區 ---------------- */
+section.explore > div.jellyfish_1100{
+  /* width: 1100px; */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  margin-top: 160px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 照片 */
+section.explore > div.jellyfish_1100 > div.right_box >div.jellyfish_img{
+  background-image: url(../images/explore_07.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 780px;
+  height: 480px;
+}
+
+/* 文字 */
+section.explore > div.jellyfish_1100 > div.left_box > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  margin-right: 30px;
+  margin-top: 80px;
+}
+section.explore > div.jellyfish_1100 > div.left_box > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+section.explore > div.jellyfish_1100 > div.left_box > h6{
+  color: #4AE5F0;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+/* 小圖示 */
+section.explore > div.jellyfish_1100 > div.left_box > div.dialog_svg{
+  background-image: url(../images/dialog_box.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 220px;
+  height: 57px;
+
+  position: absolute;
+  bottom: 153px;
+  left: -40px;
+}
+section.explore > div.jellyfish_1100 > div.left_box{
+  position: relative;
+}
+section.explore > div.jellyfish_1100 > div.right_box > div.jellyfish_svg{
+  background-image: url(../images/jellyfish.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 174px;
+  height: 139px;
+
+  position: absolute;
+  bottom: 0px;
+  left: -125px;
+
+  animation-name: float;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+section.explore > div.jellyfish_1100 > div.right_box {
+  position: relative;
+}
+
+
+/* ----------------特色七|萬花筒隧道 ---------------- */
+section.explore > div.light_1100{
+  /* width: 1100px; */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  margin-top: 160px;
+
+  display: flex;
+}
+section.explore > div.light_1100 > div.right_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-left: 60px;
+  position: relative;
+}
+
+/* 照片 */
+section.explore > div.light_1100 > div.left_box >div.light_img{
+  background-image: url(../images/explore_08.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  width: 780px;
+  height: 480px;
+}
+
+/* 文字 */
+section.explore > div.light_1100 > div.right_box > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  margin-top: 140px;
+}
+section.explore > div.light_1100 > div.right_box > h4 > span{
+  font-size: 34px;
+  font-weight: 700;
+}
+section.explore > div.light_1100 > div.right_box > h6{
+  color: #4AE5F0;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+
+  margin-top: 90px;
+}
+
+/* 小圖示 */
+section.explore > div.light_1100 > div.right_box > div.dialog_svg{
+  background-image: url(../images/dialog_box.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 220px;
+  height: 60px;
+
+  position: absolute;
+  bottom: 119px;
+  left: -14px;
+  transform: scaleX(-1); /* 水平翻轉 */
+}
+section.explore > div.light_1100 > div.right_box > div.left_shine_svg{
+  background-image: url(../images/shine_01.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 38px;
+  height: 50px;
+
+  position: absolute;
+  top: 103px;
+  left: -70px;
+
+  animation-name: star;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+}
+section.explore > div.light_1100 > div.right_box > div.right_shine_svg{
+  background-image: url(../images/shine_02.svg);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  width: 45px;
+  height: 53px;
+
+  position: absolute;
+  bottom: 220px;
+  right: -40px;
+
+  animation-name: star;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  animation-delay: 1.5s;
+}
+
+/* ----------------說明文 ---------------- */
+section.explore > div.introduce_1100{
+  /* width: 1100px; */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  margin-top: 160px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 文字 */
+section.explore > div.introduce_1100 > h4{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  text-align: center;
+  line-height: 1.6;
+}
+section.explore > div.introduce_1100 > div.bottom_bt > div.btn_more > a{
+  color: #55F4FF;
+  letter-spacing: 1px;
+  width: 138px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 31px;
+  font-weight: 300;
+  font-size: 13px;
+
+  border-radius: 20px;
+  border: 2px solid #55F4FF;
+}
+
+/* 按鈕 */
+section.explore > div.introduce_1100 > div.bottom_bt > div.btn_more{
+  /* border-radius: 20px;
+  border: 2px solid #55F4FF; */
+  display: inline-block;
+
+  margin-top: 53px;
+  margin-bottom: 330px;
+}
+
+
+/* -------------按鈕特效---------------- */
+section.explore > div.introduce_1100 > div.bottom_bt > div.btn_more > a:hover{
+  background-color: rgb(28, 221, 235);
+  color: white;
+  border: 2px solid rgb(28, 221, 235);
+
+  transition-duration: 0.3s;
+}
+
+
+/* ---------SVG特效--------- */
+/* 館內導覽 */
+section.explore > ul.change_bt_1100 > li.one:hover .animals path{
+  fill: #2978D7;
+}
+section.explore > ul.change_bt_1100 > li.one:hover > a > h5{
+  color: #2978D7;
+}
+
+
+/* 特色餐廳 */
+section.explore > ul.change_bt_1100 > li.two:hover .eat path{
+  fill: #2978D7;
+}
+section.explore > ul.change_bt_1100 > li.two:hover > a > h5{
+  color: #2978D7;
+}
+
+/* 紀念品店 */
+section.explore > ul.change_bt_1100 > li.three:hover .gift path{
+  fill: #2978D7;
+}
+section.explore > ul.change_bt_1100 > li.three:hover > a > h5{
+  color: #2978D7;
+}
+
+
+/* 館內導覽的BUG */
+section.explore > ul.change_bt_1100 > li.one .animals path{
+  fill: #1152A0;
+}
+
+
+/* SCROLL動畫 */
+/* 動畫特效 */
+@keyframes scroll_float{
+  0% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(0, 5px);
+  }
+  70% {
+    transform: translate(0, -2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* 星星閃爍 */
+@keyframes star{
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  70% {
+    transform: scale(.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 水母漂浮 */
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(0, 4px);
+  }
+  70% {
+    transform: translate(0, -4px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* 烏龜移動 */
+@keyframes move {
+  0% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(8px, -8px);
+  }
+  70% {
+    transform: translate(16px, -20px);
+  }
+  85% {
+    transform: translate(8px, -8px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+
+/* 小魚移動 */
+@keyframes fish_move01 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(50px, 0px);
+    opacity: 1;
+  }
+}
+@keyframes fish_move02 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50px, 0px);
+    opacity: 1;
+  }
+}
+
+/* 小魚跳躍 */
+/* @keyframes fish_jump {
+  0% {
+    transform: translate(0, 100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+} */

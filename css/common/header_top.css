@@ -1,0 +1,308 @@
+/* 隱藏logo */
+div.block_1100 > a.header_logo{
+  display: none;
+}
+
+/* 網頁尺寸1366px */
+header.header{
+  min-width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+  background-color: #1152A0;
+
+  box-shadow: none;
+
+/* 目前暫定的，之後可能會改成flexd */
+  /* position: relative; /* 為了設定z-index */
+  position: absolute; /* 為了做導覽列的變化 */
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(255,255,255,0); /* 變透明 */
+}
+/* 內容尺寸1100px,並設定flex */
+header.header > div.block_1100{
+  width: 1100px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* position: relative; */
+}
+
+/* 設定flex,針對最新消息/入館資訊/探索之旅/語言 */
+nav.nav > ul.nav_list{
+  display: flex;
+}
+/* 設定flex,針對語言的icon與文字 */
+li.language_list{
+  display: flex;
+}
+
+/* 設定頁面所在位置,入館資訊 */
+header.header > div.block_1100 > nav.nav > ul.nav_list > li > a.on{
+  color: #55F4FF;
+}
+
+/* 針對最新消息/館內活動,設定內距 */
+nav.nav > ul.nav_list > li > a{
+  padding: 27px 20px 27px 20px;
+  /* margin: 0px 5px 0px 5px; */
+  display: inline-block;
+}
+/* 針對入館資訊/探索之旅,設定內距 */
+nav.nav > ul.nav_list > li > div.information_block > a, div.explore_block > a{
+  padding: 27px 20px 27px 20px;
+  /* margin: 0px 5px 0px 5px; */
+  display: inline-block;
+}
+/* 針對語言,設定內距 */
+nav.nav > ul.nav_list > li.language_list > div.language_block > a{
+  padding: 27px 0px 27px 0px;
+  display: inline-block;
+}
+
+/* 定位,針對入館資訊 */
+div.information_block{
+  position: relative;
+}
+ul.information_list{
+  position: absolute;
+  background-color: white;
+  display: inline-block;
+  top: 85%;
+  left: 0;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 10%); /*下拉式選單陰影*/
+  border-radius: 3px; /*下拉式選單圓角*/
+}
+ul.information_list > li{
+  display: inline-block;
+  width: 100%;
+  position: relative; /*下拉式選單定位*/
+}
+ul.information_list > li > a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px;  /*下拉式選單的內距*/
+}
+
+
+/* 定位,針對探索之旅 */
+div.explore_block{
+  position: relative;
+}
+ul.explore_list{
+  position: absolute;
+  background-color: white;
+  display: inline-block;
+  top: 85%;
+  left: 0;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 10%); /*下拉式選單陰影*/
+  border-radius: 3px; /*下拉式選單圓角*/
+}
+ul.explore_list > li{
+  display: inline-block;
+  width: 100%;
+  position: relative; /*下拉式選單定位*/
+}
+ul.explore_list > li > a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px; /*下拉式選單的內距*/
+}
+
+/* 定位,針對語言定位 */
+li.language_list{
+  position: relative;
+  margin-left: 20px;
+}
+div.language_block{
+  /* position: relative; */
+}
+ul.language_list{
+  position: absolute;
+  background-color: white;
+  display: inline-block;
+  top: 85%;
+  left: 0;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 10%); /*下拉式選單陰影*/
+  border-radius: 3px; /*下拉式選單圓角*/
+}
+ul.language_list > li{
+  display: inline-block;
+  width: 100%;
+  position: relative; /*下拉式選單定位*/
+}
+ul.language_list > li > a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px; /*下拉式選單的內距*/
+}
+nav.nav > ul.nav_list > li > a.language_icon{
+  padding: 27px 10px 27px 0px;
+  display: inline-block;
+}
+nav.nav > ul.nav_list > li > a.arrow_icon{
+  padding: 27px 0px 27px 20px;
+  display: inline-block;
+}
+
+/* 下拉式選單橫線 */
+div.information_block > ul.information_list > li > a::after{
+  content: "";
+  background-color: #D9ECFF;
+  height: 1.5px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  display: inline-block; /*加上去才可以更改線條顏色*/
+}
+div.information_block > ul.information_list > li:last-child ::after{
+  display: none;
+}
+
+div.explore_block > ul.explore_list > li > a::after{
+  content: "";
+  background-color: #D9ECFF;
+  height: 1.5px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  display: inline-block; /*加上去才可以更改線條顏色*/
+}
+div.explore_block > ul.explore_list > li:last-child ::after{
+  display: none;
+}
+
+div.language_block > ul.language_list > li > a::after{
+  content: "";
+  background-color: #D9ECFF;
+  height: 1.5px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  display: inline-block; /*加上去才可以更改線條顏色*/
+}
+div.language_block > ul.language_list > li:last-child ::after{
+  display: none;
+}
+
+/* 隱藏下拉式選單 */
+ul.information_list, ul.explore_list, ul.language_list{
+  display: none;
+}
+
+/* 滑過選單,下拉式選單出現 */
+div.information_block:hover > ul.information_list{
+  display: inline-block;
+}
+div.explore_block:hover > ul.explore_list{
+  display: inline-block;
+}
+div.language_block:hover > ul.language_list{
+  display: inline-block;
+}
+
+/* 滑過選單,選項會變換顏色 */
+nav.nav > ul >li > a:hover{
+  color: #55F4FF;
+}
+nav.nav > ul >li > div.information_block > a:hover, div.explore_block > a:hover{
+  color: #55F4FF;
+}
+li.language_list > a > img:hover{
+  color: #55F4FF;
+}
+
+/* 滑過選單,下拉式選項會變換顏色 */
+ul.information_list > li > a:hover, ul.explore_list > li > a:hover, ul.language_list > li > a:hover{
+  color: #2978D7;
+}
+
+/* 字距 */
+nav.nav > ul.nav_list > li > a{
+  letter-spacing: 1.5px;
+}
+nav.nav > ul.nav_list > li > div.information_block > a, ul.information_list > li > a{
+  letter-spacing: 1.5px;
+}
+nav.nav > ul.nav_list > li > div.explore_block > a, ul.explore_list > li > a{
+  letter-spacing: 1.5px;
+}
+li.language_list > div.language_block > a, ul.language_list > li > a{
+  letter-spacing: 1.5px;
+}
+
+/* 消除全部的底線跟圓點及改文字大小 */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+  /* color: white; */
+}
+
+/* 更改a標籤的顏色 */
+ul > li > a, ul > li > div > a {
+  color: white;
+}
+div > ul > li > a{
+  color: #08448F;
+}
+
+/* 圖片大小設定 */
+img.logo_02{
+  width: 170px;
+  /* height: 35px; */
+  display: inline-block;
+}
+.language{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  /* margin-right: 10px; */
+}
+.arrow{
+  width: 13px;
+  height: 8px;
+  display: inline-block;
+  /* margin-left: 10px; */
+}
+
+/* -----------互動效果--------- */
+header.header > div.block_1100 > a > img.logo_02:hover{
+  opacity: 0.8;
+  /* transition: .5s ease; */
+  transition-duration: 0.3s;
+}
+
+/* 語言顏色bug */
+li.language_list .language path{
+  fill: white;
+}
+
+/* SVG效果 */
+li.language_list:hover .language path{
+  fill: #55F4FF;
+}
+li.language_list:hover > div > a{
+  color: #55F4FF;
+}
+li.language_list:hover .arrow path{
+  fill: #55F4FF;
+}

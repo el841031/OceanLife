@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <!-- RWD-viewport設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>Ocean Life</title>
+    <link rel="stylesheet" href="./css/restaurant.css">
+    <link rel="stylesheet" href="./css/rwd_restaurant.css">
+    <link href="./images/logo_icons.ico" rel="shortcut icon">
+
+    <!-- slick -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+    <link rel='stylesheet' href='https://kenwheeler.github.io/slick/slick/slick.css'>
+    <link rel='stylesheet' href='https://kenwheeler.github.io/slick/slick/slick-theme.css'>
+    <!-- <link rel='stylesheet' href='https://googledrive.com/host/0B1RR6fhjI2QROGt0MTFoVkhMdUk/fonts.css'> -->
+    <link rel="stylesheet" href="./vendors/style.css">
+
+    <!-- jonsuh套件(漢堡選單) -->
+    <link href="./vendors/jonsuh/hamburgers.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- header -->
+    <header id="header">
+      <div class="block_1100">
+        <a href="./index.html" class="header_logo">
+          <img class="logo_02" src="./images/logo_02.svg" alt="">
+        </a>
+
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li><a href="./latest-news.html">最新消息</a></li>
+            <li>
+              <div class="information_block">
+                <a href="./ticket.html">入館資訊</a> <!-- 設定所在位置,增加class -->
+                <ul class="information_list">
+                  <li class="buy_ticket"><a href="./ticket.html">票價&amp;購票</a></li>
+                  <li><a href="./transportation.html">交通指南</a></li>
+                  <li><a href="./FAQ.html">常見問答</a></li>
+                  <li><a href="./contact.html">聯絡我們</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="explore_block">
+                <a class="on" href="./explore.html">探索之旅</a>
+                <ul class="explore_list">
+                  <li><a href="./explore.html">館內導覽</a></li>
+                  <li><a href="./restaurant.html">特色餐廳</a></li>
+                  <li><a href="./gift.html">紀念品店</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="./activity.html">館內活動</a></li>
+            <li class="language_list">
+              <a class="language_icon" href="#"><img class="svg language" src="./images/language.svg" alt=""></a>
+              <div class="language_block">
+                <a href="#">Language</a>
+                <ul class="language_list">
+                  <li><a href="#">繁體中文</a></li>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">日本語</a></li>
+                </ul>
+              </div>
+              <a class="arrow_icon" href="#"><img class="svg arrow" src="./images/language_arrow.svg" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 漢堡選單 -->
+        <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div class="burger_nav">
+          <div class="burger_container">
+            <ul class="burger_ul">
+              <li>
+                <div class="burger_li">
+                  <a href="./latest-news.html">最新消息</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">入館資訊</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./ticket.html">票價&amp;購票</a>
+                  <a href="./transportation.html">交通指南</a>
+                  <a href="./FAQ.html">常見問答</a>
+                  <a href="./contact.html">聯絡我們</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">探索之旅</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./explore.html">館內導覽</a>
+                  <a href="./restaurant.html">特色餐廳</a>
+                  <a href="./gift.html">紀念品店</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="./activity.html">館內活動</a>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="buy_ticket">
+              <p>網路購票</p>
+            </a>
+
+            <ul class="burger_language">
+              <li class="-on">
+                <a href="#">繁體中文</a>
+              </li>
+              <li>
+                <a href="#">English</a>
+              </li>
+              <li>
+                <a href="#">日本語</a>
+              </li>
+            </ul>
+
+            <div class="burger_follow">
+              <!-- <p>Follow Us</p>
+              <p>|</p> -->
+              <a href="#">
+                <img src="./images/circle_fb.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./images/circle_yt.svg" alt=""></a>
+              <a href="#">
+                <img src="./images/circle_ig.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+<!-- 購票視窗 -->
+    <div class="ticketLink">
+      <a href="https://www.kkday.com/zh-tw" target="_blank">
+        <img src="./images/fixed_ticket.png" alt="">
+      </a>
+    </div>
+
+
+<!-- 餐廳介紹 -->
+    <section class="restaurant">
+      <div class="restauran_bg"></div>
+      <ul class="change_bt_1100">
+        <li class="one">
+          <a href="./explore.html">
+            <img class="svg animals" src="./images/animals.svg" alt="">
+            <h5>館內導覽</h5>
+          </a>
+        </li>
+        <li class="two">
+          <a href="./restaurant.html">
+            <img class="svg eat" src="./images/eat_blue.svg" alt="">
+            <h5>特色餐廳</h5>
+          </a>
+        </li>
+        <li class="three">
+          <a href="./gift.html">
+            <img class="svg gift" src="./images/gift.svg" alt="">
+            <h5>紀念品店</h5>
+          </a>
+        </li>
+      </ul>
+
+      <div class="introduce">
+        <div class="right_restaurant">
+          <h3>Ocean Blue 餐廳</h3>
+          <img src="./images/restaurant_01.jpg" alt="">
+          <img src="./images/restaurant_02.jpg" alt="">
+        </div>
+
+        <div class="left_introduce">
+          <h3>Ocean Blue 餐廳</h3>
+          <h4>「海中的特別指定席」</h4>
+          <h5>全台首座第一海底隧道餐廳，<br>360度觀看魚並邊享受美味的餐飲，<br>一同度過悠閒療癒的時光。<br><br>店內提供多樣化的餐點選擇，<br>滿足視覺及味蕾享受，等您一同來品嘗。</h5>
+
+          <div class="time_bg">
+            <h5>營業時間： 11:30~20:00<br>最後點餐時間:打烊前30分鐘</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu">
+        <h3>推薦餐點</h3>
+        <h6>*菜單內容僅供參考，餐點以現場實際供應為主</h6>
+        <span class="Arrows"></span>
+        <div class="menu_box">
+          <div class="Conten">
+            <div class="img-fill">
+              <img src="./images/menu_01.jpg" alt="">
+            </div>
+            <h5>企鵝海洋冰沙氣泡飲</h5>
+          </div>
+
+          <div class="Conten">
+            <div class="img-fill">
+              <img src="./images/menu_03.jpg" alt="">
+            </div>
+            <h5>招牌可可拿鐵</h5>
+          </div>
+
+          <div class="Conten">
+            <div class="img-fill">
+              <img src="./images/menu_02.jpg" alt="">
+            </div>
+            <h5>海上冰淇淋飲品</h5>
+          </div>
+
+          <div class="Conten">
+            <div class="img-fill">
+              <img src="./images/menu_04.jpg" alt="">
+            </div>
+            <h5>頂級生魚片拼盤</h5>
+          </div>
+
+          <div class="Conten">
+            <div class="img-fill">
+              <img src="./images/menu_05.jpg" alt="">
+            </div>
+            <h5>蒜香奶油波士頓龍蝦</h5>
+          </div>
+
+          <div class="Conten">
+            <div class="img-fill">
+              <img src="./images/menu_06.jpg" alt="">
+            </div>
+            <h5>蘇打水母造型冰淇淋</h5>
+          </div>
+        </div>
+        <!-- <div class="left_icon">
+          <img class="svg menu_left_arrow" src="./images/menu_left_arrow.svg" alt="">
+        </div>
+        <div class="right_icon">
+          <img class="svg menu_right_arrow" src="./images/menu_right_arrow.svg" alt="">
+        </div> -->
+      </div>
+
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_flex">
+        <div class="TOP_bt" id="BackTop">
+          <a href="#"><img src="./images/TOP.svg" alt=""></a>
+        </div>
+        <div class="follow_icon">
+          <p class="more_information">更多情報</p>
+          <p class="line">|</p>
+          <a href="https://www.facebook.com/" target="_blank"><img class="svg facebook" src="./images/facebook.svg" alt=""></a>
+          <a href="https://www.youtube.com/" target="_blank"><img class="svg youtube" src="./images/youtube.svg" alt=""></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="svg ig" src="./images/ig.svg" alt=""></a>
+        </div>
+        <div class="content">
+          <h5>地址：202基隆市中正區北寧路367號 | TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a>，後續會由專人協助處理</p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+        <div class="rwd_content">
+          <h5>地址：202基隆市中正區北寧路367號<br>TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a></p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script> -->
+    <script src="./js/common/svg_change.js"></script>
+    <script src="./js/common/top_back.js"></script>
+    <!-- <script src="./js/restaurant.js"></script> -->
+
+    <!-- slick -->
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+    <script src='https://kenwheeler.github.io/slick/slick/slick.js'></script>
+
+    <script src="./js/restaurant.js"></script>
+    <script src="./js/common/header.js"></script>
+  </body>
+</html>

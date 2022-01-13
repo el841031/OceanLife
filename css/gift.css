@@ -1,0 +1,247 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+@import "./common/font.css";
+@import "./common/ticket.css";
+
+/* 設定頁面所在位置,探索之旅 */
+header#header > div.block_1100 > nav.nav > ul.nav_list > li > div.explore_block > a.on{
+  color: #55F4FF;
+}
+
+
+/* ---------------選單切換--------------- */
+section.gift{
+  /* min-width: 1100px; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  position: relative;
+  /* padding-top: 78px; */
+}
+
+/* 背景圖 */
+section.gift > div.gift_bg{
+  background-image: url(../images/common_bg.svg);
+  background-repeat: repeat no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 220px;
+
+  position: absolute;
+  z-index: -1;
+}
+
+section.gift> ul.change_bt_1100 > li{
+  margin: 50px 30px 0px 30px;
+  text-align: center;
+}
+
+/* icon */
+section.gift > ul.change_bt_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  margin-bottom: 150px;
+}
+
+/* 圖片 */
+section.gift > ul.change_bt_1100 > li.one > a > .animals{
+  width: 68px;
+  height: 51px;
+}
+section.gift > ul.change_bt_1100 > li.two > a > .eat{
+  width: 51px;
+  height: 58px;
+}
+section.gift > ul.change_bt_1100 > li.three > a > .gift{
+  width: 50px;
+  height: 52px;
+}
+
+/* 文字 */
+section.gift > ul.change_bt_1100 > li > a > h5{
+  color: #BEBEBE;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+}
+section.gift > ul.change_bt_1100 > li:first-child > a > h5{
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+}
+section.gift > ul.change_bt_1100 > li:last-child > a > h5{
+  margin-top: 5px;
+  color: #1152A0;
+}
+
+/* 店鋪資訊 */
+section.gift > div.introduce{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+
+  display: flex;
+  justify-content: space-between;
+}
+/* 照片 */
+section.gift > div.introduce > div.gift_shop > img{
+  width: 620px;
+  height: 413px;
+}
+/* 文字 */
+section.gift > div.introduce > div.right_introduce > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin-top: 40px;
+}
+section.gift > div.introduce > div.right_introduce > h4{
+  color: #474747;
+  letter-spacing: 1.5px;
+  margin: 30px auto 20px auto;
+  margin-left: -10px;
+  font-weight: 500;
+}
+section.gift > div.introduce > div.right_introduce > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+
+/* 營業時間 */
+section.gift > div.introduce > div.right_introduce > div.time_bg{
+  background-color: #F5F5F5;
+  width: 432px;
+  height: 95px;
+  margin-top: 33px;
+
+  border-radius: 3px;
+  /* border: 1px solid rgba(18,30,46,.1); */
+
+  display: inline-block;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+section.gift > div.introduce > div.right_introduce > div.time_bg > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  display: inline-block;
+  /* margin-left: 10px */
+  /* margin-left: 10px;
+  margin-top: 25px; */
+}
+
+
+/* ------------人氣商品------------- */
+section.gift > div.product_box{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+section.gift > div.product_box > div.product_flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/* 文字 */
+section.gift > div.product_box > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+section.gift > div.product_box > div.product_flex > div > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin: 5px auto 45px auto;
+}
+
+/* 照片 */
+section.gift > div.product_box > div.product_flex > div.product_big > a > img{
+  width: 540px;
+  height: 258px;
+  cursor: zoom-in;
+}
+section.gift > div.product_box > div.product_flex > div.product_small > a > img{
+  width: 259px;
+  height: 259px;
+  cursor: zoom-in;
+}
+
+
+/* -----------注意事項------------- */
+section.gift > div.notice{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+
+  text-align: center;
+  font-size: 13px;
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  margin: 0px auto 90px auto;
+}
+
+/* 新增標題 */
+section.gift > div.introduce > div.gift_shop > h3{
+  display: none;
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+
+/* ---------SVG特效--------- */
+/* 館內導覽 */
+section.gift > ul.change_bt_1100 > li.one:hover .animals path{
+  fill: #2978D7;
+}
+section.gift > ul.change_bt_1100 > li.one:hover > a > h5{
+  color: #2978D7;
+}
+
+
+/* 特色餐廳 */
+section.gift > ul.change_bt_1100 > li.two:hover .eat path{
+  fill: #2978D7;
+}
+section.gift> ul.change_bt_1100 > li.two:hover > a > h5{
+  color: #2978D7;
+}
+
+/* 紀念品店 */
+section.gift > ul.change_bt_1100 > li.three:hover .gift path{
+  fill: #2978D7;
+}
+section.gift > ul.change_bt_1100 > li.three:hover > a > h5{
+  color: #2978D7;
+}
+
+/* 館內導覽的BUG */
+section.gift > ul.change_bt_1100 > li.one .animals path{
+  fill: #BEBEBE;
+}
+/* 特色餐廳的BUG */
+section.gift > ul.change_bt_1100 > li.two .eat path{
+  fill: #BEBEBE;
+}

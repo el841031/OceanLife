@@ -1,0 +1,1757 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+@import "./common/font.css";
+@import "./common/ticket.css";
+
+
+/* follo區域 */
+header#header.header_top > div.block_1100 > div.follow_icon{
+  display: flex;
+}
+
+/* header區域 */
+header#header.header_top > div.block_1100 > a.header_logo{
+  display: none;
+}
+header#header.header_top{
+  box-shadow: none;
+
+  position: absolute; /* 為了做導覽列的變化 */
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(255,255,255,0); /* 變透明 */
+
+  transition: all 0s;
+}
+
+
+/* banner區塊 */
+
+/* 網頁尺寸1366px */
+section.top_bannner{
+/* min-width: 1100px; */
+width: 100%;
+margin: 0 auto;
+/* border: 1px solid blue; */
+position: relative;
+/* background-color: pink; */
+}
+/* 內容尺寸1100px,並設定flex */
+section.top_bannner > div.top_1100{
+max-width: 1100px;
+/* height: 518px; */
+margin: 0 auto;
+/* border: 1px solid red; */
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+position: absolute;
+/* width: 425px; */
+width: 100%;
+height: 445px;
+left: 0;
+right: 0;
+bottom: 0;
+top: -60px;
+margin: auto;
+}
+
+/* 針對scroll,設定flex */
+div.scrool_box{
+display: flex;
+flex-direction: column;
+margin-bottom: 22px;
+/* margin-top: 20px; */
+}
+
+
+/* AQUARIUM字體樣式 */
+div.title_logo > h2{
+font-weight: 400;
+color: white;
+letter-spacing: 1px;
+margin-bottom: 85px;
+}
+
+/* SCROLL文字樣式 */
+div.scrool_box > a{
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  /* margin-bottom: 3px; */
+
+  animation: scroll_float 2s cubic-bezier(0.1, 0.1, 0.88, 0.88) infinite;
+
+  cursor: default;
+}
+div.scrool_box:hover{
+  /* opacity: 0.8; */
+}
+
+
+/* logo的水平線 */
+div.title_logo > hr{
+  background-color: rgba(255,255,255,0.8);
+  width: 100%;
+  height: 1.5px;
+  border: none;
+  margin: 15px 0px 10px 0px;
+  }
+
+
+
+  /* banner大小設定,並定位及設定在最下層 */
+  div.index_banner_box{
+  background-image: url(../images/index_banner.jpg);
+  height: 510px; /*原本尺寸600px*/
+  /* min-width: 1100px; */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative; /* 為了設定z-index */
+  z-index: -2;
+  }
+  /* (新版)banner大小設定,並定位及設定在最下層 */
+
+
+/* banner黑色遮罩 */
+span.index_banner_bg{
+  height: 100%;
+  min-width: 100%;
+  background: #002f54;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+/* 針對h1加上logo並將文字隱藏起來 */
+div.title_logo > h1{
+  background-image: url(../images/logo.svg);
+  height: 148px;
+  width: 227px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: inline-block;
+  text-indent: -9999px;
+  margin: 100px auto 30px auto;
+  display: inline-block;
+
+  position: relative;
+}
+
+div.title_logo > h1::after{
+  content: "";
+  background-color: rgba(255,255,255,0.8);
+  width: 100%;
+  height: 1.5px;
+  background-color: rgba(256, 256, 256, 1);
+  position: absolute;
+  left: 0px;
+  bottom: -22px;
+
+}
+
+
+/* 將上面的scroll箭頭往下移動一點 */
+div.scrool_box > a.scroll_01 > img.scroll_arrow{
+  position: relative;
+  top: 5px;
+}
+
+/* banner區塊-圖片大小設定 */
+img.scroll_arrow{
+  width: 19px;
+  height: 11px;
+  display: inline-block;
+}
+
+/* 更多消息的文字樣式 */
+header#header > div.block_1100 > div.follow_icon > p.more_information{
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+
+
+/* 當日時間與線上預約購票 */
+ul.time_and_ticket{
+  /* min-width: 1100px; */
+  /* max-width: 1100px; */
+  width: 100%;
+  display: flex;
+}
+
+/* 左邊區塊 */
+ul.time_and_ticket > li{
+  width: 50%;
+  background-color: #1152A0;
+}
+div.today_time{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.today_time > p.today{
+  background-image: url(../images/time.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: 24px 24px;
+  background-position: left center; /* 靠左邊中間對齊 */
+  background-repeat: no-repeat;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  padding: 22px 0px 22px 50px;
+}
+div.today_time > p.time{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  padding-left: 20px;
+}
+/* 右邊區塊 */
+ul.time_and_ticket > li:last-child{  /* 改右邊的區塊顏色 */
+  background-color: #1CDDEB;
+  position: relative;
+}
+ul.time_and_ticket > li:last-child > a{
+  background-image: url(../images/ticket.svg);
+  background-size: 30px 20px;
+  background-position: left center; /* 靠左邊中間對齊 */
+  background-repeat: no-repeat;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  padding: 20px 0px 20px 50px;
+  /* 在li標籤置中 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+
+
+
+
+
+/* 最新消息區塊 */
+
+  /* 網頁尺寸1366px */
+section.news{
+  /* min-width: 1100px; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+  position: relative;   /* 裝飾圖片定位 */
+}
+/* 內容尺寸1100px,並設flex*/
+section.news > div.news_1100{
+  /* width: 1100px; */
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 園區公告/活動消息選擇,設flex */
+ul.change_news{
+  display: flex;
+  margin-bottom: 50px;
+}
+/* 三張照片,設flex */
+ul.three_news{
+  display: flex;
+}
+
+/* 設定三張照片的大小/外距 */
+ul.three_news > li{
+  width: 232px;
+  margin: 0 25px;
+}
+ul.three_news > li > a.img{
+  display: inline-block;
+  overflow: hidden;
+  height: 165px;
+}
+
+/* 加波浪 */
+ul.three_news > li > div.right_text > div.title_wave > a > h5::after{
+  content: "";
+  display: inline-block;
+  width: 230px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 3px;
+}
+
+/* 更多消息的按鈕 */
+div.btn_more_news{
+  /* border: 2px solid #1152A0;
+  border-radius: 20px; */
+  margin: 36px 0px 90px 0px;
+}
+
+
+/* 外距 */
+div.news_1100 > ul.change_news > li:first-child{
+  /* margin-right: 1px; */
+}
+
+/* 字體樣式 */
+div.news_1100 > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  margin: 55px 0px 40px 0px;
+}
+/* div.news_1100 > ul.change_news > li > a{
+  background-color: #1152A0;
+  border: 1.5px solid #1152A0;
+  color: white;
+  padding: 9px 70px;
+} */
+div.news_1100 > ul.change_news > li:last-child > a{
+  border: 1.5px solid #1152A0;
+  background-color: transparent;
+  color: #1152A0;
+  padding: 9px 70px;
+}
+ul.three_news > li > div.right_text > a > h6{
+  color: #474747;
+  font-weight: 400;
+  letter-spacing: 1px;
+
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis; /*被overflow的內容加上刪節號(…)*/
+  -webkit-line-clamp: 2; /*行數*/
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+ul.three_news > li > div.right_text > div.title_wave > a > h5{
+  color: #474747;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+div.btn_more_news > a{
+  /* font-size: 13px; */
+  color: #1152A0;
+  width: 138px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 31px;
+  letter-spacing: 1px;
+
+
+  border: 2px solid #1152A0;
+  border-radius: 20px;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+/* 照片尺寸 */
+ul.three_news > li > a > img{
+  width: 232px;
+  height: 165px;
+  transition: all 0.8s;
+}
+ul.three_news > li > a > img:hover{
+  transform: scale(1.06);
+  /* opacity: 0.8; */
+}
+/* 裝飾圖片區塊 */
+section.news > div.news_bg{
+  /* z-index: -1; */
+}
+/* 裝飾圖片大小 */
+img.fish_01{
+  width: 229px;
+  height: 67px;
+  display: inline-block;
+  position: absolute;
+  top: 130px;
+  left: 80px;
+}
+img.fish_02{
+  width: 73px;
+  height: 27px;
+  display: inline-block;
+  position: absolute;
+  right: 250px;
+  top: 90px;
+}
+img.under_bg{
+  /* width: 100%;
+  height: 100%; */
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* 新增 */
+img.under_bg02{
+  /* width: 100%;
+  height: 100%; */
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  display: none;
+}
+
+
+/* 關於我們區域 */
+
+/* 網頁尺寸1366px */
+section.abouts_us{
+/* min-width: 1100px; */
+width: 100%;
+/* max-width: 1100px; */
+margin: 0 auto;
+/* border: 1px solid blue; */
+position: relative; /* 針對背景圖定位 */
+}
+/* 內容尺寸1100px,並設flex*/
+section.abouts_us > div.abouts_1100{
+max-width: 1100px;
+width: 100%;
+margin: 0 auto;
+/* border: 1px solid red; */
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative; /* 針對波浪偽元素定位 */
+}
+
+/* 圖片 */
+section.abouts_us > div.about_bg{
+  background-image: url(../images/about_bg.jpg);
+  height: 568px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+/* 波浪 */
+section.abouts_us > div.abouts_1100 > h3::after{
+  content: "";
+  display: inline-block;
+  width: 140px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 3px;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 泡泡 */
+div.bubble{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+/* 照片 */
+div.bubble > img.one{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 168px;
+  left: 240px;
+
+  animation-delay: -0.1s;
+}
+div.bubble > img.two{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 221px;
+  left: 121px;
+
+  animation-delay: -1.5s;
+}
+div.bubble > img.three{
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: 228px;
+  right: 172px;
+
+  animation-delay: -2.3s;
+}
+div.bubble > img.four{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 313px;
+  right: 103px;
+
+  animation-delay: -0.4s;
+}
+div.bubble > img.five{
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 132px;
+  right: 220px;
+
+  animation-delay: -0.5s;
+}
+div.bubble > img.six{
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  top: 168px;
+  right: 270px;
+
+  animation-delay: -1.6s;
+}
+div.bubble > img.seven{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 340px;
+  right: 190px;
+
+  animation-delay: -0.7s;
+}
+div.bubble > img.eight{
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  top: 363px;
+  left: 197px;
+
+  animation-delay: -2s;
+}
+div.bubble > img.nine{
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 303px;
+  left: 80px;
+
+  animation-delay: -0.4s;
+}
+
+/* 文字樣式 */
+section.abouts_us > div.abouts_1100 > h3{
+  color: white;
+  letter-spacing: 1.5px;
+  margin: 190px 0px 50px 0px;
+  cursor: default;
+}
+section.abouts_us > div.abouts_1100 > h5{
+  color: white;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+section.abouts_us > div.abouts_1100 > h5:last-child{
+  margin-bottom: 190px;
+  text-align: center;
+  cursor: default;
+}
+
+
+
+
+/* 特色魅力區域 */
+
+/* 網頁尺寸不低於1100px */
+section.feature{
+  /* min-width: 1100px; */
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  /* background: linear-gradient(#0B3852 0%,#0B437C 70%,#004790 100%); */
+}
+
+/* 內容尺寸1100px,並設flex*/
+section.feature > div.feature_1100{
+  /* width: 1100px;
+  margin: 0 auto; */
+  /* border: 1px solid red; */
+  /* display: flex;
+  justify-content: space-around; */
+
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(#0B3852 0%,#0B437C 70%,#004790 100%);
+
+}
+section.feature > div.feature_1100 > div.point{
+  height: 100vh;
+  width: 100%;
+  /* margin: 0 auto; */
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+section.feature > div.feature_1100 > div.point > div.right_box{
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  /* border: 1px solid pink; */
+}
+section.feature > div.feature_1100 > div.point > div.left_box{
+  z-index: 1;
+}
+section.feature > div.feature_1100 > div.point > div.right_box > div.text_img_bt{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+  margin: 0px 45px;
+}
+
+/* 切換 */
+/* ol.change_feature */
+
+
+/* 按鈕 */
+section.feature > div.feature_1100 > div.point > div.right_box > div.text_img_bt > div.btn_more{
+  display: inline-block;
+  text-align: center;
+  /* border: 1.5px solid #55F4FF;
+  border-radius: 20px; */
+
+  /* width: 138px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px; */
+}
+
+/* 照片 */
+/* div.right_box > div.left_img{
+  background-image: url(../images/feature_01a.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right -160px;
+  background-size: cover;
+  width: 373px;
+  height: 450px;
+
+  margin: 80px 0px;
+} */
+div.right_box > div.left_img > img{
+  width: 373px;
+  height: 450px;
+  margin: 80px 0px;
+}
+
+/* div.right_box > div.text_img_bt > div.right_img{
+  background-image: url(../images/feature_01b.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 225px;
+  height: 155px;
+} */
+div.right_box > div.text_img_bt > div.right_img > img{
+  width: 225px;
+  height: 155px;
+}
+/* ul外距 */
+section.feature > div.feature_1100 > div.point >  div.left_box > ul.change_feature{
+  color: white;
+  letter-spacing: 1.5px;
+
+  margin-left: 63px;
+  position: relative;   /* 為了波浪定位 */
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul > li{
+  margin: 40px 0px;
+  cursor: pointer;
+}
+
+/* ul列表的文字 */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li > a > span{
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+/* 1.夢幻海底隧道 */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.tunnel > a > span{
+  font-size: 30px;
+  color: #55F4FF;
+}
+
+/* 波浪 */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.tunnel::after{
+  content: "";
+  display: inline-block;
+  width: 185px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 3px;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+
+  cursor: default;
+}
+/* 數字 */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.tunnel > a > span:first-child{
+  font-size: 12px;
+  color: #55F4FF;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.light > a > span:first-child{
+  font-size: 12px;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.moon > a >  span:first-child{
+  font-size: 12px;
+}
+/* 文字 */
+section.feature > div.feature_1100 > div.point > div.left_box > h3{
+  color: white;
+  letter-spacing: 1.5px;
+
+  margin: 80px 145px 100px 63px;
+}
+
+section.feature > div.feature_1100 > div.point > div.right_box > div.text_img_bt > h6{
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 300;
+
+  margin: 40px 0px;
+}
+section.feature > div.feature_1100 > div.point > div.right_box > div.text_img_bt > div.btn_more > a{
+  color: #55F4FF;
+  letter-spacing: 1px;
+  width: 138px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 31px;
+  font-weight: 300;
+  font-size: 13px;
+
+  border: 2px solid #55F4FF;
+  border-radius: 20px;
+}
+/* 列表-第二 */
+/* 2.月亮型水母展區 */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.light02 > a > span{
+  font-size: 30px;
+  color: #55F4FF;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.light02 > a >  span:first-child{
+  font-size: 12px;
+  color: #55F4FF;
+}
+/* 波浪 */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.light02::after{
+  content: "";
+  display: inline-block;
+  width: 215px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 3px;
+  position: absolute;
+  top: 107px;
+  left: 20px;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.tunnel02{
+  margin: 0px 0px 30px 0px;
+  cursor: pointer;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.light02{
+  margin: 4px 0px 50px 0px;
+  /* cursor: pointer; */
+
+}
+/* 列表-第三 */
+/* 3.聲光結合藝術饗宴 */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.moon03 > a > span{
+  font-size: 30px;
+  color: #55F4FF;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.moon03 > a >  span:first-child{
+  font-size: 12px;
+  color: #55F4FF;
+}
+/* 波浪 */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.moon03::after{
+  content: "";
+  display: inline-block;
+  width: 246px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 3px;
+  position: absolute;
+  top: 183px;
+  left: 20px;
+}
+/* 地圖區域 */
+
+/* 網頁尺寸不低於1100px */
+section.map{
+  /* min-width: 1100px; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  position: relative;   /* 為了地圖定位 */
+}
+
+/* 內容尺寸1100px,並設flex*/
+section.map > div.map_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+div.map_1100 > div.right_box{
+  margin: 75px 0px 120px 0px;
+}
+
+div.map_1100 > div.left_box{
+  position: relative;
+}
+div.map_1100 > div.left_box > div.bottom_bt{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+/* 讓文字左右並排 */
+div.top_text > div.left_title{
+  display: inline-block;
+  border: 1px solid red;
+  vertical-align: top;
+
+  margin-right: 30px;
+}
+div.top_text > div.right_information{
+  display: inline-block;
+  border: 1px solid red;
+  vertical-align: top;
+}
+
+/* 消除左右並排的空格 */
+div.top_text{
+  font-size: 0px;
+  position: relative;   /* 波浪定位 */
+}
+
+/* 橫線 */
+/* div.top_text > div.information > div > h5:first-child::before{
+  content: "|";
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #BEBEBE;
+
+  position: absolute;
+  top: 0px;
+  left: 80px;
+} */
+/* div.top_text > div.information > div > h5::before{
+  content: "|";
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 100;
+  color: #BEBEBE;
+
+  position: absolute;
+  top: 31px;
+  left: 78px;
+} */
+div.top_text > div.information > div.Location > h5:nth-child(1){
+  position: relative;
+}
+div.top_text > div.information > div.Location > h5:nth-child(1)::before{
+  content: "";
+  width: 2px;
+  height: 18px;
+  background-color: #C9C9C9;
+
+  position: absolute;
+  top: 4px;
+  left: 80px;
+}
+div.left_box > div.top_text > div.information > div.time > h5{
+  margin-bottom: 15px;
+}
+div.top_text > div.information > div.time > h5:nth-child(1)::before{
+  content: "";
+  width: 2px;
+  height: 40px;
+  background-color: #C9C9C9;
+
+  position: absolute;
+  top: 5px;
+  left: 80px;
+}
+div.top_text > div.information > div.time > h5:nth-child(1){
+  position: relative;
+}
+div.top_text > div.information > div.phone > h5:nth-child(1)::before{
+  content: "";
+  width: 2px;
+  height: 18px;
+  background-color: #C9C9C9;
+
+  position: absolute;
+  top: 4px;
+  left: 80px;
+}
+div.top_text > div.information > div.phone > h5:nth-child(1){
+  position: relative;
+}
+
+
+div.top_text > div.information{
+  position: relative;
+}
+
+/* 波浪 */
+div.left_box > div.top_text > h3::after{
+  content: "";
+  display: inline-block;
+  width: 110px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  position: absolute;
+  top: 38px;
+  left: -5px;
+}
+
+/* 圖片 */
+section.map > div.map_bg{
+  background-image: url(../images/map_bg.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 540px;
+
+  position: absolute;
+  z-index: -1;
+}
+
+/* 地圖 */
+/* section.map > div.map_1100 > div.right_box > div.map{
+  width: 520px;
+  height: 372px;
+} */
+
+/* 按鈕 */
+div.bottom_bt > div.btn_more{
+  display: inline-block;
+  /* border: 2px solid #105A9C;
+  border-radius: 20px; */
+
+  margin-top: 40px;
+}
+
+/* 文字 */
+div.left_box > div.top_text > h3{
+  color: #08448F;
+  letter-spacing: 1.5px;
+
+  margin: 100px 0px 66px 0px;
+}
+div.left_box > div.top_text > div.information > div > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+div.left_box > div.top_text > div.information > div.Location > h5:nth-child(1){
+  margin: 0px 64px 15px 0px;
+}
+div.left_box > div.top_text > div.information > div > h5:nth-child(3){
+  /* margin: 15px 0px; */
+}
+div.left_box > div.top_text > div.information > div.time > h5:nth-child(1){
+  margin: 0px 30px 15px 0px;
+}
+div.left_box > div.top_text > div.information > div.phone > h5:nth-child(1){
+  margin: 0px 30px 15px 0px;
+}
+div.bottom_bt > div.btn_more > a{
+  color: #105A9C;
+  letter-spacing: 1px;
+  width: 138px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 31px;
+  font-size: 14px;
+  font-weight: 500;
+
+  border: 2px solid #105A9C;
+  border-radius: 20px;
+}
+
+/* 新增文字 */
+div.left_box > div.top_text > div.information > div{
+  display: flex;
+  /* justify-content: space-between; */
+  width: 348px;
+}
+
+
+
+/* IG區域 */
+
+/* 網頁尺寸不低於1100px */
+section.IG{
+  /* min-width: 1100px; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+
+  position: relative;
+}
+
+/* 內容尺寸1100px*/
+section.IG > div.IG_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid blue; */
+  text-align: center;
+
+  position: relative; /* 波浪定位 */
+}
+
+/* 文字 */
+section.IG > div.IG_1100 > h3{
+  color: #08448F;
+  letter-spacing: 1.5px;
+
+  margin: 20px 0px 500px 0px;
+}
+section.IG > div.IG_1100 > div.Follow_bt > a{
+  color: #105A9C;
+  letter-spacing: 1px;
+  width: 138px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 31px;
+  /* font-size: 13px; */
+
+  border: 2px solid #105A9C;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* 波浪 */
+section.IG > div.IG_1100 > h3::after{
+  content: "";
+  display: inline-block;
+  width: 155px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 3px;
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+/* 按鈕 */
+section.IG > div.IG_1100 > div.Follow_bt{
+  display: inline-block;
+  /* border: 2px solid #105A9C;
+  border-radius: 20px; */
+
+  margin: 45px 0px 90px 0px;
+}
+
+/* IG */
+section.IG > div.IG_box{
+  position: absolute;
+  width: 100%;
+  /* border: 1px solid orange; */
+
+  top: 85px;
+
+  display: grid;
+  justify-content: center;
+  gap: 6px;
+  grid-template-columns: 241px 245px 370px 245px 241px;
+  grid-template-rows: 70px 70px 70px 70px 70px 70px;
+
+  overflow: hidden;
+}
+
+/* 合併區 */
+section.IG > div.IG_box > div.column_item01{
+  grid-row: 1 / 4;
+}
+section.IG > div.IG_box > div.column_item02{
+  grid-row: 1 / 5;
+}
+section.IG > div.IG_box > div.column_item03{
+  grid-row: 1 / 4;
+}
+section.IG > div.IG_box > div.column_item04{
+  grid-row: 1 / 5;
+}
+section.IG > div.IG_box > div.column_item05{
+  grid-row: 1 / 4;
+}
+section.IG > div.IG_box > div.column_item06{
+  grid-row: 4 / 7;
+}
+section.IG > div.IG_box > div.column_item07{
+  grid-row: 5 / 7;
+}
+section.IG > div.IG_box > div.column_item08{
+  grid-row: 4 / 7;
+}
+section.IG > div.IG_box > div.column_item09{
+  grid-row: 5 / 7;
+}
+section.IG > div.IG_box > div.column_item10{
+  grid-row: 4 / 7;
+}
+
+/* 圖片 */
+a.img_01{
+  background-image: url(../images/ig_01.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right -40px;
+  display: inline-block;
+}
+a.img_02{
+  background-image: url(../images/ig_03.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left -110px;
+  display: inline-block;
+}
+a.img_03{
+  background-image: url(../images/ig_05.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+}
+a.img_04{
+  background-image: url(../images/ig_07.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left -80px;
+  display: inline-block;
+}
+a.img_05{
+  background-image: url(../images/ig_09.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+}
+a.img_06{
+  background-image: url(../images/ig_02.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+}
+a.img_07{
+  background-image: url(../images/ig_04.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+}
+a.img_08{
+  background-image: url(../images/ig_06.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+}
+a.img_09{
+  background-image: url(../images/ig_08.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+}
+a.img_10{
+  background-image: url(../images/ig_10.jpg);
+  /* height: 241px;
+  width: 258px; */
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+}
+
+
+
+/* ----------按鈕效果--------------- */
+/* 更多消息 */
+div.btn_more_news > a:hover{
+  background-color: rgb(28, 221, 235);
+  color: white;
+  border: 2px solid rgb(28, 221, 235);
+
+  transition-duration: 0.3s;
+}
+
+/* 深入瞭解 */
+section.feature > div.feature_1100 > div.point > div.right_box > div.text_img_bt > div.btn_more > a:hover{
+  background-color: rgb(28, 221, 235);
+  color: white;
+  border: 2px solid rgb(28, 221, 235);
+
+  transition-duration: 0.3s;
+}
+/* 瞭解更多 */
+div.bottom_bt > div.btn_more > a:hover{
+  background-color: rgb(28, 221, 235);
+  color: white;
+  border: 2px solid rgb(28, 221, 235);
+
+  transition-duration: 0.3s;
+}
+/* Follow Us */
+section.IG > div.IG_1100 > div.Follow_bt > a:hover{
+  background-color: rgb(28, 221, 235);
+  color: white;
+  border: 2px solid rgb(28, 221, 235);
+
+  transition-duration: 0.3s;
+}
+
+/* 線上預約購票 */
+ul.time_and_ticket > li:last-child:hover{
+  background-color: #00D3E2;
+  transition-duration: 0.3s;
+}
+
+/* 消息特報 */
+div.news_1100 > ul.change_news > li:first-child > a:hover{
+  /* background-color: #2978D7; */
+  border: 1.5px solid #2978D7;
+  transition-duration: 0.3s;
+  color: #2978D7;
+}
+div.news_1100 > ul.change_news > li:last-child > a:hover{
+  /* background-color: #2978D7; */
+  border: 1.5px solid #2978D7;
+  color: #2978D7;
+  transition-duration: 0.3s;
+}
+
+/* IG效果 */
+section.IG > div.IG_box > div > a{
+  position: relative;
+}
+
+section.IG > div.IG_box > div > a::after{
+  content: '查看貼文';
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.5s;
+  opacity: 0;
+
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+section.IG > div.IG_box > div > a:hover::after{
+  opacity: 1;
+}
+
+
+/* 獨特魅力hover */
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li:hover > a > span{
+  /* color: rgb(85, 244, 255); */
+}
+
+/* 暫時|照片hover */
+/* div.news_1100 > ul.three_news > li > a > img:hover{
+  opacity: 0.8;
+} */
+
+
+/* SCROLL動畫 */
+/* 動畫特效 */
+@keyframes scroll_float{
+  0% {
+    transform: translate(0, 0);
+  }
+  30% {
+    transform: translate(0, 5px);
+  }
+  70% {
+    transform: translate(0, -2px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+/* 最新消息頁籤 */
+/* 頁籤一|園區公告 */
+div.tab.news_tab01.-on{
+  display: block;
+}
+div.tab.news_tab02{
+  display: none;
+}
+div.news_1100 > ul.change_news > li > a.change_btn.-on{
+  background-color: #1152A0;
+  border: 1.5px solid #1152A0;
+  color: white;
+  padding: 9px 70px;
+}
+div.news_1100 > ul.change_news > li > a.change_btn{
+  border: 1.5px solid #1152A0;
+  background-color: transparent;
+  color: #1152A0;
+  padding: 9px 70px;
+}
+/* 頁籤二|活動消息 */
+div.tab.news_tab02.-on{
+  display: block;
+}
+div.tab.news_tab01{
+  display: none;
+}
+
+
+/* 關於我們-泡泡動畫 */
+@keyframes falling{
+  0%, 100% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 1;
+  }
+  0% {
+    transform: translate(0px, 100px);
+  }
+  100% {
+    transform: translate(0px, -60px);
+  }
+}
+div.bubble > img{
+  animation: falling 4s infinite;
+}
+
+
+
+/* 新增-魅力特色 */
+/* div#section3{
+  display: none;
+} */
+
+/* 新增 */
+/* 內容尺寸1100px,並設flex*/
+section.abouts_us > div.abouts_1100_rwd{
+width: 1100px;
+margin: 0 auto;
+/* border: 1px solid red; */
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative; /* 針對波浪偽元素定位 */
+display: none;
+}
+/* 波浪 */
+section.abouts_us > div.abouts_1100_rwd > h3::after{
+  content: "";
+  display: inline-block;
+  width: 140px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  margin-bottom: 3px;
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* 文字樣式 */
+section.abouts_us > div.abouts_1100_rwd  > h3{
+  color: white;
+  letter-spacing: 1.5px;
+  margin: 190px 0px 50px 0px;
+}
+section.abouts_us > div.abouts_1100_rwd  > h5{
+  color: white;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+section.abouts_us > div.abouts_1100_rwd  > h5:last-child{
+  margin-bottom: 190px;
+}
+
+
+/* rwd新增-魅力特色 */
+section.feature_rwd{
+  width: 100%;
+  /* height: 100vh; */
+  background: linear-gradient(#0B3852 0%,#0B437C 70%,#004790 100%);
+  display: none;
+}
+section.feature_rwd > div.feature_1100{
+  max-width: 1100px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+/* 魅力特色文字 */
+section.feature_rwd > div.feature_1100 > h3{
+  color: white;
+  letter-spacing: 1.5px;
+  text-align: center;
+  /* margin: 80px 145px 100px 63px; */
+}
+/* 特色一 */
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible > p{
+  font-size: 25px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible > p > span{
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+}
+/* 特色介紹 */
+section.feature_rwd > div.feature_1100 > div.open_01 > div.content > h6{
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  text-align: left;
+
+  margin-bottom: 10px;
+}
+
+/* 特色魅力-文字 */
+section.feature_rwd > div.feature_1100 > h3{
+  /* font-size: 20px; */
+  margin-bottom: 60px;
+  position: relative;
+  /* color: #55F4FF; */
+  color: white;
+}
+section.feature_rwd > div.feature_1100 > h3::after{
+  content: "";
+  display: inline-block;
+  width: 280px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  position: absolute;
+  top: 45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* 區域一 */
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible{
+  position: relative;
+  padding: 25px 0px 25px 0px;
+  /* border: 1px solid pink; */
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible > p{
+  font-size: 18px;
+  cursor: pointer;
+  text-align: left;
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible.active > p{
+  color: #55F4FF;
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible.active > p > span{
+  color: #55F4FF;
+}
+
+/* 加號 */
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible > div.add-icon::after{
+  content: "\002B";
+  color: rgba(266,266,266,1);
+  font-size: 30px;
+  font-weight: 300;
+  position: absolute;
+  right: 0px;
+  top: 16px;
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible.active > div.add-icon::after{
+  content: "\2212";
+
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.content{
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  /* max-height: 0px; */
+  display: none;
+
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+/* 線條 */
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible::after{
+  content: "";
+  width: 100%;
+  height: 0.8px;
+  background-color: rgba(256, 256, 256, 0.4);
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+
+  /* opacity: 1; */
+    /* transition-duration: 2; */
+}
+
+/* 按鈕 */
+section.feature_rwd > div.feature_1100 > div.btn_more{
+  display: inline-block;
+  text-align: center;
+}
+section.feature_rwd > div.feature_1100 > div.btn_more > a{
+  color: #55F4FF;
+  letter-spacing: 1.5px;
+  width: 138px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 31px;
+  /* font-size: 13px; */
+  border: 2px solid #55F4FF;
+  border-radius: 20px;
+  margin: 60px auto 100px auto;
+
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* 特色一內容 */
+section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:first-child{
+  width: 100%;
+  height: auto;
+  /* display: flex;
+  justify-content: center; */
+
+  /* margin-bottom: 33px; */
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:first-child > img{
+  width: 75%;
+  height: auto;
+  position: relative;
+  margin: 20px 0px 0px 0px;
+
+  box-shadow: 0 3px 12px #25266a7a;
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:nth-child(2){
+  width: 100%;
+  height: auto;
+  /* position: relative; */
+  display: inline-block;
+  display: none;
+}
+section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:nth-child(2) > img{
+  width: 49%;
+  height: auto;
+  position: absolute;
+  bottom: 55px;
+  left: 0px;
+  display: none;
+
+  box-shadow: 0 3px 15px #25266a91;
+}
+/* 打開的線 */
+section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible.active::after{
+  content: "";
+  /* opacity: 0;
+  transition-duration: 2; */
+  display: none;
+}
+
+
+/* 新增地圖文字 */
+div.map_1100 > div.right_box > h3{
+  color: #08448F;
+  letter-spacing: 1.5px;
+  position: relative;
+  display: none;
+  margin-bottom: 50px;
+}
+div.map_1100 > div.right_box > h3::after{
+  content: "";
+  display: inline-block;
+  width: 140px;
+  height: 8px;
+  background-image: url(../images/wave.svg);
+  background-repeat: repeat-x;
+  background-position: center;
+  position: absolute;
+  top: 38px;
+  left: -25px;
+}
+
+
+/* 新增魅力特色文字 */
+section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:nth-child(2) > h6{
+  font-size: 14px;
+  color: white;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  display: none;
+}
+
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li > a{
+  cursor: default;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul > li{
+  cursor: default;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.light02::after{
+  cursor: default;
+}
+section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.tunnel02{
+  cursor: default;
+}
+
+
+/* 波浪hover動畫 */
+/* 最新消息 */
+ul.three_news > li:hover > div.right_text > div.title_wave > a > h5::after{
+  transition: background-position 0.3s ease;
+  background-position: 60px;
+}
+
+
+/* 修改地圖文字 */
+/* div.left_box > div.top_text > div > p{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 15px;
+  display: none;
+} */
+
+/* div.left_box > div.top_text > div > div.rwd_576 > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-size: 15px;
+  display: none;
+} */

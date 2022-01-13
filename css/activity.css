@@ -1,0 +1,338 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+@import "./common/font.css";
+@import "./common/ticket.css";
+
+/* 設定頁面所在位置,探索之旅 */
+header#header > div.block_1100 > nav.nav > ul.nav_list > li > a.on{
+  color: #55F4FF;
+}
+
+/* 網頁尺寸不得低於1100px */
+section.activity{
+  /* min-width: 1100px; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  position: relative; /* 波浪背景定位 */
+  /* padding-top: 78px; */
+}
+
+/* section.activity > div.activity_bg{
+  width: 1100px;
+  margin: 0 auto;
+  border: 1px solid green;
+} */
+
+/* banner */
+section.activity > div.activity_bg{
+  background-image: url(../images/activity_bg.jpg);
+  width: 100%;
+  height: 360px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: cover;
+}
+
+/* 館內活動標題 */
+section.activity > div.title_box{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+
+  position: relative;
+}
+section.activity > div.title_box > div.activity_title{
+  position: absolute;
+  bottom: 176px;
+  left: 65px;
+}
+section.activity > div.title_box > div.activity_title > p:first-child{
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  text-shadow: 2px 4px 3px rgb(0 0 0 / 15%);
+}
+section.activity > div.title_box > div.activity_title > p:last-child{
+  color: #55F4FF;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  margin-top: -4px;
+  text-shadow: 2px 4px 3px rgb(0 0 0 / 15%);
+}
+
+
+
+/* 活動一 */
+section.activity > div.box01_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 60px auto 165px auto;;   /* 因為設定flex的屬性,所以左右距離要用auto,不能為0 */
+}
+section.activity > div.box01_1100 > div.text > h3{
+  letter-spacing: 1.5px;
+  color: #1152A0;
+
+  margin-bottom: 40px;
+  margin-left: -13px;
+}
+section.activity > div.box01_1100 > div.text > h5:nth-child(2){
+  letter-spacing: 1.5px;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.6;
+}
+section.activity > div.box01_1100 > div.text > h5:nth-child(3){
+  letter-spacing: 1.5px;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.6;
+  display: none;
+}
+section.activity > div.box01_1100 > div.activity_box > img{
+  width: 536px;
+  height: 386px;
+}
+
+/* 新增文字 */
+section.activity > div.box01_1100 > div.activity_box > h3{
+  letter-spacing: 1.5px;
+  color: #1152A0;
+  margin-bottom: 30px;
+  display: none;
+}
+
+
+/* 表格01 */
+section.activity > div.box01_1100 > div.text > table{
+  border: 1px solid red;
+}
+section.activity > div.box01_1100 > div.text > table > tbody > tr > th{
+  border: 1px solid rgba(179, 179, 179, 0.7);
+  width: 121px;
+  background-color: #1152A0;
+  color: white;
+
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  padding: 12px 0px;
+}
+section.activity > div.box01_1100 > div.text > table > tbody > tr > td{
+  border: 1px solid rgba(179, 179, 179, 0.7);
+  width: 208px;
+  color: #474747;
+
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  padding-left: 18px;
+}
+section.activity > div.box01_1100 > div.text > table{
+  border-collapse: collapse;
+  margin: 30px 0px 30px 0px;
+}
+section.activity > div.box01_1100 > div.text > h5{
+  font-weight: 400;
+  color: #474747;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+
+/* 活動二 */
+section.activity > div.box02_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin: 60px auto;   /* 因為設定flex的屬性,所以左右距離要用auto,不能為0 */
+  /* position: relative; */
+}
+section.activity > div.box02_1100 > div.text > h3{
+  letter-spacing: 1.5px;
+  color: #1152A0;
+
+  margin-bottom: 30px;
+  margin-left: -13px;
+}
+section.activity > div.box02_1100 > div.text > h5:nth-child(2){
+  letter-spacing: 1.5px;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.6;
+}
+section.activity > div.box02_1100 > div.text > h5:nth-child(3){
+  letter-spacing: 1.5px;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.6;
+  display: none;
+}
+section.activity > div.box02_1100 > div.text > h5:nth-child(4){
+  letter-spacing: 1.5px;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.6;
+  /* display: none; */
+}
+section.activity > div.box02_1100 > div.text > h5:nth-child(5){
+  letter-spacing: 1.5px;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.6;
+  display: none;
+}
+section.activity > div.box02_1100 > div.activity_box > img{
+  width: 536px;
+  height: 386px;
+  /* background-image: url(../images/activity_02.jpg);
+  background-size: cover; */
+
+  margin-left: -40px;
+}
+/* 新增文字 */
+section.activity > div.box02_1100 > div.activity_box > h3{
+  letter-spacing: 1.5px;
+  color: #1152A0;
+  margin-bottom: 30px;
+  display: none;
+}
+
+
+/* 表格02 */
+section.activity > div.box02_1100 > div.text > table{
+  border: 1px solid red;
+}
+section.activity > div.box02_1100 > div.text > table > tbody > tr > th{
+  border: 1px solid rgba(179, 179, 179, 0.7);
+  width: 121px;
+  background-color: #1152A0;
+  color: white;
+
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  padding: 15px 0px;
+}
+section.activity > div.box02_1100 > div.text > table > tbody > tr > td{
+  border: 1px solid rgba(179, 179, 179, 0.7);
+  width: 208px;
+  color: #474747;
+  background-color: white;
+
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  padding-left: 13px;
+}
+section.activity > div.box02_1100 > div.text > table{
+  border-collapse: collapse;
+  margin: 20px 0px 20px 0px;
+}
+/* 背景 */
+section.activity > div.box02_1100 > div.activity_bg02{
+  background-image: url(../images/activity_bg02.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+
+  position: absolute;
+  top: 870px;
+  z-index: -1;
+
+}
+
+
+
+/* 活動三 */
+section.activity > div.box03_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 170px auto 90px auto;;   /* 因為設定flex的屬性,所以左右距離要用auto,不能為0 */
+}
+section.activity > div.box03_1100 > div.text > h3{
+  letter-spacing: 1.5px;
+  color: #1152A0;
+
+  margin-bottom: 45px;
+  margin-left: -13px;
+}
+section.activity > div.box03_1100 > div.text > h5{
+  letter-spacing: 1.5px;
+  color: #474747;
+  font-weight: 400;
+  line-height: 1.6;
+}
+section.activity > div.box03_1100 > div.activity_box > img{
+  width: 536px;
+  height: 386px;
+  /* background-image: url(../images/activity_03.jpg);
+  background-size: cover; */
+}
+/* 新增文字 */
+section.activity > div.box03_1100 > div.activity_box > h3{
+  letter-spacing: 1.5;
+  color: #1152A0;
+  margin-bottom: 30px;
+  display: none;
+}
+
+
+/* 表格01 */
+section.activity > div.box03_1100 > div.text > table{
+  border: 1px solid red;
+}
+section.activity > div.box03_1100 > div.text > table > tbody > tr > th{
+  border: 1px solid rgba(179, 179, 179, 0.7);
+  width: 121px;
+  background-color: #1152A0;
+  color: white;
+
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  padding: 15px 0px;
+}
+section.activity > div.box03_1100 > div.text > table > tbody > tr > td{
+  border: 1px solid rgba(179, 179, 179, 0.7);
+  width: 208px;
+  color: #474747;
+
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  padding-left: 13px;
+}
+section.activity > div.box03_1100 > div.text > table{
+  border-collapse: collapse;
+  margin: 30px 0px 0px 0px;
+}

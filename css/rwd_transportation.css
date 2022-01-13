@@ -1,0 +1,614 @@
+/* @media (min-width: 1200px){
+  section.news > div.title_1100 > div.title{
+    left: 155px;
+  }
+} */
+
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+
+  /* 交通資訊 */
+  section.transportation > div.open_1100 > img{
+    margin-left: 20px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width:991.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 交通資訊 */
+  section.transportation > div.open_1100{
+    /* flex-direction: column; */
+    padding: 0px 40px 0px 40px;
+    /* width: 70%; */
+  }
+  /* 照片 */
+  section.transportation > div.open_1100 > img{
+    width: 49%;
+    height: auto;
+  }
+  /* 交通資訊-大標 */
+  /* section.transportation > div.open_1100 > div.right_box > h3{
+    display: none;
+  }
+  section.transportation > div.open_1100 > h3{
+    display: inline-block;
+    margin-bottom: 30px;
+  } */
+
+  /* 表格 */
+  section.transportation > div.open_1100 > div.right_box > table{
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  section.transportation > div.open_1100 > div.right_box{
+    margin: 0px;
+    margin-left: 20px;
+  }
+  section.transportation > div.open_1100 > div.right_box > table > tbody > tr > th{
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+  section.transportation > div.open_1100 > div.right_box > table > tbody > tr > td{
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+  /* 線條 */
+  section.transportation > div.map_1100 > div.line_dot{
+    width: 100%;
+  }
+
+  /* 交通指南 */
+  section.transportation > div.map_1100{
+    padding: 0px 40px 0px 40px;
+  }
+  /* 地圖 */
+  div.map_box{
+    width: 100%;
+  }
+  div.map_box > iframe{
+    width: 100%;
+    height: 200px;
+  }
+  section.transportation > div.map_1100 > div.map_box > div{
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+  }
+  section.transportation > div.map_1100 > div.map_box > div{
+    margin-bottom: 30px;
+  }
+  /* 交通指南 */
+  section.transportation > div.map_1100 > div.HowToGo > div > ul{
+    padding-right: 20px;
+    /* padding-left: 50px; */
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.two > div.icon_box{
+    margin-right: 20px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > div.icon_box{
+    margin-right: 30px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.one > div.icon_box{
+    margin-left: 18px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.two > div.icon_box{
+    margin-left: 15px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.three > div.icon_box{
+    margin-left: 15px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.two{
+    margin: 15px auto;
+    width: 100%;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > ul > li{
+    margin: 10px auto;
+    font-size: 14px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > ul > h5 {
+    font-size: 14px;
+  }
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 選項 */
+  section.transportation > ul.change_bt_1100 > li{
+    /* margin: 50px 40px 40px 0px; */
+    margin: 50px 0px 0px 0px;
+  }
+  section.transportation > ul.change_bt_1100 > li:nth-child(2){
+    margin: auto 40px 0px 40px;
+  }
+  section.transportation > ul.change_bt_1100 > li:nth-child(3){
+    margin: auto 40px 0px 0px;
+  }
+
+
+  /* 交通資訊 */
+  section.transportation > div.open_1100{
+    flex-direction: column;
+    padding: 0px 40px 0px 40px;
+  }
+  /* 照片 */
+  section.transportation > div.open_1100 > img{
+    width: 90%;
+    height: auto;
+  }
+  /* 交通資訊-大標 */
+  section.transportation > div.open_1100 > div.right_box > h3{
+    display: none;
+  }
+  section.transportation > div.open_1100 > h3{
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  /* 表格 */
+  section.transportation > div.open_1100 > div.right_box > table{
+    width: 100%;
+  }
+  section.transportation > div.open_1100 > div.right_box{
+    margin: 0px;
+  }
+  section.transportation > div.open_1100 > div.right_box > table > tbody > tr > th{
+    font-size: 14px;
+  }
+  section.transportation > div.open_1100 > div.right_box > table > tbody > tr > td{
+    font-size: 14px;
+  }
+
+  /* 線條 */
+  section.transportation > div.map_1100 > div.line_dot{
+    width: 100%;
+  }
+
+  /* 交通指南 */
+  section.transportation > div.map_1100{
+    padding: 0px 40px 0px 40px;
+  }
+  /* 地圖 */
+  div.map_box{
+    width: 100%;
+  }
+  div.map_box > iframe{
+    width: 100%;
+    height: 200px;
+  }
+  section.transportation > div.map_1100 > div.map_box > div{
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+  }
+  section.transportation > div.map_1100 > div.map_box > div{
+    margin-bottom: 30px;
+  }
+  /* 交通指南 */
+  section.transportation > div.map_1100 > div.HowToGo > div > ul{
+    padding-right: 20px;
+    /* padding-left: 40px; */
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.two > div.icon_box{
+    margin-right: 20px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > div.icon_box{
+    margin-right: 30px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.one > div.icon_box{
+    margin-left: 18px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.three > div.icon_box{
+    margin-left: 15px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.two{
+    margin: 15px auto;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > ul > li{
+    margin: 10px auto;
+    font-size: 14px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > ul > h5 {
+    font-size: 14px;
+  }
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-width: 575.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    /* border: 1.5px solid rgba(255, 255, 255, 0.65); */
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    color: #55F4FF;
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
+  /* header */
+  header#header{
+    width: 100%;
+  }
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 選項 */
+  section.transportation > ul.change_bt_1100 > li{
+    /* margin: 50px 40px 40px 0px; */
+    margin: 50px 0px 0px 0px;
+  }
+  section.transportation > ul.change_bt_1100 > li:nth-child(2){
+    margin: auto 23px 0px 23px;
+  }
+  section.transportation > ul.change_bt_1100 > li:nth-child(3){
+    margin: auto 23px 0px 0px;
+  }
+  /* 選項-圖示1 */
+  section.transportation > ul.change_bt_1100 > li.one > a > .ticket{
+    width: 54px;
+    height: 47px;
+  }
+  /* 選項-文字1 */
+  section.transportation > ul.change_bt_1100 > li.one > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示2 */
+  section.transportation > ul.change_bt_1100 > li.two > a > .car{
+    width: 67px;
+    height: 33px;
+  }
+  /* 選項-文字2 */
+  section.transportation > ul.change_bt_1100 > li.two > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示3 */
+  section.transportation > ul.change_bt_1100 > li.three > a > .FAQ{
+    width: 49px;
+    height: 41px;
+  }
+  /* 選項-文字3 */
+  section.transportation > ul.change_bt_1100 > li > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示4 */
+  section.transportation > ul.change_bt_1100 > li.four > a > .email{
+    width: 48px;
+    height: 32px;
+  }
+  /* 選項-文字4 */
+  section.transportation > ul.change_bt_1100 > li:last-child > a > h5{
+    font-size: 14px;
+  }
+
+
+  /* 交通資訊 */
+  section.transportation > div.open_1100{
+    flex-direction: column;
+    padding: 0px 40px 0px 40px;
+  }
+  /* 照片 */
+  section.transportation > div.open_1100 > img{
+    width: 100%;
+    height: auto;
+  }
+  /* 交通資訊-大標 */
+  section.transportation > div.open_1100 > div.right_box > h3{
+    display: none;
+  }
+  section.transportation > div.open_1100 > h3{
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  /* 表格 */
+  section.transportation > div.open_1100 > div.right_box > table{
+    width: 100%;
+  }
+  section.transportation > div.open_1100 > div.right_box{
+    margin: 0px;
+  }
+  section.transportation > div.open_1100 > div.right_box > table > tbody > tr > th{
+    font-size: 14px;
+  }
+  section.transportation > div.open_1100 > div.right_box > table > tbody > tr > td{
+    font-size: 14px;
+  }
+
+  /* 線條 */
+  section.transportation > div.map_1100 > div.line_dot{
+    width: 100%;
+  }
+
+  /* 交通指南 */
+  section.transportation > div.map_1100{
+    padding: 0px 40px 0px 40px;
+  }
+  /* 地圖 */
+  div.map_box{
+    width: 100%;
+  }
+  div.map_box > iframe{
+    width: 100%;
+    height: 200px;
+  }
+  section.transportation > div.map_1100 > div.map_box > div{
+    font-size: 13px;
+    height: 40px;
+    line-height: 40px;
+  }
+  section.transportation > div.map_1100 > div.map_box > div{
+    margin-bottom: 30px;
+  }
+  /* 交通指南 */
+  section.transportation > div.map_1100 > div.HowToGo > div{
+    flex-direction: column;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > ul > li{
+    margin: 10px 0px 10px 0px;
+    font-size: 14px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > div.icon_box{
+    margin: 0px;
+    background-color: #F1F1F1;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > ul{
+    width: 90%;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.two{
+    background-color: white;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.two > div.icon_box{
+    margin-top: 30px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div.three > div.icon_box{
+    margin-top: 30px;
+  }
+  section.transportation > div.map_1100 > div.HowToGo > div > ul > h5 {
+    font-size: 14px;
+  }
+
+  /* footer */
+  footer.footer > div.footer_flex > div.content{
+    display: none;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content {
+    display: inline-block;
+    font-size: 10px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 380px){
+  section.transportation > div.open_1100 > div.right_box > table > tbody > tr > td{
+    padding: 15px 13px;
+  }
+  section.transportation > div.open_1100 > div.right_box > p{
+    display: inline-block;
+  }
+  section.transportation > div.open_1100 > div.right_box > h5:nth-child(4){
+    display: none;
+  }
+}

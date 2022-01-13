@@ -1,0 +1,300 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+@import "./common/font.css";
+@import "./common/ticket.css";
+
+/* 設定頁面所在位置,探索之旅 */
+header#header > div.block_1100 > nav.nav > ul.nav_list > li > div.information_block > a.on{
+  color: #55F4FF;
+}
+
+/* ---------------選單切換--------------- */
+section.contact{
+  /* max-width: 1100px; */
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  position: relative;
+  /* padding-top: 78px; */
+}
+
+/* 背景圖 */
+section.contact > div.contact_bg{
+  background-image: url(../images/common_bg.svg);
+  background-repeat: repeat no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 220px;
+
+  position: absolute;
+  z-index: -1;
+}
+
+/* icon */
+section.contact > ul.change_bt_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+section.contact > ul.change_bt_1100 > li.one > a > .ticket{
+  width: 59px;
+  height: 52px;
+}
+section.contact > ul.change_bt_1100 > li.two > a > .car{
+  width: 72px;
+  height: 38px;
+}
+section.contact > ul.change_bt_1100 > li.three > a > .FAQ{
+  width: 54px;
+  height: 46px;
+}
+section.contact > ul.change_bt_1100 > li.four > a > .email{
+  width: 53px;
+  height: 37px;
+}
+
+/* 文字 */
+section.contact > ul.change_bt_1100 > li > a > h5{
+  color: #BEBEBE;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+}
+section.contact > ul.change_bt_1100 > li{
+  margin: 50px 30px 0px 30px;
+  text-align: center;
+}
+section.contact > ul.change_bt_1100 > li:last-child > a > h5{
+  margin-top: 5px;
+  color: #1152A0;
+}
+section.contact > ul.change_bt_1100 > li.one > a > h5{
+  margin-top: 3px;
+}
+section.contact > ul.change_bt_1100 > li.two > a > h5{
+  margin-top: 5px;
+}
+
+
+/* ------------服務資訊------------ */
+section.contact > div.service{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  text-align: center;
+
+  margin-top: 150px;
+}
+section.contact > div.service > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+
+  margin-bottom: 30px;
+}
+section.contact > div.service > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  margin-bottom: 20px;
+}
+section.contact > div.service > h4{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  display: inline-block;
+}
+section.contact > div.service > h4.service_time{
+  margin-right: 60px;
+  position: relative;
+}
+section.contact > div.service > h4.service_time::after{
+  content: "|";
+  display: inline-block;
+  font-weight: 400;
+  position: absolute;
+  top: -1px;
+  right: -37px;
+}
+
+/* ------------諮詢服務------------ */
+section.contact > div.form{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+
+  /* margin-top: 100px; */
+}
+section.contact > div.form > div.line_dot{
+  background-image: url(../images/line_dot.png);
+  width: 880px;
+  height: 1px;
+  margin: 70px auto 70px auto;
+}
+section.contact > div.form > h3{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+  /* text-align: center; */
+  margin-bottom: 30px;
+}
+section.contact > div.form > h5{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* 表單 */
+section.contact > div.form > form > div.item_block{
+  padding-bottom: 20px;
+}
+section.contact > div.form > form > div > label{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  font-size: 15px;
+
+  display: inline-block;
+  margin-bottom: 5px;
+}
+section.contact > div.form > form > div > input.name{
+  display: inline-block;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #474747;
+
+  margin-right: 41px;
+  padding: 8px 12px;
+}
+section.contact > div.form > form > div > label.male{
+  margin-right: 15px;
+}
+section.contact > div.form > form > div > input.email{
+  display: inline-block;
+  width: 560px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #474747;
+
+  padding: 8px 12px;
+}
+section.contact > div.form > form > div > textarea.content{
+  display: inline-block;
+  width: 560px;
+  height: 210px;
+  border-radius: 5px;
+  border: 1px solid #474747;
+  resize: none;
+
+  padding: 8px 12px;
+}
+
+section.contact > div.form > form > p{
+  font-size: 13px;
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+
+  margin-bottom: 20px;
+  width: 564px;
+}
+
+section.contact > div.form > form > button.btn{
+  background-color: #1152A0;
+  color: white;
+  font-size: 13px;
+
+  width: 138px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid rgba(18,30,46,.1);
+
+  /* margin: 40px 210px 90px 210px; */
+  margin: 10px 210px 90px 210px;
+}
+
+
+/* -------------按鈕特效------------ */
+section.contact > div.form > form > button.btn:hover{
+  background-color: rgb(28, 221, 235);
+  color: white;
+  border: 2px solid rgb(28, 221, 235);
+
+  transition-duration: 0.3s;
+}
+
+
+/* ---------SVG特效--------- */
+/* 票價&購票 */
+section.contact > ul.change_bt_1100 > li.one:hover .ticket path{
+  fill: #2978D7;
+}
+section.contact > ul.change_bt_1100 > li.one:hover > a > h5{
+  color: #2978D7;
+}
+
+
+/* 交通指南 */
+section.contact > ul.change_bt_1100 > li.two:hover .car path{
+  fill: #2978D7;
+}
+section.contact > ul.change_bt_1100 > li.two:hover > a > h5{
+  color: #2978D7;
+}
+
+/* FAQ */
+section.contact> ul.change_bt_1100 > li.three:hover .FAQ path{
+  fill: #2978D7;
+}
+section.contact > ul.change_bt_1100 > li.three:hover > a > h5{
+  color: #2978D7;
+}
+
+/* 聯絡我們 */
+section.contact> ul.change_bt_1100 > li.four:hover .email path{
+  fill: #2978D7;
+}
+section.contact > ul.change_bt_1100 > li.four:hover > a > h5{
+  color: #2978D7;
+}
+
+/* 票價&購票的BUG */
+section.contact > ul.change_bt_1100 > li.one .ticket path{
+  fill: #BEBEBE;
+}
+/* 交通指南的BUG */
+section.contact > ul.change_bt_1100 > li.two .car path{
+  fill: #BEBEBE;
+}
+/* FAQ的BUG */
+section.contact > ul.change_bt_1100 > li.three .FAQ path{
+  fill: #BEBEBE;
+}
+
+
+
+/* ----------表單特效---------- */
+section.contact > div.form > form > div > input.name:focus{
+  background-color: #F1F1F1;
+}
+section.contact > div.form > form > div > input.email:focus{
+  background-color: #F1F1F1;
+}
+section.contact > div.form > form > div > textarea.content:focus{
+  background-color: #F1F1F1;
+}

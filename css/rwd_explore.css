@@ -1,0 +1,2271 @@
+/* @media (min-width: 1200px){
+  section.news > div.title_1100 > div.title{
+    left: 155px;
+  }
+} */
+
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+
+
+  /* 全部頁面 */
+  section.explore{
+    width: 100%;
+    /* padding: 0px 40px; */
+  }
+  /* 滾輪 */
+  /* section.explore > div.text_1100 > div.scrool_box{
+
+  } */
+  /* 大標*/
+  section.explore > div.text_1100{
+    width: 100%;
+    padding: 0px 40px;
+    /* margin-top: 150px; */
+  }
+  section.explore > div.text_1100 > h3{
+    margin-bottom: 130px;   /* scroll定位 */
+  }
+
+  /* 大標-小魚 */
+  section.explore > div.text_1100 > div.fishUP_img{
+    right: 207px;
+    /* bottom: 100px; */
+    top: 76px;
+    /* width: 45px;
+    height: 45px; */
+  }
+
+  /* 背景一 */
+  section.bg > div.explore_bg_01{
+    top: 341px;
+  }
+  /* 背景二 */
+  section.bg > div.explore_bg_02{
+    top: 490px;
+    height: 5057px;
+  }
+  /* 背景三 */
+  section.bg > div.explore_bg_03{
+    /* top: 4104px; */
+    top: 4781px;
+  }
+
+  /* 公司成立 */
+  section.explore > div.company_1100{
+    width: 100%;
+    padding: 0px 40px;
+    /* margin-top: 70px; */
+    /* margin-top: 45px; */
+  }
+  /* 公司成立-照片 */
+  /* section.explore > div.company_1100 > div.company_img{
+    width: 130px;
+    height: 110px;
+  } */
+
+
+  /* 特色一\左 */
+  section.explore > div.quantity_1100 > div.left_box{
+    /* width: 31%; */
+  }
+  /* 特色一|數量 */
+  section.explore > div.quantity_1100{
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+    /* margin-top: 100px; */
+  }
+  /* 特色一-(左)文字 */
+  section.explore > div.quantity_1100 > div.left_box > h4{
+    /* font-size: 14px; */
+    /* position: absolute;
+    width: 192px;
+    z-index: 1;
+    top: -15px; */
+  }
+
+  /* 特色一-(左)小魚 */
+  section.explore > div.quantity_1100 > div.left_box > div.left_img{
+    /* display: none; */
+    /* width: 260px;
+    height: 73px; */
+    /* left: 20px;
+    bottom: 130px; */
+    /* bottom: 53px; */
+    /* background-image: url(../images/quantity_fish_right.svg); */
+  }
+  /* 特色一-(左)對話框 */
+  section.explore > div.quantity_1100 > div.left_box > div.dialog_svg{
+    /* display: none; */
+  }
+  section.explore > div.quantity_1100 > div.left_box > h6{
+    /* margin-top: 332px; */
+    /* font-size: 12px; */
+    margin-bottom: 18px;
+  }
+
+  /* 特色一-(右)圖片 */
+  section.explore > div.quantity_1100 > div.right_box{
+    width: 580px;
+    height: auto;
+  }
+  /* 特色一-(右)小魚 */
+  section.explore > div.quantity_1100 > div.right_box > div.right_img{
+    /* 鏡射 */
+    /* transform:scaleX(-1); */
+
+    /* 位置大小 */
+    /* left: -87px;
+    bottom: 145px;
+    width: 112px;
+    height: 44px; */
+  }
+
+
+
+
+  /* 特色二|水量 */
+  section.explore > div.Water_volume_1100{
+    width: 100%;
+    padding: 0 60px  0 60px;
+    /* margin-top: 100px; */
+  }
+  /* 特色二-(左)圖片 */
+  section.explore > div.Water_volume_1100 > div.left_box{
+    width: 100%;
+    /* margin-right: 30px; */
+    /* position: relative; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_img{
+    /* margin-right: 30px; */
+    width: 100%;
+    background-position: center;
+    /* background-image: url(../images/explore_02a.jpg); */
+    /* background-position: -215px; */
+    /* width: 600px;
+    height: 449px; */
+  }
+
+  /* 特色二-左半部 */
+  section.explore > div.Water_volume_1100 > div.right_box{
+    /* width: 43%; */
+    margin-left: 30px;
+  }
+  /* 對話框 */
+  section.explore > div.Water_volume_1100 > div.right_box > div.dialog_svg{
+    /* display: none; */
+  }
+  /* 文字 */
+  section.explore > div.Water_volume_1100 > div.right_box > h4{
+    /* position: absolute;
+    right: 34px;
+    top: -15px; */
+    /* font-size: 14px; */
+    /* margin: 0px; */
+    width: 160px;
+    margin-bottom: 198px;
+  }
+  section.explore > div.Water_volume_1100 > div.right_box > h4 > span{
+    /* font-size: 30px */
+  }
+  section.explore > div.Water_volume_1100 > div.right_box > h6{
+    /* margin-top: 379px; */
+    /* position: absolute; */
+    /* font-size: 12px; */
+    margin-right: 14px;
+  }
+
+  /* 波浪 */
+  section.explore > div.Water_volume_1100 > div.right_box > div.wave_img{
+    /* left: 90px;
+    top: 236px; */
+    /* width: 144px;
+    height: 23px; */
+  }
+  /* 水杯區塊 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup{
+    margin: 32px 125px 0px 0px;
+    margin-left: calc(100% - 89%);
+  }
+  /* 水杯 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups > div.cup_icon{
+    /* background-size: contain; */
+    /* width: 28px;
+    height: 47px; */
+    /* top: -59px;
+    left: 5px; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups:nth-child(3){
+    /* display: none; */
+  }
+  /* 點點 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.three_dot{
+    /* background-size: contain;
+    width: 40px;
+    height: 8px;
+    left: 173px; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > h4{
+    /* position: absolute; */
+    /* font-size: 14px; */
+    /* width: 166px; */
+    /* bottom: 0px;
+    right: -103px; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > h4 > span{
+    /* font-size: 30px; */
+   }
+
+
+  /* 特色三|尺寸 */
+  section.explore > div.size_1100{
+    width: 100%;
+    padding: 0px 60px 0px 40px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.size_1100 > div.left_box{
+    /* width: 31%; */
+    /* width: 50%; */
+    /* width: 95%;
+    margin: 0px; */
+  }
+  /* 文字 */
+  section.explore > div.size_1100 > div.left_box > div.top > div.text > h4{
+    /* font-size: 14px; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.top > div.text > h4 > span{
+    /* font-size: 30px; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom{
+    /* position: relative; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom > h4{
+    /* font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 60px; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom > h4 > span{
+    /* font-size: 30px; */
+  }
+  section.explore > div.size_1100 > div.right_box{
+    /* width: 100%; */
+  }
+  /* section.explore > div.size_1100 > div.left_box > div.top > div.text{
+    position: absolute;
+  } */
+  section.explore > div.size_1100 > div.left_box > div.top{
+    /* margin-top: 32px;
+    margin-bottom: 326px;
+    margin-left: 60px; */
+  }
+  /* 照片 */
+  section.explore > div.size_1100 > div.right_box > div.siz01_img{
+    /* width: 100%; */
+    /* background-position: center; */
+    /* width: 467px;
+    height: 547px; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.middle{
+    /* width: 100%; */
+    /* left: 58px;
+    top: 163px; */
+    /* width: 378px;
+    height: 264px; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.top > div.size_svg{
+    /* z-index: 1;
+    background-size: contain;
+    width: 98px;
+    left: 169px; */
+    /* display: none; */
+  }
+  section.explore > div.size_1100 > div.right_box > div.tortoise_svg{
+    /* background-size: contain;
+    width: 70px; */
+  }
+
+
+  /* 特色四|玻璃厚度 */
+  /* 背景圖 */
+  section.explore > div.thickness_bg_box{
+    /* width: 100%; */
+    /* margin-top: 140px; */
+  }
+  section.explore > div.thickness_bg_box > div.thickness_img{
+    /* width: 100%; */
+    /* background-position: -328px; */
+    /* height: 350px; */
+  }
+  /* 文字 */
+  section.explore > div.thickness_1100{
+    /* margin-top: 123px; */
+  }
+  section.explore > div.thickness_1100 > h4{
+    /* font-size: 14px; */
+  }
+  section.explore > div.thickness_1100 > h4 > span{
+    /* font-size: 30px; */
+  }
+  section.explore > div.thickness_1100 > div.Cube_svg{
+    /* background-size: contain; */
+    /* width: 87px;
+    margin-top: 10px; */
+  }
+  /* 對話框 */
+  section.explore > div.dialog_box_1100 > div.dialog_svg{
+    /* display: none; */
+  }
+  section.explore > div.dialog_box_1100 > h6{
+    /* margin: 0px; */
+    /* text-align: center;
+    margin-right: 0px;
+    margin-top: 152px; */
+  }
+
+
+  /* 特色五|隧道 */
+  section.explore > div.tunnel_1100{
+    padding: 0px 60px 0px 60px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.tunnel_1100 > div.left_box{
+    width: 100%;
+  }
+  section.explore > div.tunnel_1100 > div.right_box{
+    /* width: 30%;
+    margin: 0px;
+    position: relative;
+    margin-left: 30px; */
+    margin-left: 40px;
+  }
+  /* 圖片 */
+  section.explore > div.tunnel_1100 > div.left_box > div.tunnel_img{
+   width: 100%;
+   background-position: center;
+   /* height: auto; */
+    /* background-image: url(../images/explore_06a.jpg) */
+  }
+  /* 文字 */
+  section.explore > div.tunnel_1100 > div.right_box > h4{
+    /* font-size: 14px; */
+    /* position: absolute;
+    z-index: 1;
+    width: 184px;
+    left: 0px; */
+    /* text-align: right; */
+    /* top: 26px; */
+    width: 176px;
+  }
+  section.explore > div.tunnel_1100 > div.right_box > h4 > span{
+    /* font-size: 30px; */
+  }
+  /* 小圖示 */
+  section.explore > div.tunnel_1100 > div.right_box > div.tunnel{
+    /* background-size: contain;
+    width: 130px;
+    background-repeat: no-repeat;
+    margin-top: 273px; */
+  }
+
+
+  /* 特色六|水母專區 */
+  section.explore > div.jellyfish_1100{
+    padding: 0px 60px 0px 80px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.jellyfish_1100 > div.left_box{
+    /* width: 100%; */
+    /* width: 43%;
+    margin-right: 30px; */
+  }
+  section.explore > div.jellyfish_1100 > div.right_box{
+    width: 100%;
+  }
+  /* 照片 */
+  section.explore > div.jellyfish_1100 > div.right_box >div.jellyfish_img{
+    width: 100%;
+    background-position: center;
+  }
+  /* 對話框 */
+  section.explore > div.jellyfish_1100 > div.left_box > div.dialog_svg{
+    /* display: none; */
+  }
+  /* 文字 */
+  section.explore > div.jellyfish_1100 > div.left_box > h4{
+    /* font-size: 14px; */
+    /* margin-right: 0px;
+    position: absolute;
+    width: 222px;
+    z-index: 1;
+    top: -15px; */
+    margin-right: 37px;
+    width: 215px;
+  }
+  section.explore > div.jellyfish_1100 > div.left_box > h4 > span{
+    /* font-size: 30px; */
+  }
+  section.explore > div.jellyfish_1100 > div.left_box > h6{
+    /* font-size: 12px; */
+    /* margin-right: 0px;
+    margin-top: 255px;
+    width: 147px; */
+  }
+  /* 小水母*/
+  section.explore > div.jellyfish_1100 > div.right_box > div.jellyfish_svg{
+    /* background-size: contain;
+    width: 137px;
+    left: -118px;
+    bottom: -14px; */
+  }
+
+
+  /* 特色七|萬花筒隧道 */
+  section.explore > div.light_1100{
+    padding: 0px 60px 0px 60px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.light_1100 > div.right_box{
+    /* width: 36%;
+    margin-left: 20px; */
+  }
+  section.explore > div.light_1100 > div.left_box{
+    width: 100%;
+  }
+  /* 照片 */
+  section.explore > div.light_1100 > div.left_box >div.light_img{
+    width: 100%;
+    /* background-position: -246px;
+    background-repeat: no-repeat; */
+  }
+  /* 對話框 */
+  section.explore > div.light_1100 > div.right_box > div.dialog_svg{
+    /* display: none; */
+  }
+  /* 文字 */
+  section.explore > div.light_1100 > div.right_box > h4{
+    /* font-size: 14px; */
+    /* position: absolute; */
+    /* margin-top: 115px;
+    width: 196px; */
+    width: 200px;
+  }
+  section.explore > div.light_1100 > div.right_box > h4 > span{
+    /* font-size: 30px; */
+  }
+  section.explore > div.light_1100 > div.right_box > h6{
+    /* font-size: 12px; */
+    /* margin-top: 153px; */
+  }
+  /* 小圖示 */
+  section.explore > div.light_1100 > div.right_box > div.right_shine_svg{
+    /* background-size: contain;
+    width: 34px;
+    bottom: 239px;
+    right: -10px; */
+  }
+  section.explore > div.light_1100 > div.right_box > div.left_shine_svg{
+
+  }
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width:991.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+
+  /* 全部頁面 */
+  section.explore{
+    width: 100%;
+    /* padding: 0px 40px; */
+  }
+  /* 滾輪 */
+  /* section.explore > div.text_1100 > div.scrool_box{
+
+  } */
+  /* 大標*/
+  section.explore > div.text_1100{
+    width: 100%;
+    padding: 0px 40px;
+    /* margin-top: 150px; */
+  }
+  section.explore > div.text_1100 > h3{
+    margin-bottom: 135px;   /* scroll定位 */
+  }
+
+  /* 大標-小魚 */
+  section.explore > div.text_1100 > div.fishUP_img{
+    right: 158px;
+    /* bottom: 100px; */
+    top: 76px;
+    /* width: 45px;
+    height: 45px; */
+  }
+
+  /* 背景一 */
+  section.bg > div.explore_bg_01{
+    top: 341px;
+  }
+  /* 背景二 */
+  section.bg > div.explore_bg_02{
+    top: 490px;
+    height: 5057px;
+  }
+  /* 背景三 */
+  section.bg > div.explore_bg_03{
+    /* top: 4104px; */
+    top: 4781px;
+  }
+
+  /* 公司成立 */
+  section.explore > div.company_1100{
+    width: 100%;
+    padding: 0px 40px;
+    /* margin-top: 70px; */
+    /* margin-top: 45px; */
+  }
+  /* 公司成立-照片 */
+  /* section.explore > div.company_1100 > div.company_img{
+    width: 130px;
+    height: 110px;
+  } */
+
+
+  /* 特色一\左 */
+  section.explore > div.quantity_1100 > div.left_box{
+    /* width: 31%; */
+  }
+  /* 特色一|數量 */
+  section.explore > div.quantity_1100{
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+    /* margin-top: 100px; */
+  }
+  /* 特色一-(左)文字 */
+  section.explore > div.quantity_1100 > div.left_box > h4{
+    /* font-size: 16px; */
+    /* position: absolute;
+    width: 192px;
+    z-index: 1;
+    top: -15px; */
+  }
+  section.explore > div.quantity_1100 > div.left_box > h4 > span{
+    /* font-size: 32px; */
+  }
+
+  /* 特色一-(左)小魚 */
+  section.explore > div.quantity_1100 > div.left_box > div.left_img{
+    /* display: none; */
+    /* width: 260px;
+    height: 73px; */
+    left: 47px;
+    bottom: 89px;
+    /* bottom: 53px; */
+    /* background-image: url(../images/quantity_fish_right.svg); */
+  }
+  /* 特色一-(左)對話框 */
+  section.explore > div.quantity_1100 > div.left_box > div.dialog_svg{
+    /* display: none; */
+  }
+  section.explore > div.quantity_1100 > div.left_box > h6{
+    /* margin-top: 332px; */
+    /* font-size: 12px; */
+    margin-bottom: 18px;
+    width: 260px;
+  }
+
+  /* 特色一-(右)圖片 */
+  section.explore > div.quantity_1100 > div.right_box{
+    width: 580px;
+    height: auto;
+    background-position: center;
+  }
+  /* 特色一-(右)小魚 */
+  section.explore > div.quantity_1100 > div.right_box > div.right_img{
+    /* 鏡射 */
+    /* transform:scaleX(-1); */
+
+    /* 位置大小 */
+    /* left: -87px;
+    bottom: 145px;
+    width: 112px;
+    height: 44px; */
+    right: -29px;
+  }
+
+
+
+
+  /* 特色二|水量 */
+  section.explore > div.Water_volume_1100{
+    width: 100%;
+    padding: 0 60px  0 50px;
+    /* margin-top: 100px; */
+  }
+  /* 特色二-(左)圖片 */
+  section.explore > div.Water_volume_1100 > div.left_box{
+    width: 100%;
+    /* margin-right: 30px; */
+    /* position: relative; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_img{
+    /* margin-right: 30px; */
+    width: 100%;
+    background-position: center;
+    /* background-image: url(../images/explore_02a.jpg); */
+    /* background-position: -215px; */
+    /* width: 600px;
+    height: 449px; */
+  }
+
+  /* 特色二-左半部 */
+  section.explore > div.Water_volume_1100 > div.right_box{
+    /* width: 43%; */
+    margin-left: 20px;
+  }
+  /* 對話框 */
+  section.explore > div.Water_volume_1100 > div.right_box > div.dialog_svg{
+    /* display: none; */
+  }
+  /* 文字 */
+  section.explore > div.Water_volume_1100 > div.right_box > h4{
+    /* position: absolute;
+    right: 34px;
+    top: -15px; */
+    /* font-size: 16px; */
+    /* margin: 0px; */
+    width: 160px;
+    margin-bottom: 198px;
+  }
+  section.explore > div.Water_volume_1100 > div.right_box > h4 > span{
+    /* font-size: 32px */
+  }
+  section.explore > div.Water_volume_1100 > div.right_box > h6{
+    /* margin-top: 379px; */
+    /* position: absolute; */
+    /* font-size: 12px; */
+    margin-right: 14px;
+  }
+
+  /* 波浪 */
+  section.explore > div.Water_volume_1100 > div.right_box > div.wave_img{
+    /* left: 90px;
+    top: 236px; */
+    /* width: 144px;
+    height: 23px; */
+  }
+  /* 水杯區塊 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup{
+    margin: 32px 68px 0px 0px;
+    margin-left: calc(100% - 89%);
+  }
+  /* 水杯 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups > div.cup_icon{
+    /* background-size: contain; */
+    /* width: 28px;
+    height: 47px; */
+    /* top: -59px;
+    left: 5px; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups:nth-child(3){
+    display: none;
+  }
+  /* 點點 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.three_dot{
+    /* background-size: contain;
+    width: 40px;
+    height: 8px;
+    left: 173px; */
+    left: 116px;
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > h4{
+    /* position: absolute; */
+    /* font-size: 16px; */
+    /* width: 166px; */
+    /* bottom: 0px;
+    right: -103px; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > h4 > span{
+    font-size: 32px;
+   }
+
+
+  /* 特色三|尺寸 */
+  section.explore > div.size_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.size_1100 > div.left_box{
+    /* width: 31%; */
+    /* width: 50%; */
+    /* width: 95%;
+    margin: 0px; */
+    margin-right: 17px;
+  }
+  /* 文字 */
+  section.explore > div.size_1100 > div.left_box > div.top > div.text > h4{
+    font-size: 16px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.top > div.text > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom{
+    /* position: relative; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom > h4{
+    /* font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 60px; */
+    /* font-size: 16px; */
+    width: 288px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom > h4 > span{
+    /* font-size: 32px; */
+  }
+  section.explore > div.size_1100 > div.right_box{
+    /* width: 100%; */
+  }
+  /* section.explore > div.size_1100 > div.left_box > div.top > div.text{
+    position: absolute;
+  } */
+  section.explore > div.size_1100 > div.left_box > div.top{
+    /* margin-top: 32px;
+    margin-bottom: 326px;
+    margin-left: 60px; */
+  }
+  /* 照片 */
+  section.explore > div.size_1100 > div.right_box > div.siz01_img{
+    /* width: 100%; */
+    /* background-position: center; */
+    width: 360px;
+    /* height: 525px; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.middle{
+    /* width: 100%; */
+    /* left: 58px;
+    top: 163px; */
+    width: 332px;
+    height: 254px;
+    right: -44px;
+    top: 165px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.top > div.size_svg{
+    /* z-index: 1;
+    background-size: contain;
+    width: 130px;
+    left: 169px; */
+    /* display: none; */
+  }
+  section.explore > div.size_1100 > div.right_box > div.tortoise_svg{
+    /* background-size: contain;
+    width: 70px; */
+    left: -24px;
+  }
+
+
+  /* 特色四|玻璃厚度 */
+  /* 背景圖 */
+  section.explore > div.thickness_bg_box{
+    /* width: 100%; */
+    /* margin-top: 140px; */
+  }
+  section.explore > div.thickness_bg_box > div.thickness_img{
+    /* width: 100%; */
+    /* background-position: -328px; */
+    /* height: 350px; */
+  }
+  /* 文字 */
+  section.explore > div.thickness_1100{
+    /* margin-top: 123px; */
+  }
+  section.explore > div.thickness_1100 > h4{
+    /* font-size: 16px; */
+  }
+  section.explore > div.thickness_1100 > h4 > span{
+    /* font-size: 32px; */
+  }
+  section.explore > div.thickness_1100 > div.Cube_svg{
+    /* background-size: contain; */
+    /* width: 87px;
+    margin-top: 10px; */
+  }
+  /* 對話框 */
+  section.explore > div.dialog_box_1100 > div.dialog_svg{
+    /* display: none; */
+  }
+  section.explore > div.dialog_box_1100 > h6{
+    /* margin: 0px; */
+    /* text-align: center;
+    margin-right: 0px;
+    margin-top: 152px; */
+  }
+
+
+  /* 特色五|隧道 */
+  section.explore > div.tunnel_1100{
+    padding: 0px 50px 0px 50px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.tunnel_1100 > div.left_box{
+    width: 100%;
+  }
+  section.explore > div.tunnel_1100 > div.right_box{
+    /* width: 30%;
+    margin: 0px;
+    position: relative;
+    margin-left: 30px; */
+    margin-left: 40px;
+  }
+  /* 圖片 */
+  section.explore > div.tunnel_1100 > div.left_box > div.tunnel_img{
+   width: 100%;
+   background-position: center;
+   /* height: auto; */
+    /* background-image: url(../images/explore_06a.jpg) */
+  }
+  /* 文字 */
+  section.explore > div.tunnel_1100 > div.right_box > h4{
+    /* font-size: 16px; */
+    /* position: absolute;
+    z-index: 1;
+    width: 184px;
+    left: 0px; */
+    /* text-align: right; */
+    /* top: 26px; */
+    width: 176px;
+  }
+  section.explore > div.tunnel_1100 > div.right_box > h4 > span{
+    /* font-size: 32px; */
+  }
+  /* 小圖示 */
+  section.explore > div.tunnel_1100 > div.right_box > div.tunnel{
+    /* background-size: contain;
+    width: 130px;
+    background-repeat: no-repeat;
+    margin-top: 273px; */
+  }
+
+
+  /* 特色六|水母專區 */
+  section.explore > div.jellyfish_1100{
+    padding: 0px 50px 0px 80px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.jellyfish_1100 > div.left_box{
+    /* width: 100%; */
+    /* width: 43%;
+    margin-right: 30px; */
+  }
+  section.explore > div.jellyfish_1100 > div.right_box{
+    width: 100%;
+  }
+  /* 照片 */
+  section.explore > div.jellyfish_1100 > div.right_box >div.jellyfish_img{
+    width: 100%;
+    background-position: center;
+  }
+  /* 對話框 */
+  section.explore > div.jellyfish_1100 > div.left_box > div.dialog_svg{
+    /* display: none; */
+  }
+  /* 文字 */
+  section.explore > div.jellyfish_1100 > div.left_box > h4{
+    /* font-size: 16px; */
+    /* margin-right: 0px;
+    position: absolute;
+    width: 222px;
+    z-index: 1;
+    top: -15px; */
+    margin-right: 37px;
+    width: 215px;
+  }
+  section.explore > div.jellyfish_1100 > div.left_box > h4 > span{
+    /* font-size: 32px; */
+  }
+  section.explore > div.jellyfish_1100 > div.left_box > h6{
+    /* font-size: 12px; */
+    /* margin-right: 0px;
+    margin-top: 255px;
+    width: 147px; */
+    /* margin-top: 78px; */
+  }
+  /* 小水母*/
+  section.explore > div.jellyfish_1100 > div.right_box > div.jellyfish_svg{
+    background-size: contain;
+    width: 130px;
+    left: -114px;
+    bottom: -14px;
+  }
+
+
+  /* 特色七|萬花筒隧道 */
+  section.explore > div.light_1100{
+    padding: 0px 60px 0px 50px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.light_1100 > div.right_box{
+    /* width: 36%;
+    margin-left: 20px; */
+  }
+  section.explore > div.light_1100 > div.left_box{
+    width: 100%;
+  }
+  /* 照片 */
+  section.explore > div.light_1100 > div.left_box >div.light_img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* 對話框 */
+  section.explore > div.light_1100 > div.right_box > div.dialog_svg{
+    /* display: none; */
+  }
+  /* 文字 */
+  section.explore > div.light_1100 > div.right_box > h4{
+    /* font-size: 14px; */
+    /* position: absolute; */
+    /* margin-top: 115px;
+    width: 196px; */
+    width: 200px;
+  }
+  section.explore > div.light_1100 > div.right_box > h4 > span{
+    /* font-size: 30px; */
+  }
+  section.explore > div.light_1100 > div.right_box > h6{
+    /* font-size: 12px; */
+    /* margin-top: 153px; */
+  }
+  /* 小圖示 */
+  section.explore > div.light_1100 > div.right_box > div.right_shine_svg{
+    /* background-size: contain;
+    width: 34px;
+    bottom: 239px;
+    right: -10px; */
+  }
+  section.explore > div.light_1100 > div.right_box > div.left_shine_svg{
+  }
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+
+
+  /* 全部頁面 */
+  section.explore{
+    width: 100%;
+    /* padding: 0px 40px; */
+  }
+  /* 滾輪 */
+  /* section.explore > div.text_1100 > div.scrool_box{
+
+  } */
+  /* 大標*/
+  section.explore > div.text_1100{
+    width: 100%;
+    padding: 0px 40px;
+    /* margin-top: 150px; */
+  }
+  section.explore > div.text_1100 > h3{
+    margin-bottom: 140px;   /* scroll定位 */
+  }
+
+  /* 大標-小魚 */
+  section.explore > div.text_1100 > div.fishUP_img{
+    right: 888px;
+    /* bottom: 100px; */
+    top: 101px;
+    /* width: 45px;
+    height: 45px; */
+  }
+
+  /* 背景一 */
+  section.bg > div.explore_bg_01{
+    top: 341px;
+  }
+  /* 背景二 */
+  section.bg > div.explore_bg_02{
+    top: 490px;
+    height: 5057px;
+  }
+  /* 背景三 */
+  section.bg > div.explore_bg_03{
+    /* top: 4104px; */
+    top: 4752px;
+  }
+
+  /* 公司成立 */
+  section.explore > div.company_1100{
+    width: 100%;
+    padding: 0px 40px;
+    /* margin-top: 70px; */
+    /* margin-top: 45px; */
+  }
+  /* 公司成立-照片 */
+  /* section.explore > div.company_1100 > div.company_img{
+    width: 130px;
+    height: 110px;
+  } */
+
+
+  /* 特色一\左 */
+  section.explore > div.quantity_1100 > div.left_box{
+    /* width: 31%; */
+  }
+  /* 特色一|數量 */
+  section.explore > div.quantity_1100{
+    width: 100%;
+    padding: 0px 0px 0px 50px;
+    /* margin-top: 100px; */
+  }
+  /* 特色一-(左)文字 */
+  section.explore > div.quantity_1100 > div.left_box > h4{
+    font-size: 16px;
+    /* position: absolute;
+    width: 192px;
+    z-index: 1;
+    top: -15px; */
+  }
+  section.explore > div.quantity_1100 > div.left_box > h4 > span{
+    font-size: 32px;
+  }
+
+  /* 特色一-(左)小魚 */
+  section.explore > div.quantity_1100 > div.left_box > div.left_img{
+    /* display: none; */
+    /* width: 260px;
+    height: 73px; */
+    left: 47px;
+    bottom: 89px;
+    /* bottom: 53px; */
+    /* background-image: url(../images/quantity_fish_right.svg); */
+  }
+  /* 特色一-(左)對話框 */
+  section.explore > div.quantity_1100 > div.left_box > div.dialog_svg{
+    /* display: none; */
+    background-size: contain;
+    width: 241px;
+    bottom: -4px;
+    left: -17px;
+  }
+  section.explore > div.quantity_1100 > div.left_box > h6{
+    /* margin-top: 332px; */
+    font-size: 12px;
+    margin-bottom: 18px;
+    width: 237px;
+  }
+
+  /* 特色一-(右)圖片 */
+  section.explore > div.quantity_1100 > div.right_box{
+    width: 580px;
+    height: auto;
+    background-position: -94px;
+    /* background-image: url("../images/explore_01a.jpg"); */
+  }
+  /* 特色一-(右)小魚 */
+  section.explore > div.quantity_1100 > div.right_box > div.right_img{
+    /* 鏡射 */
+    /* transform:scaleX(-1); */
+
+    /* 位置大小 */
+    /* left: -87px;
+    bottom: 145px;
+    width: 112px;
+    height: 44px; */
+    /* right: -29px; */
+    display: none;
+  }
+
+
+
+
+  /* 特色二|水量 */
+  section.explore > div.Water_volume_1100{
+    width: 100%;
+    padding: 0 40px  0 0px;
+    /* margin-top: 100px; */
+  }
+  /* 特色二-(左)圖片 */
+  section.explore > div.Water_volume_1100 > div.left_box{
+    width: 100%;
+    /* margin-right: 30px; */
+    /* position: relative; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_img{
+    /* margin-right: 30px; */
+    width: 100%;
+    background-position: center;
+    /* background-image: url(../images/explore_02a.jpg); */
+    /* background-position: -215px; */
+    /* width: 600px;
+    height: 449px; */
+  }
+
+  /* 特色二-左半部 */
+  section.explore > div.Water_volume_1100 > div.right_box{
+    /* width: 43%; */
+    margin-left: 5px;
+  }
+  /* 對話框 */
+  section.explore > div.Water_volume_1100 > div.right_box > div.dialog_svg{
+    /* display: none; */
+  }
+  /* 文字 */
+  section.explore > div.Water_volume_1100 > div.right_box > h4{
+    /* position: absolute;
+    right: 34px;
+    top: -15px; */
+    font-size: 16px;
+    /* margin: 0px; */
+    width: 160px;
+    margin-bottom: 204px;
+  }
+  section.explore > div.Water_volume_1100 > div.right_box > h4 > span{
+    font-size: 32px
+  }
+  section.explore > div.Water_volume_1100 > div.right_box > h6{
+    /* margin-top: 379px; */
+    /* position: absolute; */
+    font-size: 12px;
+    margin-right: 14px;
+  }
+
+  /* 波浪 */
+  section.explore > div.Water_volume_1100 > div.right_box > div.wave_img{
+    /* left: 90px;
+    top: 236px; */
+    /* width: 144px;
+    height: 23px; */
+  }
+  /* 水杯區塊 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup{
+    margin: 32px 68px 0px 0px;
+    margin-left: calc(100% - 81%);
+  }
+  /* 水杯 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups > div.cup_icon{
+    /* background-size: contain;
+    width: 28px;
+    height: 47px;
+    top: -50px;
+    left: 5px; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups:nth-child(3){
+    /* display: none; */
+  }
+  /* 點點 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.three_dot{
+    /* background-size: contain;
+    width: 40px;
+    height: 8px;
+    left: 116px; */
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > h4{
+    /* position: absolute; */
+    font-size: 16px;
+    /* width: 166px; */
+    /* bottom: 0px;
+    right: -103px; */
+    display: none;
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > h4 > span{
+    font-size: 32px;
+   }
+
+
+  /* 特色三|尺寸 */
+  section.explore > div.size_1100{
+    width: 100%;
+    padding: 0px 0px 0px 40px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.size_1100 > div.left_box{
+    /* width: 31%; */
+    /* width: 50%; */
+    /* width: 95%;
+    margin: 0px; */
+    margin-right: 45px;
+  }
+  /* 文字 */
+  section.explore > div.size_1100 > div.left_box > div.top > div.text > h4{
+    font-size: 16px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.top > div.text > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom{
+    /* position: relative; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom > h4{
+    /* font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 60px; */
+    /* font-size: 16px; */
+    width: 196px;
+    font-size: 16px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.size_1100 > div.right_box{
+    /* width: 100%; */
+  }
+  /* section.explore > div.size_1100 > div.left_box > div.top > div.text{
+    position: absolute;
+  } */
+  section.explore > div.size_1100 > div.left_box > div.top{
+    /* margin-top: 32px;
+    margin-bottom: 326px;
+    margin-left: 60px; */
+    margin-bottom: 337px;
+  }
+  /* 照片 */
+  section.explore > div.size_1100 > div.right_box > div.siz01_img{
+    /* width: 100%; */
+    /* background-position: center; */
+    width: 300px;
+    /* height: 525px; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.middle{
+    /* width: 100%; */
+    /* left: 58px;
+    top: 163px; */
+    width: 280px;
+    height: 230px;
+    right: -84px;
+    top: 165px;
+    background-position: center;
+  }
+  section.explore > div.size_1100 > div.left_box > div.top > div.size_svg{
+    /* z-index: 1;
+    background-size: contain;
+    width: 130px;
+    left: 169px; */
+    display: none;
+  }
+  section.explore > div.size_1100 > div.right_box > div.tortoise_svg{
+    /* background-size: contain;
+    width: 70px; */
+    left: -24px;
+  }
+
+
+  /* 特色四|玻璃厚度 */
+  /* 背景圖 */
+  section.explore > div.thickness_bg_box{
+    /* width: 100%; */
+    /* margin-top: 140px; */
+  }
+  section.explore > div.thickness_bg_box > div.thickness_img{
+    /* width: 100%; */
+    background-position: -41px;
+    /* height: 350px; */
+  }
+  /* 文字 */
+  section.explore > div.thickness_1100{
+    /* margin-top: 123px; */
+  }
+  section.explore > div.thickness_1100 > h4{
+    font-size: 16px;
+  }
+  section.explore > div.thickness_1100 > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.thickness_1100 > div.Cube_svg{
+    /* background-size: contain; */
+    /* width: 87px;
+    margin-top: 10px; */
+  }
+  /* 對話框 */
+  section.explore > div.dialog_box_1100 > div.dialog_svg{
+    /* display: none; */
+    width: 263px;
+  }
+  section.explore > div.dialog_box_1100 > h6{
+    /* margin: 0px; */
+    /* text-align: center;
+    margin-right: 0px;
+    margin-top: 152px; */
+    font-size: 12px;
+  }
+
+
+  /* 特色五|隧道 */
+  section.explore > div.tunnel_1100{
+    padding: 0px 40px 0px 0px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.tunnel_1100 > div.left_box{
+    width: 100%;
+  }
+  section.explore > div.tunnel_1100 > div.right_box{
+    /* width: 30%;
+    margin: 0px;
+    position: relative;
+    margin-left: 30px; */
+    margin-left: 30px;
+    background-size: contain;
+  }
+  /* 圖片 */
+  section.explore > div.tunnel_1100 > div.left_box > div.tunnel_img{
+   width: 100%;
+   background-position: center;
+   /* height: auto; */
+    /* background-image: url(../images/explore_06a.jpg) */
+  }
+  /* 文字 */
+  section.explore > div.tunnel_1100 > div.right_box > h4{
+    font-size: 16px;
+    /* position: absolute;
+    z-index: 1;
+    width: 184px;
+    left: 0px; */
+    /* text-align: right; */
+    /* top: 26px; */
+    width: 176px;
+  }
+  section.explore > div.tunnel_1100 > div.right_box > h4 > span{
+    font-size: 32px;
+  }
+  /* 小圖示 */
+  section.explore > div.tunnel_1100 > div.right_box > div.tunnel{
+    /* background-size: contain;
+    width: 130px;
+    background-repeat: no-repeat;
+    margin-top: 273px; */
+    background-size: contain;
+    width: 148px;
+    background-repeat: no-repeat;
+  }
+
+
+  /* 特色六|水母專區 */
+  section.explore > div.jellyfish_1100{
+    padding: 0px 0px 0px 50px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.jellyfish_1100 > div.left_box{
+    /* width: 100%; */
+    /* width: 43%;
+    margin-right: 30px; */
+  }
+  section.explore > div.jellyfish_1100 > div.right_box{
+    width: 100%;
+  }
+  /* 照片 */
+  section.explore > div.jellyfish_1100 > div.right_box >div.jellyfish_img{
+    width: 100%;
+    background-position: center;
+  }
+  /* 對話框 */
+  section.explore > div.jellyfish_1100 > div.left_box > div.dialog_svg{
+    /* display: none; */
+    background-size: contain;
+    bottom: 162px;
+    width: 205px;
+    left: -36px;
+  }
+  /* 文字 */
+  section.explore > div.jellyfish_1100 > div.left_box > h4{
+    font-size: 16px;
+    /* margin-right: 0px;
+    position: absolute;
+    width: 222px;
+    z-index: 1;
+    top: -15px; */
+    margin-right: 10px;
+    width: 215px;
+  }
+  section.explore > div.jellyfish_1100 > div.left_box > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.jellyfish_1100 > div.left_box > h6{
+    font-size: 12px;
+    /* margin-right: 0px;
+    margin-top: 255px;
+    width: 147px; */
+    /* margin-top: 78px; */
+  }
+  /* 小水母*/
+  section.explore > div.jellyfish_1100 > div.right_box > div.jellyfish_svg{
+    background-size: contain;
+    width: 120px;
+    left: -105px;
+    bottom: -14px;
+  }
+
+
+  /* 特色七|萬花筒隧道 */
+  section.explore > div.light_1100{
+    padding: 0px 40px 0px 0px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.light_1100 > div.right_box{
+    /* width: 36%;
+    margin-left: 20px; */
+    margin-left: 30px;
+  }
+  section.explore > div.light_1100 > div.left_box{
+    width: 100%;
+  }
+  /* 照片 */
+  section.explore > div.light_1100 > div.left_box >div.light_img{
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* 對話框 */
+  section.explore > div.light_1100 > div.right_box > div.dialog_svg{
+    /* display: none; */
+    background-size: contain;
+    width: 215px;
+    bottom: 126px;
+    left: -6px;
+  }
+  /* 文字 */
+  section.explore > div.light_1100 > div.right_box > h4{
+    font-size: 16px;
+    /* position: absolute; */
+    /* margin-top: 115px;
+    width: 196px; */
+    width: 200px;
+  }
+  section.explore > div.light_1100 > div.right_box > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.light_1100 > div.right_box > h6{
+    font-size: 12px;
+    /* margin-top: 153px; */
+  }
+  /* 小圖示 */
+  section.explore > div.light_1100 > div.right_box > div.right_shine_svg{
+    /* background-size: contain;
+    width: 34px;
+    bottom: 239px;
+    right: -10px; */
+    background-size: contain;
+    width: 37px;
+    bottom: 236px;
+    right: -5px;
+  }
+  section.explore > div.light_1100 > div.right_box > div.left_shine_svg{
+    background-size: contain;
+    width: 28px;
+    bottom: 236px;
+    left: -30px;
+  }
+
+
+  /* 說明文*/
+  section.explore > div.introduce_1100{
+    /* margin-top: 100px; */
+  }
+  section.explore > div.introduce_1100 > h4{
+    font-size: 14px;
+  }
+
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    /* border: 1.5px solid rgba(255, 255, 255, 0.65); */
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    color: #55F4FF;
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
+
+  /* header */
+  header#header{
+    width: 100%;
+  }
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 選項 */
+  section.explore > ul.change_bt_1100 > li{
+    /* margin: 50px 40px 40px 0px; */
+    margin: 50px 0px 0px 0px;
+  }
+  section.explore > ul.change_bt_1100 > li:nth-child(2){
+    margin: auto 40px 0px 40px;
+  }
+
+
+  /* 選項-圖示1 */
+  section.explore > ul.change_bt_1100 > li.one > a > .animals{
+    width: 63px;
+    height: 46px;
+  }
+  /* 選項-文字1 */
+  section.explore > ul.change_bt_1100 > li.one > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示2 */
+  section.explore > ul.change_bt_1100 > li.two > a > .eat{
+    width: 46px;
+    height: 53px;
+  }
+  /* 選項-文字2 */
+  section.explore > ul.change_bt_1100 > li.two > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示3 */
+  section.explore > ul.change_bt_1100 > li.three > a > .gift{
+    width: 45px;
+    height: 47px;
+  }
+  /* 選項-文字3 */
+section.explore > ul.change_bt_1100 > li > a > h5{
+    font-size: 14px;
+  }
+
+
+  /* 全部頁面 */
+  section.explore{
+    width: 100%;
+    /* padding: 0px 40px; */
+  }
+  /* 滾輪 */
+  section.explore > div.text_1100 > div.scrool_box{
+    display: none;
+  }
+  /* 大標*/
+  section.explore > div.text_1100{
+    width: 100%;
+    padding: 0px 40px;
+    /* margin-top: 150px; */
+  }
+  section.explore > div.text_1100 > h3{
+    font-size: 19px;
+    margin-bottom: 145px;   /* scroll定位 */
+  }
+  section.explore > div.text_1100 > h3 > span{
+    font-size: 30px;
+  }
+  /* 大標-小魚 */
+  section.explore > div.text_1100 > div.fishUP_img{
+    right: 40px;
+    /* bottom: 100px; */
+    top: 20px;
+    width: 45px;
+    height: 45px;
+  }
+
+  /* 背景一 */
+  section.bg > div.explore_bg_01{
+    top: 310px;
+  }
+  /* 背景二 */
+  section.bg > div.explore_bg_02{
+    top: 490px;
+    height: 4745px;
+  }
+  /* 背景三 */
+  section.bg > div.explore_bg_03{
+    /* top: 4104px; */
+    top: 4461px;
+  }
+
+  /* 公司成立 */
+  section.explore > div.company_1100{
+    width: 100%;
+    padding: 0px 40px;
+    /* margin-top: 70px; */
+    margin-top: 9px;
+  }
+  /* 公司成立-照片 */
+  section.explore > div.company_1100 > div.company_img{
+    width: 130px;
+    height: 110px;
+  }
+  /* 公司成立-文字 */
+  section.explore > div.company_1100 > h4{
+    font-size: 16px;
+  }
+
+  /* 特色一\左 */
+  section.explore > div.quantity_1100 > div.left_box{
+    /* width: 100%; */
+    width: 31%;
+  }
+  /* 特色一|數量 */
+  section.explore > div.quantity_1100{
+    width: 100%;
+    padding: 0px 0px 0px 40px;
+    /* margin-top: 100px; */
+  }
+  /* 特色一-(左)文字 */
+  section.explore > div.quantity_1100 > div.left_box > h4{
+    font-size: 16px;
+    position: absolute;
+    width: 160px;
+    z-index: 1;
+    top: -15px;
+  }
+  section.explore > div.quantity_1100 > div.left_box > h4 > span{
+    font-size: 32px;
+  }
+  /* 特色一-(左)小魚 */
+  section.explore > div.quantity_1100 > div.left_box > div.left_img{
+    display: none;
+    /* width: 260px;
+    height: 73px; */
+    /* left: 20px;
+    bottom: 130px; */
+    /* bottom: 53px; */
+    /* background-image: url(../images/quantity_fish_right.svg); */
+  }
+  /* 特色一-(左)對話框 */
+  section.explore > div.quantity_1100 > div.left_box > div.dialog_svg{
+    display: none;
+  }
+  section.explore > div.quantity_1100 > div.left_box > h6{
+    margin-top: 332px;
+    font-size: 12px;
+  }
+
+  /* 特色一-(右)圖片 */
+  section.explore > div.quantity_1100 > div.right_box{
+    margin-left: 30px;
+    background-image: url(../images/explore_01a.jpg);
+    width: 100%;
+  }
+  /* 特色一-(右)小魚 */
+  section.explore > div.quantity_1100 > div.right_box > div.right_img{
+    /* 鏡射 */
+    transform:scaleX(-1);
+
+    /* 位置大小 */
+    left: -87px;
+    bottom: 136px;
+    width: 112px;
+    height: 44px;
+
+    animation-name: none;
+    /* animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-delay: 2s; */
+  }
+
+
+
+
+  /* 特色二|水量 */
+  section.explore > div.Water_volume_1100{
+    width: 100%;
+    padding: 0 40px  0 0;
+    /* margin-top: 100px; */
+  }
+  /* 特色二-(左)圖片 */
+  section.explore > div.Water_volume_1100 > div.left_box{
+    width: 100%;
+    /* margin-right: 30px; */
+    position: relative;
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_img{
+    /* margin-right: 30px; */
+    width: 100%;
+    /* background-image: url(../images/explore_02a.jpg); */
+    background-position: center;
+  }
+
+  /* 特色二-左半部 */
+  section.explore > div.Water_volume_1100 > div.right_box{
+    width: 43%;
+    margin: 0px;
+    margin-left: 10px;
+  }
+  /* 對話框 */
+  section.explore > div.Water_volume_1100 > div.right_box > div.dialog_svg{
+    display: none;
+  }
+  /* 文字 */
+  section.explore > div.Water_volume_1100 > div.right_box > h4{
+    position: absolute;
+    right: 8px;
+    top: -15px;
+    font-size: 16px;
+    /* margin: 0px; */
+    width: 160px;
+  }
+  section.explore > div.Water_volume_1100 > div.right_box > h4 > span{
+    font-size: 32px
+  }
+  section.explore > div.Water_volume_1100 > div.right_box > h6{
+    margin-top: 342px;
+    /* position: absolute; */
+    font-size: 12px;
+    margin-right: 6px;
+  }
+
+  /* 波浪 */
+  section.explore > div.Water_volume_1100 > div.right_box > div.wave_img{
+    left: -9px;
+    top: 236px;
+    width: 144px;
+    height: 23px;
+  }
+  /* 水杯區塊 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup{
+    margin: 21px 0px 0px 35px;
+    display: none;
+  }
+  /* 水杯 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups > div.cup_icon{
+    background-size: contain;
+    width: 28px;
+    height: 47px;
+    top: -48px;
+    left: 6px;
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.cups:nth-child(3){
+    display: none;
+  }
+  /* 點點 */
+  section.explore > div.Water_volume_1100 > div.left_box > div.water_cup > div.three_dot{
+    background-size: contain;
+    width: 40px;
+    height: 8px;
+    left: 110px;
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > h4{
+    position: absolute;
+    font-size: 14px;
+    /* width: 166px; */
+    bottom: 40px;
+    right: -115px;
+  }
+  section.explore > div.Water_volume_1100 > div.left_box > h4 > span{
+    font-size: 30px;
+   }
+
+
+  /* 特色三|尺寸 */
+  section.explore > div.size_1100{
+    width: 100%;
+    padding: 0px 0px 0px 40px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.size_1100 > div.left_box{
+    /* width: 31%; */
+    /* width: 50%; */
+    width: 95%;
+    margin: 0px;
+  }
+  /* 文字 */
+  section.explore > div.size_1100 > div.left_box > div.top > div.text > h4{
+    font-size: 16px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.top > div.text > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom{
+    position: relative;
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom > h4{
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+  }
+  section.explore > div.size_1100 > div.left_box > div.bottom > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.size_1100 > div.right_box{
+    width: 100%;
+  }
+  /* section.explore > div.size_1100 > div.left_box > div.top > div.text{
+    position: absolute;
+  } */
+  section.explore > div.size_1100 > div.left_box > div.top{
+    margin-top: 45px;
+    margin-bottom: 293px;
+  }
+  /* 照片 */
+  section.explore > div.size_1100 > div.right_box > div.siz01_img{
+    width: 100%;
+    /* background-position: center; */
+  }
+  section.explore > div.size_1100 > div.left_box > div.middle{
+    /* width: 100%; */
+    left: 0px;
+    top: 190px;
+    width: 267px;
+    height: 187px;
+  }
+  section.explore > div.size_1100 > div.left_box > div.top > div.size_svg{
+    z-index: 1;
+    background-size: contain;
+    width: 98px;
+    left: 140px;
+    display: none;
+  }
+  section.explore > div.size_1100 > div.right_box > div.tortoise_svg{
+    background-size: contain;
+    width: 70px;
+  }
+
+  /* 特色四|玻璃厚度 */
+  /* 背景圖 */
+  section.explore > div.thickness_bg_box{
+    width: 100%;
+    /* margin-top: 140px; */
+  }
+  section.explore > div.thickness_bg_box > div.thickness_img{
+    /* width: 100%; */
+    background-position: -328px;
+    height: 350px;
+  }
+  /* 文字 */
+  section.explore > div.thickness_1100{
+    margin-top: 123px;
+  }
+  section.explore > div.thickness_1100 > h4{
+    font-size: 16px;
+  }
+  section.explore > div.thickness_1100 > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.thickness_1100 > div.Cube_svg{
+    background-size: contain;
+    width: 87px;
+    margin-top: 10px;
+  }
+  /* 對話框 */
+  section.explore > div.dialog_box_1100 > div.dialog_svg{
+    /* display: none; */
+    background-size: contain;
+    width: 280px;
+    bottom: -20px;
+    right: 54px;
+  }
+  section.explore > div.dialog_box_1100 > h6{
+    /* margin: 0px; */
+    /* text-align: center;
+    margin-right: 0px; */
+    margin-top: 155px;
+  }
+
+
+  /* 特色五|隧道 */
+  section.explore > div.tunnel_1100{
+    padding: 0px 40px 0px 0px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.tunnel_1100 > div.left_box{
+    width: 100%;
+  }
+  section.explore > div.tunnel_1100 > div.right_box{
+    width: 30%;
+    margin: 0px;
+    position: relative;
+    margin-left: 20px;
+  }
+  /* 圖片 */
+  section.explore > div.tunnel_1100 > div.left_box > div.tunnel_img{
+   width: 100%;
+    background-image: url(../images/explore_06a.jpg)
+  }
+  /* 文字 */
+  section.explore > div.tunnel_1100 > div.right_box > h4{
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    width: 150px;
+    right: 0px;
+    text-align: right;
+    top: 21px;
+  }
+  section.explore > div.tunnel_1100 > div.right_box > h4 > span{
+    font-size: 32px;
+  }
+  /* 小圖示 */
+  section.explore > div.tunnel_1100 > div.right_box > div.tunnel{
+    background-size: contain;
+    width: 97px;
+    background-repeat: no-repeat;
+    margin-top: 267px;
+  }
+
+
+  /* 特色六|水母專區 */
+  section.explore > div.jellyfish_1100{
+    padding: 0px 0px 0px 40px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.jellyfish_1100 > div.left_box{
+    /* width: 100%; */
+    width: 35%;
+  }
+  section.explore > div.jellyfish_1100 > div.right_box{
+    width: 100%;
+  }
+  /* 照片 */
+  section.explore > div.jellyfish_1100 > div.right_box >div.jellyfish_img{
+    width: 100%;
+    background-position: -252px;
+  }
+  /* 對話框 */
+  section.explore > div.jellyfish_1100 > div.left_box > div.dialog_svg{
+    display: none;
+  }
+  /* 文字 */
+  section.explore > div.jellyfish_1100 > div.left_box > h4{
+    font-size: 16px;
+    margin-right: 0px;
+    position: absolute;
+    width: 197px;
+    z-index: 1;
+    top: -15px;
+  }
+  section.explore > div.jellyfish_1100 > div.left_box > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.jellyfish_1100 > div.left_box > h6{
+    font-size: 12px;
+    margin-right: 0px;
+    margin-top: 238px;
+    width: 80px;
+  }
+  /* 小水母*/
+  section.explore > div.jellyfish_1100 > div.right_box > div.jellyfish_svg{
+    background-size: contain;
+    width: 102px;
+    left: -86px;
+    bottom: -11px;
+  }
+
+
+  /* 特色七|萬花筒隧道 */
+  section.explore > div.light_1100{
+    padding: 0px 40px 0px 0px;
+    /* margin-top: 100px; */
+  }
+  section.explore > div.light_1100 > div.right_box{
+    width: 36%;
+    margin-left: 20px;
+  }
+  section.explore > div.light_1100 > div.left_box{
+    width: 100%;
+  }
+  /* 照片 */
+  section.explore > div.light_1100 > div.left_box >div.light_img{
+    width: 100%;
+    background-position: -246px;
+    background-repeat: no-repeat;
+  }
+  /* 對話框 */
+  section.explore > div.light_1100 > div.right_box > div.dialog_svg{
+    display: none;
+  }
+  /* 文字 */
+  section.explore > div.light_1100 > div.right_box > h4{
+    font-size: 16px;
+    /* position: absolute; */
+    margin-top: 98px;
+  }
+  section.explore > div.light_1100 > div.right_box > h4 > span{
+    font-size: 32px;
+  }
+  section.explore > div.light_1100 > div.right_box > h6{
+    font-size: 12px;
+    margin-top: 115px;
+  }
+  /* 小圖示 */
+  section.explore > div.light_1100 > div.right_box > div.right_shine_svg{
+    background-size: contain;
+    width: 34px;
+    bottom: 231px;
+    right: -13px;
+  }
+  section.explore > div.light_1100 > div.right_box > div.left_shine_svg{
+    background-size: contain;
+    top: 59px;
+    left: -22px;
+    width: 26px;
+    display: none;
+  }
+
+
+  /* 說明文*/
+  section.explore > div.introduce_1100{
+    /* margin-top: 100px; */
+  }
+  section.explore > div.introduce_1100 > h4{
+    font-size: 14px;
+  }
+
+
+
+
+  /* footer */
+  footer.footer > div.footer_flex > div.content{
+    display: none;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content {
+    display: inline-block;
+    font-size: 10px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-width: 380px){
+  section.explore > div.text_1100 > div.fishUP_img{
+    width: 40px;
+    height: 40px;
+    right: 32px;
+  }
+  section.explore > div.company_1100 > div.company_img{
+    width: 110px;
+    height: 100px;
+  }
+  section.explore > div.company_1100 > h4{
+    font-size: 15px;
+  }
+  section.explore > div.quantity_1100 > div.right_box{
+    width: 80%;
+  }
+  section.explore > div.light_1100 > div.right_box{
+    width: 39%;
+  }
+  section.explore > div.introduce_1100 > h4{
+    font-size: 13px;
+  }
+}

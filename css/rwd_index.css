@@ -1,0 +1,1354 @@
+/* @media (min-width: 1200px){
+  section.news > div.title_1100 > div.title{
+    left: 155px;
+  }
+} */
+
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+  body{
+    overflow-x:hidden;
+  }
+  /* 訂票 */
+  div.ticketLink{
+    display: none !important;
+  }
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+
+
+  /* 小魚 */
+  img.fish_01{
+    left: -35px;
+  }
+  img.fish_02{
+    right: 114px;
+  }
+
+  /* 特色魅力 */
+  section.feature > div.feature_1100 > div.point > div.left_box > h3{
+    margin: 80px 84px 100px 40px;
+  }
+  section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.moon03 > a > span{
+    font-size: 26px;
+  }
+  section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.moon03::after{
+    width: 215px;
+    top: 176px;
+  }
+  section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.light02 > a > span{
+    font-size: 26px;
+  }
+  section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.light02::after{
+    width: 187px;
+    top: 100px;
+  }
+  section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.tunnel > a > span{
+    font-size: 26px;
+  }
+  section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature > li.tunnel::after{
+    width: 161px;
+    top: 44px;
+  }
+
+
+  section.feature > div.feature_1100 > div.point > div.right_box > div.text_img_bt{
+    margin: 0px 45px 0px 35px;
+  }
+  section.feature > div.feature_1100 > div.point > div.left_box > ul.change_feature{
+    margin-left: 40px;
+  }
+  /* 照片 */
+  div.right_box > div.left_img > img{
+    width: 344px;
+    height: 416px;
+  }
+  div.right_box > div.text_img_bt > div.right_img > img{
+    /* width: 201px;
+    height: 139px; */
+  }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width:991.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none !important;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+
+  /* follow */
+  header#header.header_top > div.block_1100 > div.follow_icon{
+    visibility: hidden;
+  }
+
+  /* 主要內容 */
+  /* 第一區域-首圖 */
+  div.index_banner_box{
+    width: 100%;
+    height: 520px;
+  }
+  /* logo */
+  section.top_bannner > div.top_1100 > div.title_logo{
+    /* width: 43%; */
+  }
+  div.title_logo > h1{
+    /* width: 100%; */
+    /* width: 231px;
+    height: 138px; */
+    margin: 80px auto 30px auto;
+  }
+  div.title_logo > h2{
+    margin-bottom: 90px;
+    /* font-size: 22px; */
+  }
+  /* hr */
+  div.title_logo > hr{
+    margin: 3px 0px;
+  }
+
+  /* 區塊 */
+  ul.time_and_ticket{
+    width: 100%;
+  }
+  ul.time_and_ticket > li{
+    /* width: 100%; */
+    width: 50%;
+  }
+  div.today_time{
+    /* flex-direction: column; */
+    /* padding: 10px 0px; */
+  }
+  /* 區塊文字-營業時間*/
+  div.today_time > p.today{
+    padding-left: 35px;
+    /* padding: 0px; */
+    /* padding-left: 40px; */
+    /* background-image: none; */
+
+    /* font-size: 15px; */
+  }
+  div.today_time > p.time{
+    /* padding: 0px; */
+    /* padding-left: 40px; */
+    /* font-size: 18px; */
+  }
+  /* 區塊文字-訂票 */
+  ul.time_and_ticket > li:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul.time_and_ticket > li:last-child > a{
+    /* padding: 0px; */
+    /* background-image: none; */
+    position: static;
+    top: 0px;
+    left: 0px;
+    transform: none;
+
+    /* font-size: 15px; */
+  }
+
+
+  /* 最新消息區塊 */
+  /* 選項 */
+
+
+
+  /* 關於我們 */
+  section.abouts_us{
+    /* padding: 0px 40px; */
+  }
+  section.abouts_us > div.abouts_1100{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  section.abouts_us > div.abouts_1100{
+    /* display: none; */
+  }
+  section.abouts_us > div.abouts_1100_rwd{
+    /* display: flex; */
+    width: 100%;
+    padding: 0px 40px;
+    display: none;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h5{
+    text-align: center;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h3{
+    margin: 168px 0px 50px 0px;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h3::after{
+    top: 210px;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h5:last-child{
+    margin-bottom: 149px;
+  }
+
+
+  section.news > div.news_1100{
+    width: 100%;
+    padding: 0px 60px;
+  }
+  /* 最新消息 */
+  section.news > div.news_1100 > div.all_news_box{
+    width: 100%;
+  }
+
+  section.news > div.news_1100 > div.all_news_box > div > ul{
+    width: 100%;
+    justify-content: space-between;
+  }
+  /* 照片 */
+  ul.three_news > li > a > img{
+    width: 100%;
+    height: auto;
+  }
+  ul.three_news > li > a.img{
+    width: 100%;
+    height: auto;
+  }
+  ul.three_news > li:nth-child(2){
+    margin: 0px 20px;
+  }
+  section.news > div.news_1100 > div.all_news_box > div.tab{
+    width: 100%;
+  }
+  ul.three_news > li{
+    margin: 0px;
+    width: 100%;
+  }
+  ul.three_news > li > div.right_text > div.title_wave > a > h5{
+    /* font-size: 14px; */
+    /* overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+  }
+
+  /* 小魚 */
+  img.fish_01{
+    z-index: -1;
+    /* display: none; */
+    top: 121px;
+    left: -58px;
+  }
+  img.fish_02{
+    right: 31px;
+    top: 69px;
+    width: 94px;
+    height: 35px;
+  }
+  img.under_bg{
+    width: 100%;
+    background-image: url(./images/news_bg_02.svg);
+  }
+
+  /* 泡泡 */
+  div.bubble > img.eight{
+    /* display: none; */
+    width: 70px;
+    height: 70px;
+    top: 444px;
+    left: 571px;
+    z-index: -1;
+  }
+  div.bubble > img.seven{
+    display: none;
+  }
+  div.bubble > img.two{
+    display: none;
+  }
+  div.bubble > img.nine{
+    top: 282px;
+    left: 29px;
+  }
+  div.bubble > img.four{
+    top: 357px;
+    right: 39px;
+  }
+  div.bubble > img.three{
+    display: none;
+  }
+
+
+  /* 背景圖 */
+  /* img.under_bg{
+    display: none;
+  }
+  img.under_bg02{
+    display: inline-block;
+  } */
+
+
+
+  /* 波浪 */
+  ul.three_news > li > div.right_text > div.title_wave > a > h5::after{
+    width: 100%;
+  }
+
+  /* 特色魅力 */
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible.active > p{
+    font-size: 20px;
+  }
+  section.feature_rwd > div.feature_1100{
+    padding: 0px 60px;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:first-child > img{
+    width: 50%;
+    display: inline-block;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > h6{
+    text-align: center;
+    width: 486px;
+    margin: 0 auto 10px auto;
+    /* display: none; */
+  }
+
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:nth-child(2){
+    /* display: inline-block; */
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:nth-child(2) > img{
+    display: inline-block;
+    position: static;
+  }
+
+  section.feature{
+    display: none;
+  }
+  section.feature_rwd{
+    display: inline-block;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible::after{
+    height: 1.5px;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible > p{
+    font-size: 19px;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:first-child{
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:nth-child(2) > img{
+    top: -167px;
+  }
+
+
+  /* 交通位置 */
+  section.map > div.map_1100{
+    padding: 0px 60px;
+    /* flex-direction: column-reverse; */
+  }
+  /* 地圖 */
+  div.map_1100 > div.right_box{
+    /* width: 453px;
+    height: 306px; */
+    width: 100%;
+    height: auto;
+    margin: 80px 0px 100px 30px;
+    /* text-align: center; */
+  }
+  div.map_1100 > div.right_box > iframe{
+    width: 100%;
+    height: 150%;
+  }
+  div.top_text{
+    width: 330px;
+    /* margin-right: 20px; */
+  }
+  /* div.map_1100 > div.left_box{
+    display: flex;
+    align-items: center;
+  } */
+  /* 地圖文字 */
+  div.map_1100 > div.right_box > h3{
+    /* display: inline-block;
+    text-align: center; */
+  }
+  div.left_box > div.top_text > h3{
+    /* display: none; */
+  }
+  div.map_1100 > div.left_box{
+    width: 100%;
+    margin-right: 20px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  }
+  div.top_text > div.information{
+    /* width: 350px; */
+  }
+
+  /* 按鈕 */
+  div.map_1100 > div.left_box > div.bottom_bt{
+    position: static;
+    left: 0px;
+    transform: none;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  /* 背景 */
+  /* section.map > div.map_bg{
+    height: 780px;
+    background-position: center;
+    background-image: url(../images/map_bg_03.svg);
+  } */
+
+
+  /* IG區域 */
+  section.IG > div.IG_1100 > h3{
+    margin: 150px 0px 500px 0px;
+  }
+
+  /* IG */
+  section.IG > div.IG_box{
+    /* grid-template-columns: 241px 0px 300px 245px 241px; */
+    /* grid-template-rows: 60px 60px 60px 60px 60px 60px; */
+  }
+
+
+
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+  /* footer */
+  footer.footer > div.footer_flex > div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none !important;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+
+  /* follow */
+  header#header.header_top > div.block_1100 > div.follow_icon{
+    visibility: hidden;
+  }
+
+  /* 主要內容 */
+  /* 第一區域-首圖 */
+  div.index_banner_box{
+    width: 100%;
+    height: 520px;
+  }
+  /* logo */
+  section.top_bannner > div.top_1100 > div.title_logo{
+    /* width: 43%; */
+  }
+  div.title_logo > h1{
+    /* width: 100%; */
+    width: 231px;
+    height: 138px;
+    margin: 80px auto 30px auto;
+  }
+  div.title_logo > h2{
+    margin-bottom: 90px;
+    font-size: 22px;
+  }
+  /* hr */
+  div.title_logo > hr{
+    margin: 3px 0px;
+  }
+
+  /* 區塊 */
+  ul.time_and_ticket{
+    width: 100%;
+  }
+  ul.time_and_ticket > li{
+    /* width: 100%; */
+    width: 50%;
+  }
+  div.today_time{
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+  /* 區塊文字-營業時間*/
+  div.today_time > p.today{
+    padding: 0px;
+    /* padding-left: 40px; */
+    background-image: none;
+
+    /* font-size: 15px; */
+  }
+  div.today_time > p.time{
+    padding: 0px;
+    /* padding-left: 40px; */
+    /* font-size: 18px; */
+  }
+  /* 區塊文字-訂票 */
+  ul.time_and_ticket > li:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul.time_and_ticket > li:last-child > a{
+    padding: 0px;
+    background-image: none;
+    position: static;
+    top: 0px;
+    left: 0px;
+    transform: none;
+
+    /* font-size: 15px; */
+  }
+
+
+  /* 最新消息區塊 */
+  /* 選項 */
+  section.news > div.news_1100{
+    /* width: 100%; */
+    /* padding: 0px 40px; */
+  }
+  ul.change_news{
+    /* width: 100%; */
+    padding: 0px 40px;
+  }
+  div.news_1100 > ul.change_news > li > a.change_btn.-on{
+    width: 100%;
+    padding: 10px 55px;
+  }
+  div.news_1100 > ul.change_news > li > a.change_btn{
+    width: 100%;
+  }
+  div.news_1100 > ul.change_news > li{
+    /* width: 100%; */
+    display: inline-block;
+  }
+  div.news_1100 > ul.change_news > li > a.change_btn{
+    width: 100%;
+    padding: 10px 55px;
+  }
+
+
+  /* 關於我們 */
+  section.abouts_us{
+    /* padding: 0px 40px; */
+  }
+  section.abouts_us > div.abouts_1100{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  section.abouts_us > div.abouts_1100{
+    /* display: none; */
+  }
+  section.abouts_us > div.abouts_1100_rwd{
+    /* display: flex; */
+    width: 100%;
+    padding: 0px 40px;
+    display: none;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h5{
+    text-align: center;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h3{
+    margin: 168px 0px 50px 0px;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h3::after{
+    top: 210px;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h5:last-child{
+    margin-bottom: 149px;
+  }
+  ul.three_news{
+    flex-direction: column;
+    align-items: center;
+  }
+  ul.three_news > li{
+    margin-bottom: 40px;
+    margin: 0px 0px 50px 0px;
+    width: 90%;
+    height: auto;
+  }
+  ul.three_news > li:last-child{
+    margin-bottom: 0px;
+  }
+
+  /* 小魚 */
+  img.fish_01{
+    z-index: -1;
+    display: none;
+  }
+  img.fish_02{
+    right: 25px;
+    top: 69px;
+    width: 94px;
+    height: 35px;
+  }
+  img.under_bg{
+    width: 100%;
+    background-image: url(./images/news_bg_02.svg);
+  }
+
+  /* 泡泡 */
+  div.bubble > img.eight{
+    /* display: none; */
+    width: 70px;
+    height: 70px;
+    top: 444px;
+    left: 379px;
+    z-index: -1;
+  }
+  div.bubble > img.seven{
+    display: none;
+  }
+  div.bubble > img.two{
+    display: none;
+  }
+  div.bubble > img.nine{
+    top: 282px;
+    left: 29px;
+  }
+  div.bubble > img.four{
+    top: 357px;
+    right: 39px;
+  }
+  div.bubble > img.three{
+    display: none;
+  }
+
+
+  /* 背景圖 */
+  img.under_bg{
+    display: none;
+  }
+  img.under_bg02{
+    display: inline-block;
+  }
+
+  div.right_text{
+    /* background-color: #F1F1F1; */
+    margin-top: 5px;
+  }
+  div.all_news_box{
+    width: 100%;
+    padding: 0px 60px;
+  }
+  ul.three_news > li > a > img{
+    width: 100%;
+    height: auto;
+  }
+  ul.three_news > li > a.img{
+    width: 100%;
+    height: auto;
+  }
+  ul.three_news > li > div.right_text > a > h6{
+    font-size: 14px;
+  }
+  ul.three_news > li > div.right_text > div.title_wave > a > h5{
+    font-size: 17px;
+  }
+
+  /* 波浪 */
+  ul.three_news > li > div.right_text > div.title_wave > a > h5::after{
+    width: 100%;
+  }
+
+  /* 特色魅力 */
+  section.feature{
+    display: none;
+  }
+  section.feature_rwd{
+    display: inline-block;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible::after{
+    height: 1.5px;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.collapsible > p{
+    font-size: 19px;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:first-child{
+    margin-bottom: 20px;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:nth-child(2) > img{
+    top: -167px;
+  }
+
+
+
+  /* 交通位置 */
+  section.map > div.map_1100{
+    padding: 0px 40px;
+    flex-direction: column-reverse;
+  }
+  /* 地圖 */
+  div.map_1100 > div.right_box{
+    width: 100%;
+    height: 250px;
+
+    margin: 75px 0px 100px 0px;
+    text-align: center;
+  }
+  div.map_1100 > div.right_box > iframe{
+    width: 100%;
+    height: 100%;
+  }
+  /* div.map_1100 > div.left_box{
+    display: flex;
+    align-items: center;
+  } */
+  /* 地圖文字 */
+  div.map_1100 > div.right_box > h3{
+    display: inline-block;
+    text-align: center;
+  }
+  div.left_box > div.top_text > h3{
+    display: none;
+  }
+  div.map_1100 > div.left_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.left_box > div.top_text > div.information > div{
+    margin-top: 15px;
+  }
+
+
+  /* 按鈕 */
+  div.map_1100 > div.left_box > div.bottom_bt{
+    position: static;
+    left: 0px;
+    transform: none;
+    margin-bottom: 0px;
+  }
+
+  /* 背景 */
+  section.map > div.map_bg{
+    height: 780px;
+    background-position: center;
+    background-image: url(../images/map_bg_03.svg);
+  }
+
+
+  /* IG區域 */
+  section.IG > div.IG_1100 > h3{
+    margin: 150px 0px 500px 0px;
+  }
+
+  /* IG */
+  section.IG > div.IG_box{
+    grid-template-columns: 241px 0px 300px 245px 241px;
+    /* grid-template-rows: 60px 60px 60px 60px 60px 60px; */
+  }
+
+
+
+  /* footer */
+  footer.footer > div.footer_flex > div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+/* @media (max-width: 575.98px) */
+/* @media (min-width: 414px) and (max-width: 576px) */
+@media (max-width: 575.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none !important;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    /* border: 1.5px solid rgba(255, 255, 255, 0.65); */
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    color: #55F4FF;
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
+  /* header */
+  header#header{
+    width: 100%;
+  }
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+  /* follow */
+  header#header.header_top > div.block_1100 > div.follow_icon{
+    visibility: hidden;
+  }
+
+  /* 主要內容 */
+  /* 第一區域-首圖 */
+  div.index_banner_box{
+    width: 100%;
+    height: 515px;
+  }
+  /* logo */
+  section.top_bannner > div.top_1100 > div.title_logo{
+    /* width: 43%; */
+  }
+  div.title_logo > h1{
+    /* width: 100%; */
+    width: 190px;
+    height: 158px;
+    /* margin-bottom: 0px; */
+    margin: 80px auto 5px auto;
+  }
+  div.title_logo > h1::after{
+    bottom: 1px;
+  }
+  div.title_logo > h2{
+    font-size: 20px;
+    margin-bottom: 90px;
+  }
+  /* hr */
+  div.title_logo > hr{
+    /* margin: 3px 0px; */
+  }
+
+  /* 區塊 */
+  ul.time_and_ticket{
+    width: 100%;
+  }
+  ul.time_and_ticket > li{
+    /* width: 100%; */
+    width: 50%;
+  }
+  div.today_time{
+    flex-direction: column;
+    padding: 10px 0px;
+  }
+  /* 區塊文字-營業時間*/
+  div.today_time > p.today{
+    padding: 0px;
+    background-image: none;
+
+    font-size: 15px;
+  }
+  div.today_time > p.time{
+    padding: 0px;
+    font-size: 18px;
+  }
+  /* 區塊文字-訂票 */
+  ul.time_and_ticket > li:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul.time_and_ticket > li:last-child > a{
+    padding: 0px;
+    background-image: none;
+    position: static;
+    top: 0px;
+    left: 0px;
+    transform: none;
+
+    font-size: 15px;
+  }
+
+
+  /* 最新消息區塊 */
+  /* 選項 */
+  section.news > div.news_1100{
+    /* width: 100%; */
+    /* padding: 0px 40px; */
+  }
+  ul.change_news{
+    /* width: 100%; */
+    padding: 0px 40px;
+  }
+  div.news_1100 > ul.change_news > li > a.change_btn.-on{
+    width: 100%;
+    padding: 10px 42px;
+  }
+  div.news_1100 > ul.change_news > li > a.change_btn{
+    width: 100%;
+  }
+  div.news_1100 > ul.change_news > li{
+    width: 100%;
+    display: inline-block;
+  }
+  div.news_1100 > ul.change_news > li > a.change_btn{
+    width: 100%;
+    padding: 10px 42px;
+  }
+
+
+  /* 關於我們 */
+  section.abouts_us{
+    /* padding: 0px 40px; */
+  }
+  section.abouts_us > div.abouts_1100{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  section.abouts_us > div.abouts_1100{
+    display: none;
+  }
+  section.abouts_us > div.abouts_1100_rwd{
+    display: flex;
+    width: 100%;
+    padding: 0px 40px;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h5{
+    text-align: center;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h3{
+    margin: 168px 0px 50px 0px;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h3::after{
+    top: 210px;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h5:last-child{
+    margin-bottom: 149px;
+  }
+  ul.three_news{
+    flex-direction: column;
+  }
+  ul.three_news > li{
+    margin-bottom: 40px;
+    margin: 0px 0px 50px 0px;
+    width: 100%;
+    height: auto;
+  }
+  ul.three_news > li:last-child{
+    margin-bottom: 0px;
+  }
+
+  /* 小魚 */
+  img.fish_01{
+    z-index: -1;
+    display: none;
+  }
+  img.fish_02{
+    right: 25px;
+    top: 69px;
+  }
+  img.under_bg{
+    width: 100%;
+    background-image: url(./images/news_bg_02.svg);
+  }
+
+  /* 泡泡 */
+  div.bubble > img.eight{
+    /* display: none; */
+    width: 70px;
+    height: 70px;
+    top: 466px;
+    left: 246px;
+    z-index: -1;
+  }
+  div.bubble > img.seven{
+    display: none;
+  }
+  div.bubble > img.two{
+    display: none;
+  }
+  div.bubble > img.nine{
+    top: 282px;
+    left: 29px;
+  }
+  div.bubble > img.four{
+    top: 357px;
+    right: 39px;
+  }
+  div.bubble > img.three{
+    display: none;
+  }
+
+
+  /* 背景圖 */
+  img.under_bg{
+    display: none;
+  }
+  img.under_bg02{
+    display: inline-block;
+  }
+
+  div.right_text{
+    /* background-color: #F1F1F1; */
+  }
+  div.all_news_box{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  ul.three_news > li > a > img{
+    width: 100%;
+    height: auto;
+  }
+  ul.three_news > li > a.img{
+    width: 100%;
+    height: auto;
+  }
+  ul.three_news > li > div.right_text > a > h6{
+    font-size: 14px;
+  }
+  ul.three_news > li > div.right_text > div.title_wave > a > h5{
+    font-size: 16px;
+  }
+
+  /* 波浪 */
+  ul.three_news > li > div.right_text > div.title_wave > a > h5::after{
+    width: 100%;
+  }
+
+  /* 特色魅力 */
+  section.feature{
+    display: none;
+  }
+  section.feature_rwd{
+    display: inline-block;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:first-child > img{
+    /* width: 253px;
+    height: 305px; */
+
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:first-child{
+    margin-bottom: 20px;
+  }
+  section.feature_rwd > div.feature_1100 > div.open_01 > div.content > div:nth-child(2) > img{
+    /* width: 165px;
+    height: 114px; */
+    /* top: -82px; */
+  }
+
+
+
+  /* 交通位置 */
+  section.map > div.map_1100{
+    padding: 0px 40px;
+    flex-direction: column-reverse;
+  }
+  /* 地圖 */
+  div.map_1100 > div.right_box{
+    width: 100%;
+    height: 250px;
+
+    margin: 75px 0px 100px 0px;
+    text-align: center;
+  }
+  div.map_1100 > div.right_box > iframe{
+    width: 100%;
+    height: 100%;
+  }
+  /* div.map_1100 > div.left_box{
+    display: flex;
+    align-items: center;
+  } */
+  /* 地圖文字 */
+  div.map_1100 > div.right_box > h3{
+    display: inline-block;
+    text-align: center;
+  }
+  div.left_box > div.top_text > h3{
+    display: none;
+  }
+  div.map_1100 > div.left_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  div.left_box > div.top_text > div.information > div > h5{
+    font-size: 14px;
+  }
+  div.left_box > div.top_text > div.information > div.Location{
+    margin-top: 15px;
+  }
+  div.top_text > div.information > div.time > h5:nth-child(1)::before{
+    left: 75px;
+  }
+  div.top_text > div.information > div.phone > h5:nth-child(1)::before{
+    left: 75px;
+  }
+  div.top_text > div.information > div.Location > h5:nth-child(1)::before{
+    left: 75px;
+  }
+  div.top_text{
+    width: 334px;
+  }
+
+
+  /* 按鈕 */
+  div.map_1100 > div.left_box > div.bottom_bt{
+    position: static;
+    left: 0px;
+    transform: none;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  /* 背景 */
+  section.map > div.map_bg{
+    height: 744px;
+    background-position: center;
+    background-image: url(../images/map_bg_02.svg);
+  }
+
+
+  /* IG區域 */
+  section.IG > div.IG_1100 > h3{
+    margin: 150px 0px 500px 0px;
+  }
+
+  /* IG */
+  section.IG > div.IG_box{
+    grid-template-columns: 241px 0px 300px 245px 241px;
+    /* grid-template-rows: 60px 60px 60px 60px 60px 60px; */
+  }
+
+
+  /* footer */
+  footer.footer > div.footer_flex > div.content{
+    display: none;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content {
+    display: inline-block;
+    font-size: 10px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 380px){
+  section.abouts_us > div.abouts_1100_rwd{
+    padding: 0px 34px;
+  }
+  section.abouts_us > div.abouts_1100_rwd > h5{
+    font-size: 14px;
+  }
+
+  /* 地圖文字 */
+  /* 地址 */
+  div.left_box > div.top_text > div.information > div.Location > h5:nth-child(1){
+    margin: 0px 23px 15px 0px;
+  }
+  div.top_text > div.information > div.Location > h5:nth-child(1)::before{
+    left: 41px;
+  }
+  /* 營業時間 */
+  div.left_box > div.top_text > div.information > div.time > h5:nth-child(1){
+    width: 31px;
+    margin: 0px 23px 15px 0px;
+  }
+  div.top_text > div.information > div.time > h5:nth-child(1)::before{
+    left: 41px;
+    top: 2px;
+  }
+  /* 客服專線 */
+  div.left_box > div.top_text > div.information > div.phone > h5:nth-child(1){
+    width: 31px;
+    margin: 0px 23px 0px 0px;
+  }
+  div.top_text > div.information > div.phone > h5:nth-child(1)::before{
+    left: 41px;
+    top: 2px;
+    height: 40px;
+  }
+
+  div.map_1100 > div.left_box{
+    align-items: baseline;
+  }
+  div.left_box > div.top_text > div.information > div.phone{
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  div.left_box > div.top_text > div.information > div{
+    width: 300px;
+  }
+  div.map_1100 > div.left_box > div.bottom_bt{
+    text-align: center;
+  }
+  div.map_1100 > div.left_box{
+    align-items: normal;
+  }
+  section.map > div.map_bg{
+    height: 763px;
+  }
+
+}

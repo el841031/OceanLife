@@ -1,0 +1,907 @@
+@media (min-width: 1200px){
+  /* section.news > div.title_1100 > div.title{
+    left: 155px;
+  } */
+}
+
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+
+
+  /* 主要內容 */
+  /* 麵包屑 */
+  section.article{
+    /* max-width: 992px; */
+    /* padding: 0px; */
+  }
+  section.article > div.bread_box{
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+    /* display: none; */
+  }
+  section.article > div.bread_box > h5{
+    display: inline-block;
+  }
+
+  /* 圖片 */
+  section.article > div.article{
+    width: 100%;
+    padding: 0px 60px;
+    max-width: 992px;
+  }
+  section.article > div.article > img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 文章內容 */
+  section.article > div.article > div.text{
+    width: 100%;
+  }
+  section.article > div.article > div.text > div.top{
+    /* flex-direction: column;
+    margin-top: 20px;
+    align-items: normal; */
+  }
+
+  /* 分享 */
+  section.article > div.article > div.text > div.top > div.share{
+    /* display: none; */
+  }
+
+  /* 線條 */
+  section.article > div.article > div.text > hr{
+    width: 100%;
+    margin: 25px 0px 25px 0px;
+    background-color: #D8D8D8;
+  }
+
+  /* 新聞文字 */
+  section.article > div.article > div.text > div.bottom > h5{
+    /* font-size: 14px; */
+  }
+  section.article > div.article > div.text > div.bottom > h5 > a{
+    /* font-size: 14px; */
+  }
+
+  /* 注意事項 */
+  section.article > div.article > div.text > div.bottom > div.notice{
+    /* width: 100%; */
+    padding: 0px 24px;
+  }
+  section.article > div.article > div.text > div.bottom > div.notice > h5{
+    margin: 0px;
+  }
+
+  /* 按鈕 */
+  section.article > div.btn{
+    /* width: 100%;
+    margin-top: 70px; */
+  }
+  section.article > div.btn > div.back > a{
+    /* width: 90%;
+    height: 90%;
+    font-size: 14px;
+    line-height: 63px; */
+  }
+  section.article > div.btn > a > .arrow_left, .arrow_right{
+    /* width: 25px;
+    height: 20px; */
+  }
+  section.article > div.btn > div.back{
+    /* margin: 0px 40px; */
+  }
+
+  /* 分享 */
+  section.article > div.share{
+    display: flex;
+    width: 100%;
+    padding: 0px 40px;
+    display: none;
+    /* margin: 30px auto 0px auto; */
+  }
+
+
+  /* 其他消息 */
+  section.article > div.others{
+    width: 100%;
+    max-width: 992px;
+    margin-top: 110px;
+    padding: 0px 60px;
+  }
+  section.article > div.others > h3{
+    /* font-size: 20px; */
+  }
+  section.article > div.others > ul{
+    /* flex-direction: column; */
+    /* justify-content: normal;
+    align-items: center; */
+    /* justify-content: center; */
+  }
+  section.article > div.others > ul > li{
+    /* margin: 0px 15px; */
+  }
+  /* 照片 */
+  section.article > div.others > ul > li > a > div.img{
+    /* width: 100%;
+    height: auto;
+    padding: 0px 10px; */
+    /* margin-right: 10px; */
+    /* margin: 0px 20px; */
+    width: 100%;
+  }
+  section.article > div.others > ul > li > a > div.img > img{
+    /* width: 100%;
+    height: auto; */
+  }
+
+
+  /* 背景 */
+  section.article > div.bg{
+    background-image: url(../images/others_bg02.svg);
+    bottom: -118px;
+    /* top: 906px; */
+    width: 100%;
+    height: 492px;
+    /* background-position: center; */
+  }
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width:991.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+
+
+  /* 主要內容 */
+  /* 麵包屑 */
+  section.article{
+    /* max-width: 992px; */
+    /* padding: 0px; */
+  }
+  section.article > div.bread_box{
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+    /* display: none; */
+  }
+  section.article > div.bread_box > h5{
+    display: inline-block;
+  }
+
+  /* 圖片 */
+  section.article > div.article{
+    width: 100%;
+    padding: 0px 60px;
+    /* max-width: 768px; */
+  }
+  section.article > div.article > img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 文章內容 */
+  section.article > div.article > div.text{
+    width: 100%;
+  }
+  section.article > div.article > div.text > div.top{
+    /* flex-direction: column;
+    margin-top: 20px;
+    align-items: normal; */
+  }
+
+  /* 分享 */
+  section.article > div.article > div.text > div.top > div.share{
+    display: none;
+  }
+
+  /* 線條 */
+  section.article > div.article > div.text > hr{
+    width: 100%;
+    margin: 25px 0px 25px 0px;
+    background-color: #D8D8D8;
+  }
+
+  /* 新聞文字 */
+  section.article > div.article > div.text > div.bottom > h5{
+    /* font-size: 14px; */
+  }
+  section.article > div.article > div.text > div.bottom > h5 > a{
+    /* font-size: 14px; */
+  }
+
+  /* 注意事項 */
+  section.article > div.article > div.text > div.bottom > div.notice{
+    /* width: 100%; */
+    padding: 0px 24px;
+  }
+  section.article > div.article > div.text > div.bottom > div.notice > h5{
+    margin: 0px;
+  }
+
+  /* 按鈕 */
+  section.article > div.btn{
+    /* width: 100%;
+    margin-top: 70px; */
+    width: 100%;
+    max-width: 768px;
+  }
+  section.article > div.btn > div.back > a{
+    /* width: 90%;
+    height: 90%;
+    font-size: 14px;
+    line-height: 63px; */
+  }
+  section.article > div.btn > a > .arrow_left, .arrow_right{
+    /* width: 25px;
+    height: 20px; */
+  }
+  section.article > div.btn > div.back{
+    /* margin: 0px 40px; */
+  }
+
+
+  /* 分享 */
+  section.article > div.share{
+    display: flex;
+    width: 100%;
+    padding: 0px 40px;
+    /* margin: 30px auto 0px auto; */
+  }
+
+
+  /* 其他消息 */
+  section.article > div.others{
+    width: 100%;
+    margin-top: 110px;
+    padding: 0px 60px;
+  }
+  section.article > div.others > h3{
+    font-size: 20px;
+  }
+  section.article > div.others > ul{
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+  }
+
+  /* 背景 */
+  section.article > div.bg{
+    background-image: url(../images/others_bg02.svg);
+    bottom: -134px;
+    /* top: 906px; */
+    width: 100%;
+    height: 1611px;
+    background-position: center;
+  }
+  section.article > div.others > ul > li{
+    margin-bottom: 60px;
+  }
+  section.article > div.others > ul > li:last-child{
+    margin: 0px;
+  }
+
+  /* 照片 */
+  section.article > div.others > ul > li > a > div.img{
+    width: 100%;
+    height: auto;
+  }
+  section.article > div.others > ul > li > a > div.img > img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 文字 */
+  section.article > div.others > ul > li > a > p{
+    font-size: 14px;
+  }
+  section.article > div.others > ul > li > a > h5{
+    font-size: 16px;
+  }
+
+
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+  /* 主要內容 */
+  /* 麵包屑 */
+  section.article{
+    padding: 0px;
+  }
+  section.article > div.bread_box{
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+    display: none;
+  }
+  section.article > div.bread_box > h5{
+    display: inline-block;
+  }
+
+  /* 圖片 */
+  section.article > div.article{
+    width: 100%;
+    padding: 0px 60px
+  }
+  section.article > div.article > img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 文章內容 */
+  section.article > div.article > div.text{
+    width: 100%;
+  }
+  section.article > div.article > div.text > div.top{
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: normal;
+  }
+  section.article > div.article > div.text > div.top > div.title > h5{
+    /* font-size: 14px; */
+  }
+  section.article > div.article > div.text > div.top > div.title{
+    /* margin-bottom: 20px; */
+  }
+  section.article > div.article > div.text > div.top > div.title > h3{
+    /* font-size: 20px; */
+  }
+  /* 分享 */
+  section.article > div.article > div.text > div.top > div.share{
+    display: none;
+  }
+  section.article > div.article > div.text > div.top > div.share > h5{
+    font-size: 14px;
+  }
+  section.article > div.share > a > img.link{
+    margin: 0px 15px;
+  }
+  section.article > div.share > a > img.fb{
+    margin: 0px 15px;
+  }
+  section.article > div.share > a > img{
+    margin: 0px 15px;
+  }
+
+  /* 線條 */
+  section.article > div.article > div.text > hr{
+    width: 100%;
+    margin: 25px 0px 25px 0px;
+    background-color: #D8D8D8;
+  }
+
+  /* 新聞文字 */
+  section.article > div.article > div.text > div.bottom > h5{
+    /* font-size: 14px; */
+  }
+  section.article > div.article > div.text > div.bottom > h5 > a{
+    /* font-size: 14px; */
+  }
+
+  /* 注意事項 */
+  section.article > div.article > div.text > div.bottom > div.notice{
+    /* width: 100%; */
+    padding: 0px 24px;
+  }
+  section.article > div.article > div.text > div.bottom > div.notice > h5{
+    margin: 0px;
+    /* font-size: 13px; */
+    /* width: 286px; */
+  }
+
+  /* 按鈕 */
+  section.article > div.btn{
+    width: 100%;
+    margin-top: 70px;
+  }
+  section.article > div.btn > div.back > a{
+    width: 90%;
+    height: 90%;
+    font-size: 14px;
+    line-height: 63px;
+  }
+  section.article > div.btn > a > .arrow_left, .arrow_right{
+    width: 25px;
+    height: 20px;
+  }
+  section.article > div.btn > div.back{
+    margin: 0px 40px;
+  }
+
+  /* 分享 */
+  section.article > div.share{
+    display: flex;
+    width: 100%;
+    padding: 0px 40px;
+    /* margin: 30px auto 0px auto; */
+  }
+
+
+  /* 其他消息 */
+  section.article > div.others{
+    width: 100%;
+    margin-top: 110px;
+    padding: 0px 60px;
+  }
+  section.article > div.others > h3{
+    font-size: 20px;
+  }
+  section.article > div.others > ul{
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+  }
+
+  /* 背景 */
+  section.article > div.bg{
+    background-image: url(../images/others_bg02.svg);
+    bottom: -122px;
+    /* top: 906px; */
+    width: 100%;
+    height: 1431px;
+    /* background-position: center; */
+  }
+  section.article > div.others > ul > li{
+    margin-bottom: 60px;
+    /* width: 100%; */
+    width: 400px;
+  }
+  section.article > div.others > ul > li:last-child{
+    margin: 0px;
+  }
+
+  /* 照片 */
+  section.article > div.others > ul > li > a > div.img{
+    width: 100%;
+    height: auto;
+  }
+  section.article > div.others > ul > li > a > div.img > img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 文字 */
+  section.article > div.others > ul > li > a > p{
+    font-size: 14px;
+  }
+  section.article > div.others > ul > li > a > h5{
+    font-size: 16px;
+  }
+
+
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-width: 575.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    /* border: 1.5px solid rgba(255, 255, 255, 0.65); */
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    color: #55F4FF;
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
+  /* header */
+  header#header{
+    width: 100%;
+  }
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+    /* border: 1px solid transparent; */
+  }
+  /* header#header > div.block_1100 > button.hamburger:active{
+    border: 1px solid transparent;
+  }
+  header#header > div.block_1100 > button.hamburger:focus{
+    border: 1px solid transparent;
+  } */
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+
+  /* 主要內容 */
+  /* 麵包屑 */
+  section.article{
+    padding: 0px;
+  }
+  section.article > div.bread_box{
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+    display: none;
+  }
+  section.article > div.bread_box > h5{
+    display: inline-block;
+  }
+
+  /* 圖片 */
+  section.article > div.article{
+    width: 100%;
+    padding: 0px 40px
+  }
+  section.article > div.article > img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 文章內容 */
+  section.article > div.article > div.text{
+    width: 100%;
+  }
+  section.article > div.article > div.text > div.top{
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: normal;
+  }
+  section.article > div.article > div.text > div.top > div.title > h5{
+    /* font-size: 14px; */
+  }
+  section.article > div.article > div.text > div.top > div.title{
+    /* margin-bottom: 20px; */
+  }
+  section.article > div.article > div.text > div.top > div.title > h3{
+    font-size: 20px;
+  }
+  /* 分享 */
+  section.article > div.article > div.text > div.top > div.share{
+    display: none;
+  }
+  section.article > div.article > div.text > div.top > div.share > h5{
+    font-size: 14px;
+  }
+  section.article > div.share > a > img.link{
+    margin: 0px 15px;
+  }
+  section.article > div.share > a > img.fb{
+    margin: 0px 15px;
+  }
+  section.article > div.share > a > img{
+    margin: 0px 15px;
+  }
+
+  /* 線條 */
+  section.article > div.article > div.text > hr{
+    width: 100%;
+    margin: 25px 0px 25px 0px;
+    background-color: #D8D8D8;
+  }
+
+  /* 新聞文字 */
+  section.article > div.article > div.text > div.bottom > h5{
+    /* font-size: 14px; */
+  }
+  section.article > div.article > div.text > div.bottom > h5 > a{
+    /* font-size: 14px; */
+  }
+
+  /* 注意事項 */
+  section.article > div.article > div.text > div.bottom > div.notice{
+    width: 100%;
+    padding: 0px 24px;
+  }
+  section.article > div.article > div.text > div.bottom > div.notice > h5{
+    margin: 0px;
+    font-size: 13px;
+    /* width: 286px; */
+  }
+
+  /* 按鈕 */
+  section.article > div.btn{
+    width: 100%;
+    margin-top: 70px;
+  }
+  section.article > div.btn > div.back > a{
+    width: 90%;
+    height: 90%;
+    font-size: 14px;
+    line-height: 63px;
+  }
+  section.article > div.btn > a > .arrow_left, .arrow_right{
+    width: 25px;
+    height: 20px;
+  }
+  section.article > div.btn > div.back{
+    margin: 0px 40px;
+  }
+
+  /* 分享 */
+  section.article > div.share{
+    display: flex;
+    width: 100%;
+    padding: 0px 40px;
+    /* margin: 30px auto 0px auto; */
+  }
+
+
+  /* 其他消息 */
+  section.article > div.others{
+    width: 100%;
+    margin-top: 110px;
+    padding: 0px 60px;
+  }
+  section.article > div.others > h3{
+    font-size: 20px;
+  }
+  section.article > div.others > ul{
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+  }
+
+  /* 背景 */
+  section.article > div.bg{
+    background-image: url(../images/others_bg02.svg);
+    bottom: -128px;
+    /* top: 906px; */
+    width: 100%;
+    height: 1158px;
+    /* background-position: center; */
+  }
+  section.article > div.others > ul > li{
+    margin-bottom: 40px;
+    width: 293px;
+  }
+  section.article > div.others > ul > li:last-child{
+    margin: 0px;
+  }
+
+  /* 照片 */
+  section.article > div.others > ul > li > a > div.img{
+    width: 100%;
+    height: auto;
+  }
+  section.article > div.others > ul > li > a > div.img > img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* 文字 */
+  section.article > div.others > ul > li > a > p{
+    font-size: 14px;
+  }
+  section.article > div.others > ul > li > a > h5{
+    font-size: 16px;
+  }
+
+
+
+  /* footer */
+  div.content{
+    display: none;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content {
+    display: inline-block;
+    font-size: 10px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 380px){
+  section.article > div.article{
+    padding: 0px 39px;
+  }
+  section.article > div.article > div.text > div.bottom > div.notice{
+    padding: 0px 20px;
+  }
+
+}

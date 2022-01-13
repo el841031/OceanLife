@@ -1,0 +1,305 @@
+@import "./common/header.css";
+@import "./common/footer.css";
+@import "./common/all.css";
+@import "./common/font.css";
+@import "./common/ticket.css";
+
+/* 設定頁面所在位置,探索之旅 */
+header#header > div.block_1100 > nav.nav > ul.nav_list > li > div.information_block > a.on{
+  color: #55F4FF;
+}
+
+/* ---------------選單切換--------------- */
+section.FAQ{
+  /* min-width: 1100px; */
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  background-color: #F1F1F1;
+
+  position: relative;
+  /* padding-top: 78px; */
+  width: 100%;
+}
+
+/* icon */
+section.FAQ > ul.change_bt_1100{
+  /* width: 1100px; */
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  width: 100%;
+  max-width: 1100px;
+}
+section.FAQ > ul.change_bt_1100 > li.one > a > .ticket{
+  width: 59px;
+  height: 52px;
+}
+section.FAQ > ul.change_bt_1100 > li.two > a > .car{
+  width: 72px;
+  height: 38px;
+}
+section.FAQ > ul.change_bt_1100 > li.three > a > .FAQ{
+  width: 54px;
+  height: 46px;
+}
+section.FAQ > ul.change_bt_1100 > li.four > a > .email{
+  width: 53px;
+  height: 37px;
+}
+
+/* 文字 */
+section.FAQ > ul.change_bt_1100 > li > a > h5{
+  color: #BEBEBE;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+}
+section.FAQ > ul.change_bt_1100 > li{
+  margin: 50px 30px 0px 30px;
+  text-align: center;
+}
+section.FAQ > ul.change_bt_1100 > li:last-child > a > h5{
+  margin-top: 5px;
+}
+section.FAQ > ul.change_bt_1100 > li.one > a > h5{
+  margin-top: 3px;
+}
+section.FAQ > ul.change_bt_1100 > li.two > a > h5{
+  margin-top: 5px;
+}
+section.FAQ > ul.change_bt_1100 > li.three > a > h5{
+  color: #1152A0;
+}
+
+/* ---------------問與答-------------- */
+section.FAQ > div.FAQ_1100{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+  margin-top: 90px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 問與答信箱 */
+div > dt > div.content > p > a{
+  color: #1152A0;
+  font-size: 16px;
+  text-decoration: none;
+}
+div > dt > div.content > p > a:hover{
+  color: #2978D7;
+}
+
+/* 所有按鈕 */
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button{
+  cursor: pointer;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid rgba(18,30,46,.1);
+
+  padding: 30px 24px 30px 28px;
+  max-width: 900px;
+  /* width: 100%; */
+  width: 900px;
+  text-align: left;
+  margin: 12px 0px 0px 0px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+
+/* 所有文字 */
+section.FAQ > div.FAQ_1100 > div > h4{
+  color: #1152A0;
+  letter-spacing: 1.5px;
+
+  margin-bottom: 15px;
+  margin-left: 1px;
+}
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button > span{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button > span:first-child{
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+/* 加號 */
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button >  div.add-icon{
+  width: 16px;
+  height: 16px;
+  right: 0px;
+  /* margin: -8px 0 0; */
+
+  position: absolute;
+  top: 50px;
+  transform: translateY(-50%);
+  right: 28px;
+}
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button > div.add-icon > span:nth-child(1){
+  transform: rotate(90deg);
+}
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button >  div.add-icon > span{
+  display: block;
+  width: 100%;
+  height: 2px;
+  /* left: 0; */
+  background: rgba(20,20,20,0.4);
+  /* margin: -1px 0 0; */
+
+  position: absolute;
+}
+
+
+/* 聯絡我們 */
+section.FAQ > div.FAQ_1100_box{
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+section.FAQ > div.FAQ_1100_box > div.question_box{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 文字 */
+section.FAQ > div.FAQ_1100_box > div.question_box > p{
+  color: #474747;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 3px;
+}
+section.FAQ > div.FAQ_1100_box > div.question_box > div.btn{
+  display: inline-block;
+  /* border-radius: 20px;
+  background-color: #1152A0; */
+
+  margin-bottom: 90px;
+}
+section.FAQ > div.FAQ_1100_box > div.question_box > div.btn > a{
+  color: white;
+  letter-spacing: 1px;
+  width: 138px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 31px;
+  font-size: 13px;
+
+  border-radius: 20px;
+  background-color: #1152A0;
+  border: 2px solid #1152A0;
+
+}
+
+
+/* 解答區域 */
+div > dt > div.content{
+  padding: 0 18px;
+  /* max-height: 0; */
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  width: 900px;
+  border-radius: 0px 0px 3px 3px;
+}
+div > dt > div.content > p{
+  color: #474747;
+  padding: min(calc(1.01232rem + 2.34742vw),3.125rem) min(calc(.36972rem + 3.75587vw),3.75rem);
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  /* font-weight: 400; */
+  text-align: left;
+}
+
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button.collapsible.active{
+  background-color: rgba(18,30,46,.07);
+  border-radius: 3px 3px 0px 0px;
+  /* border: 1px solid rgba(18,30,46,0); */
+}
+
+/* 加號符號 */
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button.collapsible::after{
+  content: '\002B';
+  color: rgba(20,20,20,0.4);
+  /* font-weight: bold; */
+  /* float: right; */
+  margin-left: 5px;
+  font-size: 35px;
+  position: absolute;
+  right: 27px;
+}
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button.collapsible.active:after {
+  content: "\2212";
+}
+
+/* ----------------按鈕特效------------- */
+section.FAQ > div.FAQ_1100_box > div.question_box > div.btn > a:hover{
+  background-color: rgb(28, 221, 235);
+  color: white;
+  border: 2px solid rgb(28, 221, 235);
+
+  transition-duration: 0.3s;
+}
+
+
+section.FAQ > div.FAQ_1100 > div > dl > div > dt > button:hover{
+  background-color: rgba(18,30,46,.07);
+  transition-duration: 0.3s;
+}
+
+
+/* ---------SVG特效--------- */
+/* 票價&購票 */
+section.FAQ > ul.change_bt_1100 > li.one:hover .ticket path{
+  fill: #2978D7;
+}
+section.FAQ > ul.change_bt_1100 > li.one:hover > a > h5{
+  color: #2978D7;
+}
+
+
+/* 交通指南 */
+section.FAQ > ul.change_bt_1100 > li.two:hover .car path{
+  fill: #2978D7;
+}
+section.FAQ > ul.change_bt_1100 > li.two:hover > a > h5{
+  color: #2978D7;
+}
+
+/* FAQ */
+section.FAQ > ul.change_bt_1100 > li.three:hover .FAQ path{
+  fill: #2978D7;
+}
+section.FAQ > ul.change_bt_1100 > li.three:hover > a > h5{
+  color: #2978D7;
+}
+
+/* 聯絡我們 */
+section.FAQ > ul.change_bt_1100 > li.four:hover .email path{
+  fill: #2978D7;
+}
+section.FAQ > ul.change_bt_1100 > li.four:hover > a > h5{
+  color: #2978D7;
+}
+
+/* FAQ的BUG */
+section.FAQ > ul.change_bt_1100 > li.three .FAQ path{
+  fill: #1152A0;
+}

@@ -1,0 +1,543 @@
+/* @media (min-width: 1200px){
+  section.news > div.title_1100 > div.title{
+    left: 155px;
+  }
+} */
+
+
+@media (min-width: 992px) and (max-width:1199.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+
+
+  /* 餐廳介紹 */
+  section.restaurant > div.introduce{
+    padding: 0px 50px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+  /* 大標 */
+  section.restaurant > div.introduce > div.right_restaurant > h3{
+    /* display: inline-block; */
+  }
+  section.restaurant > div.introduce > div.left_introduce > h3{
+    /* display: none; */
+    margin: 0;
+  }
+  section.restaurant > div.introduce > div.right_restaurant{
+    /* text-align: center; */
+    width: 55%;
+    margin-left: 30px;
+  }
+  section.restaurant > div.introduce > div.left_introduce{
+    margin-right: 0px;
+  }
+  section.restaurant > div.introduce{
+    justify-content: center;
+    align-items: center;
+  }
+  /* 照片 */
+  section.restaurant > div.introduce > div.right_restaurant > img:nth-child(2){
+    width: 100%;
+    height: auto;
+  }
+  section.restaurant > div.introduce > div.right_restaurant > img:last-child{
+    width: 45%;
+    height: auto;
+    bottom: -13%;
+    left: -50px;
+  }
+
+  /* 餐廳介紹 */
+  section.restaurant > div.introduce > div.left_introduce{
+    /* margin: 0; */
+    /* width: 60%; */
+  }
+  /* section.restaurant > div.introduce > div.left_introduce > h5{
+    margin: 0;
+  } */
+  /* section.restaurant > div.introduce > div.left_introduce > div.time_bg{
+    width: 100%;
+  } */
+
+
+  /* 餐點 */
+  section.restaurant > div.menu{
+    padding: 0px 50px;
+  }
+  /* 文字 */
+  section.restaurant > div.menu > h3{
+    margin: 130px 0px 30px 0px;
+  }
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width:991.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 50px 0px 40px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+  /* 餐廳介紹 */
+  section.restaurant > div.introduce{
+    padding: 0px 60px;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* 大標 */
+  section.restaurant > div.introduce > div.right_restaurant > h3{
+    display: inline-block;
+  }
+  section.restaurant > div.introduce > div.left_introduce > h3{
+    display: none;
+  }
+  section.restaurant > div.introduce > div.right_restaurant{
+    text-align: center;
+  }
+
+  /* 照片 */
+  section.restaurant > div.introduce > div.right_restaurant > img:nth-child(2){
+    width: 100%;
+    height: auto;
+  }
+  section.restaurant > div.introduce > div.right_restaurant > img:last-child{
+    display: none;
+  }
+
+  /* 餐廳介紹 */
+  section.restaurant > div.introduce > div.left_introduce{
+    margin: 0;
+    width: 60%;
+  }
+  section.restaurant > div.introduce > div.left_introduce > h5{
+    margin: 0;
+  }
+  section.restaurant > div.introduce > div.left_introduce > div.time_bg{
+    width: 100%;
+  }
+
+
+  /* 餐點 */
+  section.restaurant > div.menu{
+    padding: 0px 50px;
+  }
+  /* 文字 */
+  section.restaurant > div.menu > h3{
+    margin: 50px 0px 30px 0px;
+  }
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #55F4FF;
+  }
+
+  /* header */
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+
+  /* 餐廳介紹 */
+  section.restaurant > div.introduce{
+    padding: 0px 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* 大標 */
+  section.restaurant > div.introduce > div.right_restaurant > h3{
+    display: inline-block;
+  }
+  section.restaurant > div.introduce > div.left_introduce > h3{
+    display: none;
+  }
+  section.restaurant > div.introduce > div.right_restaurant{
+    text-align: center;
+  }
+
+  /* 照片 */
+  section.restaurant > div.introduce > div.right_restaurant > img:nth-child(2){
+    width: 100%;
+    height: auto;
+  }
+  section.restaurant > div.introduce > div.right_restaurant > img:last-child{
+    display: none;
+  }
+
+  /* 餐廳介紹 */
+  section.restaurant > div.introduce > div.left_introduce{
+    margin: 0;
+    width: 80%;
+  }
+  section.restaurant > div.introduce > div.left_introduce > h5{
+    margin: 0;
+  }
+  section.restaurant > div.introduce > div.left_introduce > div.time_bg{
+    width: 100%;
+  }
+
+
+  /* 餐點 */
+  section.restaurant > div.menu{
+    padding: 0px 50px;
+  }
+  /* 文字 */
+  section.restaurant > div.menu > h3{
+    margin: 50px 0px 30px 0px;
+  }
+
+
+
+  /* footer */
+  div.content{
+    /* display: none; */
+    font-size: 10px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-width: 575.98px) {
+  /* 訂票 */
+  div.ticketLink{
+    display: none;
+  }
+
+  /* 隱藏X捲軸 */
+  /* body{
+    overflow-x: hidden;
+  } */
+
+
+  /* 新增-購票 */
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket{
+    /* border: 1.5px solid rgba(255, 255, 255, 0.65); */
+    border: 1.5px solid #55F4FF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 50px auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(0, 42, 109, 0.65); */
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    color: #55F4FF;
+  }
+  header#header > div.block_1100 > div.burger_nav > div.burger_container > a.buy_ticket > p{
+    font-size: 17px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 30px;
+  }
+
+
+  /* header */
+  header#header{
+    width: 100%;
+  }
+  header#header > div.block_1100{
+    width: 100%;
+    padding: 0px 40px 0px 30px;
+  }
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+
+  /* logo */
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+  span.hamburger-box{
+    width: 25px;
+  }
+
+  /* 選項 */
+  section.restaurant > ul.change_bt_1100 > li{
+    /* margin: 50px 40px 40px 0px; */
+    margin: 50px 0px 0px 0px;
+  }
+  section.restaurant > ul.change_bt_1100 > li:nth-child(2){
+    margin: auto 40px 0px 40px;
+  }
+
+
+  /* 選項-圖示1 */
+  section.restaurant > ul.change_bt_1100 > li.one > a > .animals{
+    width: 63px;
+    height: 46px;
+  }
+  /* 選項-文字1 */
+  section.restaurant > ul.change_bt_1100 > li.one > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示2 */
+  section.restaurant > ul.change_bt_1100 > li.two > a > .eat{
+    width: 46px;
+    height: 53px;
+  }
+  /* 選項-文字2 */
+  section.restaurant > ul.change_bt_1100 > li.two > a > h5{
+    font-size: 14px;
+  }
+
+  /* 選項-圖示3 */
+  section.restaurant > ul.change_bt_1100 > li.three > a > .gift{
+    width: 45px;
+    height: 47px;
+  }
+  /* 選項-文字3 */
+  section.restaurant > ul.change_bt_1100 > li > a > h5{
+    font-size: 14px;
+  }
+
+
+
+  /* 餐廳介紹 */
+  section.restaurant > div.introduce{
+    padding: 0px 45px;
+    flex-direction: column;
+  }
+  /* 大標 */
+  section.restaurant > div.introduce > div.right_restaurant > h3{
+    display: inline-block;
+  }
+  section.restaurant > div.introduce > div.left_introduce > h3{
+    display: none;
+  }
+  section.restaurant > div.introduce > div.right_restaurant{
+    text-align: center;
+  }
+
+  /* 照片 */
+  section.restaurant > div.introduce > div.right_restaurant > img:nth-child(2){
+    width: 100%;
+    height: auto;
+  }
+  section.restaurant > div.introduce > div.right_restaurant > img:last-child{
+    display: none;
+  }
+
+  /* 餐廳介紹 */
+  section.restaurant > div.introduce > div.left_introduce{
+    margin: 0;
+  }
+  section.restaurant > div.introduce > div.left_introduce > h4{
+    font-size: 17px;
+    font-weight: 600;
+  }
+  section.restaurant > div.introduce > div.left_introduce > h5{
+    margin: 0;
+    font-size: 14px;
+  }
+  section.restaurant > div.introduce > div.left_introduce > div.time_bg{
+    width: 100%;
+  }
+
+
+  /* 餐點 */
+  section.restaurant > div.menu{
+    padding: 0px 45px;
+  }
+  /* 文字 */
+  section.restaurant > div.menu > h3{
+    margin: 40px 0px 30px 0px;
+  }
+
+
+
+  /* footer */
+  footer.footer > div.footer_flex > div.content{
+    display: none;
+  }
+  div.rwd_content > hr{
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  div.rwd_content {
+    display: inline-block;
+    font-size: 10px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+  div.rwd_content > p{
+    font-size: 10px;
+  }
+  div.rwd_content > p > a{
+    font-size: 10px;
+  }
+}
+
+
+@media (max-width: 380px){
+  button.slick-prev.slick-arrow{
+    left: -26px;
+  }
+  button.slick-next.slick-arrow{
+    right: -26px;
+  }
+  section.restaurant > div.menu{
+    padding: 0px 38px;
+  }
+  section.restaurant > div.introduce{
+    padding: 0px 38px;
+  }
+}

@@ -1,0 +1,19 @@
+/* 訂票區塊 */
+div.ticketLink{
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  z-index: 100;
+  display: none; /* 這樣一開始才不會出現 */
+
+}
+div.ticketLink > a > img{
+  width: 100px;
+  height: 172px;
+}
+
+/* 特效 */
+div.ticketLink > a:hover{
+  opacity: 0.85;
+  transition-duration: 0.3s;
+}

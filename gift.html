@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <!-- RWD-viewport設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>Ocean Life</title>
+    <link rel="stylesheet" href="./css/gift.css">
+    <link rel="stylesheet" href="./css/rwd_gift.css">
+    <link href="./images/logo_icons.ico" rel="shortcut icon">
+
+    <!-- jonsuh套件(漢堡選單) -->
+    <link href="./vendors/jonsuh/hamburgers.css" rel="stylesheet">
+
+    <!-- jQuery Fancybox套件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+  </head>
+  <body>
+
+    <!-- header -->
+    <header id="header">
+      <div class="block_1100">
+        <a href="./index.html" class="header_logo">
+          <img class="logo_02" src="./images/logo_02.svg" alt="">
+        </a>
+
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li><a href="./latest-news.html">最新消息</a></li>
+            <li>
+              <div class="information_block">
+                <a href="./ticket.html">入館資訊</a> <!-- 設定所在位置,增加class -->
+                <ul class="information_list">
+                  <li class="buy_ticket"><a href="./ticket.html">票價&amp;購票</a></li>
+                  <li><a href="./transportation.html">交通指南</a></li>
+                  <li><a href="./FAQ.html">常見問答</a></li>
+                  <li><a href="./contact.html">聯絡我們</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="explore_block">
+                <a class="on" href="./explore.html">探索之旅</a>
+                <ul class="explore_list">
+                  <li><a href="./explore.html">館內導覽</a></li>
+                  <li><a href="./restaurant.html">特色餐廳</a></li>
+                  <li><a href="./gift.html">紀念品店</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="./activity.html">館內活動</a></li>
+            <li class="language_list">
+              <a class="language_icon" href="#"><img class="svg language" src="./images/language.svg" alt=""></a>
+              <div class="language_block">
+                <a href="#">Language</a>
+                <ul class="language_list">
+                  <li><a href="#">繁體中文</a></li>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">日本語</a></li>
+                </ul>
+              </div>
+              <a class="arrow_icon" href="#"><img class="svg arrow" src="./images/language_arrow.svg" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 漢堡選單 -->
+        <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div class="burger_nav">
+          <div class="burger_container">
+            <ul class="burger_ul">
+              <li>
+                <div class="burger_li">
+                  <a href="./latest-news.html">最新消息</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">入館資訊</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./ticket.html">票價&amp;購票</a>
+                  <a href="./transportation.html">交通指南</a>
+                  <a href="./FAQ.html">常見問答</a>
+                  <a href="./contact.html">聯絡我們</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">探索之旅</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./explore.html">館內導覽</a>
+                  <a href="./restaurant.html">特色餐廳</a>
+                  <a href="./gift.html">紀念品店</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="./activity.html">館內活動</a>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="buy_ticket">
+              <p>網路購票</p>
+            </a>
+
+            <ul class="burger_language">
+              <li class="-on">
+                <a href="#">繁體中文</a>
+              </li>
+              <li>
+                <a href="#">English</a>
+              </li>
+              <li>
+                <a href="#">日本語</a>
+              </li>
+            </ul>
+
+            <div class="burger_follow">
+              <!-- <p>Follow Us</p>
+              <p>|</p> -->
+              <a href="#">
+                <img src="./images/circle_fb.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./images/circle_yt.svg" alt=""></a>
+              <a href="#">
+                <img src="./images/circle_ig.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+
+<!-- 購票視窗 -->
+    <div class="ticketLink">
+      <a href="https://www.kkday.com/zh-tw" target="_blank">
+        <img src="./images/fixed_ticket.png" alt="">
+      </a>
+    </div>
+
+
+<!-- 紀念品店 -->
+    <section class="gift">
+      <div class="gift_bg"></div>
+      <ul class="change_bt_1100">
+        <li class="one">
+          <a href="./explore.html">
+            <img class="svg animals" src="./images/animals.svg" alt="">
+            <h5>館內導覽</h5>
+          </a>
+        </li>
+        <li class="two">
+          <a href="./restaurant.html">
+            <img class="svg eat" src="./images/eat.svg" alt="">
+            <h5>特色餐廳</h5>
+          </a>
+        </li>
+        <li class="three">
+          <a href="./gift.html">
+            <img class="svg gift" src="./images/gift_blue.svg" alt="">
+            <h5>紀念品店</h5>
+          </a>
+        </li>
+      </ul>
+
+      <div class="introduce">
+        <div class="gift_shop">
+          <h3>Ocean Fun 紀念品商店</h3>
+          <img src="./images/gift_shop.jpg" alt="">
+        </div>
+        <div class="right_introduce">
+          <h3>Ocean Fun 紀念品商店</h3>
+          <h4>「讓我們的相遇變成一段美好回憶」</h4>
+          <h5>位於OCEAN LIFE的選物店，<br>販售各種多元化的獨家限定商品，<br>以及與多家日本知名品牌合作的聯名商品。<br><br>還有更多只在Ocean Fun才能發現的驚喜，<br>歡迎大家來逛逛，為旅程劃下最美麗的記憶。</h5>
+          <!-- <h5>位於OCEAN LIFE的選物店，販售各種多元化的獨家限定商品，以及與多家日本知名品牌合作的聯名商品。<br><br>還有更多只在Ocean Fun才能發現的驚喜，歡迎大家來逛逛，為旅程劃下最美麗的記憶。</h5>           -->
+
+          <div class="time_bg">
+            <h5>營業時間：<br>依照OCEAN LIFE開館時間，詳情請至營業時間頁面確認</h5>
+            <!-- <h5>依照OCEAN LIFE開館時間，詳情請至營業時間頁面確認</h5> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="product_box">
+        <h3>人氣商品</h3>
+        <div class="product_flex">
+          <div class="product_big">
+            <a href="#" data-fancybox="gallery" data-caption="海蛞蝓鑰匙包" data-src="./images/gift_01.jpg"><img src="./images/gift_01.jpg" alt=""></a>
+            <h5>海蛞蝓鑰匙包</h5>
+          </div>
+          <div class="product_big">
+            <a href="#" data-fancybox="gallery" data-caption="企鵝置物盒" data-src="./images/gift_02.jpg"><img src="./images/gift_02.jpg" alt=""></a>
+            <h5>企鵝置物盒</h5>
+          </div>
+          <div class="product_small">
+            <a href="#" data-fancybox="gallery" data-caption="沉睡的海豹玩偶" data-src="./images/gift_03.jpg"><img src="./images/gift_03.jpg" alt=""></a>
+            <h5>沉睡的海豹玩偶</h5>
+          </div>
+          <div class="product_small">
+            <a href="#" data-fancybox="gallery" data-caption="脫皮仿真螃蟹玩偶" data-src="./images/gift_04.jpg"><img src="./images/gift_04.jpg" alt=""></a>
+            <h5>可脫皮仿真螃蟹玩偶</h5>
+          </div>
+          <div class="product_small">
+            <a href="#" data-fancybox="gallery" data-caption="海豚衛生紙套" data-src="./images/gift_05.jpg"><img src="./images/gift_05.jpg" alt=""></a>
+            <h5>海豚衛生紙套</h5>
+          </div>
+          <div class="product_small">
+            <a href="#" data-fancybox="gallery" data-caption="毛巾派對瓶子套" data-src="./images/gift_06.jpg"><img src="./images/gift_06.jpg" alt=""></a>
+            <h5>毛巾派對瓶子套</h5>
+          </div>
+          <div class="product_small">
+            <a href="#" data-fancybox="gallery" data-caption="海洋夢幻護手霜" data-src="./images/gift_07.jpg"><img src="./images/gift_07.jpg" alt=""></a>
+            <h5>海洋夢幻護手霜</h5>
+          </div>
+          <div class="product_small">
+            <a href="#" data-fancybox="gallery" data-caption="立體造型小方巾" data-src="./images/gift_08.jpg"><img src="./images/gift_08.jpg" alt=""></a>
+            <h5>立體造型小方巾</h5>
+          </div>
+          <div class="product_small">
+            <a href="#" data-fancybox="gallery" data-caption="造型伸縮鑰匙套" data-src="./images/gift_09.jpg"><img src="./images/gift_09.jpg" alt=""></a>
+            <h5>造型伸縮鑰匙套</h5>
+          </div>
+          <div class="product_small">
+            <a href="#" data-fancybox="gallery" data-caption="企鵝收納拉鍊袋" data-src="./images/gift_10.jpg"><img src="./images/gift_10.jpg" alt=""></a>
+            <h5>企鵝收納拉鍊袋</h5>
+          </div>
+        </div>
+      </div>
+      <div class="notice">*圖片僅為部分商品，歡迎蒞臨參觀選購</div>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_flex">
+        <div class="TOP_bt" id="BackTop">
+          <a href="#"><img src="./images/TOP.svg" alt=""></a>
+        </div>
+        <div class="follow_icon">
+          <p class="more_information">更多情報</p>
+          <p class="line">|</p>
+          <a href="https://www.facebook.com/" target="_blank"><img class="svg facebook" src="./images/facebook.svg" alt=""></a>
+          <a href="https://www.youtube.com/" target="_blank"><img class="svg youtube" src="./images/youtube.svg" alt=""></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="svg ig" src="./images/ig.svg" alt=""></a>
+        </div>
+        <div class="content">
+          <h5>地址：202基隆市中正區北寧路367號 | TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a>，後續會由專人協助處理</p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+        <div class="rwd_content">
+          <h5>地址：202基隆市中正區北寧路367號<br>TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a></p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+      </div>
+
+    </footer>
+
+    <!-- JQuery套件 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script> -->
+
+    <!-- Fancybox套件 -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <script src="./js/common/svg_change.js"></script>
+    <script src="./js/common/top_back.js"></script>
+
+    <script src="./js/common/header.js"></script>
+
+  </body>
+</html>

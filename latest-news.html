@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <!-- RWD-viewport設定 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <title>Ocean Life</title>
+    <link rel="stylesheet" href="./css/latest-news.css">
+    <link rel="stylesheet" href="./css/rwd_latest-news.css">
+    <link href="./images/logo_icons.ico" rel="shortcut icon">
+
+    <!-- jonsuh套件(漢堡選單) -->
+    <link href="./vendors/jonsuh/hamburgers.css" rel="stylesheet">
+  </head>
+  <body class="vsc-initialized">
+
+    <!-- header -->
+    <header id="header">
+      <div class="block_1100">
+        <a href="./index.html" class="header_logo">
+          <img class="logo_02" src="./images/logo_02.svg" alt="">
+        </a>
+
+
+        <nav class="nav">
+          <ul class="nav_list">
+            <li><a class="on" href="./latest-news.html">最新消息</a></li>
+            <li>
+              <div class="information_block">
+                <a href="./ticket.html">入館資訊</a> <!-- 設定所在位置,增加class -->
+                <ul class="information_list">
+                  <li class="buy_ticket"><a href="./ticket.html">票價&amp;購票</a></li>
+                  <li><a href="./transportation.html">交通指南</a></li>
+                  <li><a href="./FAQ.html">常見問答</a></li>
+                  <li><a href="./contact.html">聯絡我們</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="explore_block">
+                <a href="./explore.html">探索之旅</a>
+                <ul class="explore_list">
+                  <li><a href="./explore.html">館內導覽</a></li>
+                  <li><a href="./restaurant.html">特色餐廳</a></li>
+                  <li><a href="./gift.html">紀念品店</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="./activity.html">館內活動</a></li>
+            <li class="language_list">
+              <a class="language_icon" href="#"><img class="svg language" src="./images/language.svg" alt=""></a>
+              <div class="language_block">
+                <a href="#">Language</a>
+                <ul class="language_list">
+                  <li><a href="#">繁體中文</a></li>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">日本語</a></li>
+                </ul>
+              </div>
+              <a class="arrow_icon" href="#"><img class="svg arrow" src="./images/language_arrow.svg" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- 漢堡選單 -->
+        <button class="hamburger hamburger--slider" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+
+        <div class="burger_nav">
+          <div class="burger_container">
+            <!-- <a class="buy_ticket">
+              <p>網路購票</p>
+            </a> -->
+            <ul class="burger_ul">
+              <li>
+                <div class="burger_li">
+                  <a class="on" href="./latest-news.html">最新消息</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">入館資訊</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./ticket.html">票價&amp;購票</a>
+                  <a href="./transportation.html">交通指南</a>
+                  <a href="./FAQ.html">常見問答</a>
+                  <a href="./contact.html">聯絡我們</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="#">探索之旅</a>
+                  <div class="add-icon"></div>
+                </div>
+                <div class="burger_content">
+                  <a href="./explore.html">館內導覽</a>
+                  <a href="./restaurant.html">特色餐廳</a>
+                  <a href="./gift.html">紀念品店</a>
+                </div>
+              </li>
+              <li>
+                <div class="burger_li">
+                  <a href="./activity.html">館內活動</a>
+                </div>
+              </li>
+            </ul>
+            <a href="#" class="buy_ticket">
+              <p>網路購票</p>
+            </a>
+            <ul class="burger_language">
+              <li class="-on">
+                <a href="#">繁體中文</a>
+              </li>
+              <li>
+                <a href="#">English</a>
+              </li>
+              <li>
+                <a href="#">日本語</a>
+              </li>
+            </ul>
+
+            <div class="burger_follow">
+              <!-- <p>Follow Us</p>
+              <p>|</p> -->
+              <a href="#">
+                <img src="./images/circle_fb.svg" alt="">
+              </a>
+              <a href="#">
+                <img src="./images/circle_yt.svg" alt=""></a>
+              <a href="#">
+                <img src="./images/circle_ig.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+<!-- 購票視窗 -->
+    <div class="ticketLink">
+      <a href="https://www.kkday.com/zh-tw" target="_blank">
+        <img src="./images/fixed_ticket.png" alt="">
+      </a>
+    </div>
+
+
+
+<!-- 主要內容 -->
+    <section class="news">
+      <div class="news_bg"></div>
+      <div class="title_1100">
+        <div class="title">
+          <p>最新消息</p>
+          <p>Latest News</p>
+        </div>
+      </div>
+
+      <div class="news_1100">
+        <div class="change_bt">
+          <a class="change_btn -on" data-target="news_tab01" href="#">所有消息</a>
+          <a class="change_btn" data-target="news_tab02" href="#">園區公告</a>
+          <a class="change_btn" data-target="news_tab03" href="#">活動消息</a>
+        </div>
+        <div class="news">
+          <div class="tab news_tab01 -on">
+            <ul>
+              <li class="one">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o01.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.8.3</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>WFH海洋生物陪你開會</h5>
+                    <h6>在家出勤視訊會議開不停? Ocean Life提供多種視訊背景免費下載中，在家辦公、進行視訊會議時也能彷如置身在水族館中</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="two">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o02.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.7.22</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>因應疫情，採預約入館參觀</h5>
+                    <h6>在這嚴峻的疫情下，為了提供來館遊客得到安全安心的遊憩體驗，本館將實施預約制，控管人數入館，</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="three">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o03.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.6.2</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>AI掃描圖鑑APP首次登台</h5>
+                    <h6>在Ocean Life使用LINNÉ LENS，彷彿專屬你的導覽員就在身邊，只要打開APP並掃描海洋生物，即可</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="four">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o05.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.5.27</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>喜來登宮古酒店 | 下午茶聯名</h5>
+                    <h6 class="single">與日本知名的喜來登宮古酒店合作，共同打造專屬水族館特色的下午茶套餐，以可愛的海洋生物為造型發想，</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="five">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a02.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.5.13</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>動物森友會 x OCEAN LIFE 聯名</h5>
+                    <h6 class="single">擁有高人氣的動物森友會，近期聯名活動即將開始。館內將推出一系列精彩的活動，熱烈歡迎大朋友小朋友一同前來參與</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="six">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a03.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.4.23</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>「怦然心動的一瞬間」攝影比賽</h5>
+                    <h6>還記得來到Ocean Life時，遇到讓你怦然心動的時刻嗎？透過攝影捕捉每個瞬間，將感動的心情一同分享給大家</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="seven">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o04.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.4.8</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>新成員誕生「環斑海豹寶寶」</h5>
+                    <h6>很高興Ocean Life今天又有新成員加入，可愛呆萌的模樣讓人忍不住想要抱緊處理，歡迎大家前來參觀</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="eight">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a01.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.3.1</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>「探索神秘海底世界」插畫比賽</h5>
+                    <h6>邀請全台各地喜愛海洋的大家，一同用畫筆繪畫出獨一無二所幻想的神秘海底世界，館內準備許多精美的獎品</h6>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab news_tab02">
+            <ul>
+              <li class="one">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o01.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.8.3</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>WFH海洋生物陪你開會</h5>
+                    <h6>在家出勤視訊會議開不停? Ocean Life提供多種視訊背景免費下載中，在家辦公、進行視訊會議時也能彷如置身在水族館中</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="two">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o02.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.7.22</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>因應疫情，採預約入館參觀</h5>
+                    <h6>在這嚴峻的疫情下，為了提供來館遊客得到安全安心的遊憩體驗，本館將實施預約制，控管人數入館，</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="three">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o03.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.6.2</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>AI掃描圖鑑APP首次登台</h5>
+                    <h6>在Ocean Life使用LINNÉ LENS，彷彿專屬你的導覽員就在身邊，只要打開APP並掃描海洋生物，即可</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="four">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o04.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.4.8</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>新成員誕生「環斑海豹寶寶」</h5>
+                    <h6>很高興Ocean Life今天又有新成員加入，可愛呆萌的模樣讓人忍不住想要抱緊處理，歡迎大家前來參觀</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="five">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a04.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.4.1</h6>
+                    <h6>園區公告</h6>
+                  </div>
+                  <div class="text">
+                    <h5>紀念品店「鯨鯊娃娃」新款上市</h5>
+                    <h6>高人氣的鯨鯊終於推出小型的娃娃，表面光滑加上舒適柔軟的觸感，讓人愛不釋手。心動不如馬上行動</h6>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab news_tab03">
+            <ul>
+              <li class="one">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_o05.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.5.27</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>喜來登宮古酒店 | 下午茶聯名</h5>
+                    <h6 class="single">與日本知名的喜來登宮古酒店合作，共同打造專屬水族館特色的下午茶套餐，以可愛的海洋生物為造型發想，</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="two">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a02.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.5.13</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>動物森友會 x OCEAN LIFE 聯名</h5>
+                    <h6 class="single">擁有高人氣的動物森友會，近期聯名活動即將開始。館內將推出一系列精彩的活動，熱烈歡迎大朋友小朋友一同前來參與</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="three">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a03.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.4.23</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>「怦然心動的一瞬間」攝影比賽</h5>
+                    <h6>還記得來到Ocean Life時，遇到讓你怦然心動的時刻嗎？透過攝影捕捉每個瞬間，將感動的心情一同分享給大家</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="four">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a01.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.3.1</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>「探索神秘海底世界」插畫比賽</h5>
+                    <h6>邀請全台各地喜愛海洋的大家，一同用畫筆繪畫出獨一無二所幻想的神秘海底世界，館內準備許多精美的獎品</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="five">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a05.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.2.28</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>活動限定｜赤鬼青鬼潛水解說員</h5>
+                    <h6>因應妖怪節活動，潛水解說員化身為大家熟悉的赤鬼青鬼，為大家帶來獨特的介紹，一同享受特別的</h6>
+                  </div>
+                </a>
+              </li>
+
+              <li class="six">
+                <a href="./article.html">
+                  <div class="img">
+                    <img src="./images/news_a06.jpg" alt="">
+                  </div>
+                  <div class="time_box">
+                    <h6>2021.1.08</h6>
+                    <h6>活動消息</h6>
+                  </div>
+                  <div class="text">
+                    <h5>海洋夜未眠夜宿體驗</h5>
+                    <h6>你是否曾經有望著魚群入睡的獨特體驗呢？由專業解說員帶領，豐富的海洋知識導覽，帶給你印象深刻的夜宿體驗</h6>
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+        <div class="news_tab01 number_bt -on">
+          <a class="change one -on" href="#">1</a>
+          <a class="change two" href="#">2</a>
+        </div>
+        <div class="news_tab02 number_bt two">
+          <a class="one" href="#">1</a>
+          <a class="two" href="#">2</a>
+        </div>
+        <div class="news_tab03 number_bt three">
+          <a class="one" href="#">1</a>
+          <a class="two" href="#">2</a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer_flex">
+        <div class="TOP_bt" id="BackTop">
+          <a href="#"><img src="./images/TOP.svg" alt=""></a>
+        </div>
+        <div class="follow_icon">
+          <p class="more_information">更多情報</p>
+          <p class="line">|</p>
+          <a href="https://www.facebook.com/" target="_blank"><img class="svg facebook" src="./images/facebook.svg" alt=""></a>
+          <a href="https://www.youtube.com/" target="_blank"><img class="svg youtube" src="./images/youtube.svg" alt=""></a>
+          <a href="https://www.instagram.com/" target="_blank"><img class="svg ig" src="./images/ig.svg" alt=""></a>
+        </div>
+        <div class="content">
+          <h5>地址：202基隆市中正區北寧路367號 | TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a>，後續會由專人協助處理</p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+        <div class="rwd_content">
+          <h5>地址：202基隆市中正區北寧路367號<br>TEL：(02) 2690-9031</h5>
+          <hr>
+          <p>本網站為緯育TibaMe前端設計工程師班第70期學員專題作品，本平台僅供學習、展示之用</p>
+          <p>參考資源：Xpark ｜ 海遊館 ｜墨田水族館｜品川水族館。若有侵權疑慮，您可私訊<a href="https://www.facebook.com/webindex/" target="_blank">TibaMe-前端設計工程師 養成班</a></p>
+          <p class="copy">Copyright © 2021 OCEAN LIFE. All rights reserved</p>
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script> -->
+    <script src="./js/common/svg_change.js"></script>
+    <script src="./js/common/top_back.js"></script>
+    <script src="./js/latest_news.js"></script>
+    <script src="./js/common/header.js"></script>
+  </body>
+</html>

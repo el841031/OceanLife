@@ -1,0 +1,588 @@
+/* 解決button邊框問題 */
+button{
+outline:none;
+}
+
+
+/* 首頁header */
+
+/* 消除follow */
+header#header > div.block_1100 > div.follow_icon {
+  display: none;
+}
+/* body{
+  width: 100%;
+} */
+/* --------header最小尺寸-不低於1100px-------- */
+header#header {
+  /* min-width: 1100px; */
+  width: 100%;
+  /* padding: 0px 80px; */
+  /* margin: 0 auto; */
+  /* border: 1px solid blue; */
+  background-color: #1152a0;
+
+  position: sticky;
+  /* position: fixed; */
+  display: block;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  width: 100%;
+  /* height: 80px; */
+  z-index: 1000;
+  box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 10%);
+
+  transition: all 0.3s;
+}
+
+/* @media (max-width: 991.8px){
+  header#header{
+    padding: 0px 40px;
+  }
+} */
+
+/* --------header 主要內容尺寸-1100px-------- */
+header#header > div.block_1100 {
+  width: 100%;
+  /* padding: 0px 80px; */
+  padding: 0px 80px 0px 70px;
+  margin: 0 auto;
+  /* border: 1px solid pink; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* --------Logo-------- */
+img.logo_02 {
+  width: 170px;
+  /* height: 35px; */
+  display: inline-block;
+}
+a.header_logo {
+  display: inline-block;
+}
+
+/* @media (max-width: 991.8px){
+  img.logo_02{
+    width: 150px;
+    position: relative;
+    top: 2px;
+  }
+} */
+
+/* @media (min-width: 1200px){
+  header#header > div.block_1100{
+    width: 1200px;
+  }
+}
+@media (max-width: 991.8px){
+  header#header > div.block_1100{
+    width: 100%;
+  }
+} */
+
+/* -----------------右邊導覽列----------------- */
+/* 設定flex,針對最新消息/入館資訊/探索之旅/語言 */
+nav.nav > ul.nav_list {
+  display: flex;
+}
+/* 設定flex,針對語言的icon與文字 */
+nav.nav > ul.nav_list > li.language_list {
+  display: flex;
+}
+
+/* 針對最新消息/館內活動,設定內距 */
+nav.nav > ul.nav_list > li > a {
+  padding: 27px 20px 27px 20px;
+  /* margin: 0px 5px 0px 5px; */
+  display: inline-block;
+}
+/* 針對入館資訊/探索之旅,設定內距 */
+nav.nav > ul.nav_list > li > div.information_block > a,
+div.explore_block > a {
+  padding: 27px 20px 27px 20px;
+  /* margin: 0px 5px 0px 5px; */
+  display: inline-block;
+}
+/* 針對語言,設定內距 */
+nav.nav > ul.nav_list > li.language_list > div.language_block > a {
+  padding: 27px 0px 27px 0px;
+  display: inline-block;
+}
+
+/* 定位,針對入館資訊 */
+div.information_block {
+  position: relative;
+}
+ul.information_list {
+  position: absolute;
+  background-color: white;
+  display: inline-block;
+  top: 85%;
+  left: 0;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 10%); /*下拉式選單陰影*/
+  border-radius: 3px; /*下拉式選單圓角*/
+}
+ul.information_list > li {
+  display: inline-block;
+  width: 100%;
+  position: relative; /*下拉式選單定位*/
+}
+ul.information_list > li > a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px; /*下拉式選單的內距*/
+}
+
+/* 定位,針對探索之旅 */
+div.explore_block {
+  position: relative;
+}
+ul.explore_list {
+  position: absolute;
+  background-color: white;
+  display: inline-block;
+  top: 85%;
+  left: 0;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 10%); /*下拉式選單陰影*/
+  border-radius: 3px; /*下拉式選單圓角*/
+}
+ul.explore_list > li {
+  display: inline-block;
+  width: 100%;
+  position: relative; /*下拉式選單定位*/
+}
+ul.explore_list > li > a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px; /*下拉式選單的內距*/
+}
+
+/* 定位,針對語言定位 */
+li.language_list {
+  position: relative;
+  margin-left: 20px;
+}
+div.language_block {
+  /* position: relative; */
+}
+ul.language_list {
+  position: absolute;
+  background-color: white;
+  display: inline-block;
+  top: 85%;
+  left: 0;
+  box-shadow: 0px 0px 5px 0px rgb(0 0 0 / 10%); /*下拉式選單陰影*/
+  border-radius: 3px; /*下拉式選單圓角*/
+}
+ul.language_list > li {
+  display: inline-block;
+  width: 100%;
+  position: relative; /*下拉式選單定位*/
+}
+ul.language_list > li > a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px; /*下拉式選單的內距*/
+}
+nav.nav > ul.nav_list > li > a.language_icon {
+  padding: 27px 10px 27px 0px;
+  display: inline-block;
+}
+nav.nav > ul.nav_list > li > a.arrow_icon {
+  padding: 27px 0px 27px 20px;
+  display: inline-block;
+}
+
+/* 下拉式選單橫線 */
+div.information_block > ul.information_list > li > a::after {
+  content: "";
+  background-color: #d9ecff;
+  height: 1.5px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  display: inline-block; /*加上去才可以更改線條顏色*/
+}
+div.information_block > ul.information_list > li:last-child ::after {
+  display: none;
+}
+
+div.explore_block > ul.explore_list > li > a::after {
+  content: "";
+  background-color: #d9ecff;
+  height: 1.5px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  display: inline-block; /*加上去才可以更改線條顏色*/
+}
+div.explore_block > ul.explore_list > li:last-child ::after {
+  display: none;
+}
+
+div.language_block > ul.language_list > li > a::after {
+  content: "";
+  background-color: #d9ecff;
+  height: 1.5px;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  display: inline-block; /*加上去才可以更改線條顏色*/
+}
+div.language_block > ul.language_list > li:last-child ::after {
+  display: none;
+}
+
+/* 隱藏下拉式選單 */
+ul.information_list,
+ul.explore_list,
+ul.language_list {
+  display: none;
+  padding: 0;
+}
+
+/* 滑過選單,下拉式選單出現 */
+div.information_block:hover > ul.information_list {
+  display: inline-block;
+}
+div.explore_block:hover > ul.explore_list {
+  display: inline-block;
+}
+/* div.language_block:hover > ul.language_list{
+  display: inline-block;
+} */
+li.language_list:hover > div.language_block > ul.language_list {
+  display: inline-block;
+}
+
+/* 滑過選單,選項會變換顏色 */
+nav.nav > ul > li > a:hover {
+  color: #55f4ff;
+}
+nav.nav > ul > li > div.information_block > a:hover,
+div.explore_block > a:hover {
+  color: #55f4ff;
+}
+li.language_list > a > img:hover {
+  color: #55f4ff;
+}
+
+/* 滑過選單,下拉式選項會變換顏色 */
+ul.information_list > li > a:hover,
+ul.explore_list > li > a:hover,
+ul.language_list > li > a:hover {
+  color: #2978d7;
+}
+
+/* 字距 */
+nav.nav > ul.nav_list > li > a {
+  letter-spacing: 1.5px;
+}
+nav.nav > ul.nav_list > li > div.information_block > a,
+ul.information_list > li > a {
+  letter-spacing: 1.5px;
+}
+nav.nav > ul.nav_list > li > div.explore_block > a,
+ul.explore_list > li > a {
+  letter-spacing: 1.5px;
+}
+li.language_list > div.language_block > a,
+ul.language_list > li > a {
+  letter-spacing: 1.5px;
+}
+
+/* 消除全部的底線跟圓點及改文字大小 */
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+  /* color: white; */
+}
+
+/* 更改a標籤的顏色 */
+ul > li > a,
+ul > li > div > a {
+  color: white;
+}
+div > ul > li > a {
+  color: #08448f;
+}
+
+/* 圖片大小設定 */
+
+.language {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  /* margin-right: 10px; */
+}
+.arrow {
+  width: 13px;
+  height: 8px;
+  display: inline-block;
+  /* margin-left: 10px; */
+}
+
+/* -----------互動效果--------- */
+header#header > div.block_1100 > a > img.logo_02:hover {
+  opacity: 0.8;
+  /* transition: .5s ease; */
+  transition-duration: 0.3s;
+}
+
+/* 語言顏色bug */
+li.language_list .language path {
+  fill: white;
+}
+
+/* SVG效果 */
+li.language_list:hover .language path {
+  fill: #55f4ff;
+}
+li.language_list:hover > div > a {
+  color: #55f4ff;
+}
+li.language_list:hover .arrow path {
+  fill: #55f4ff;
+}
+
+/* --------選擇語言--------- */
+/* 繁體中文 */
+ul.language_list > li:first-child > a {
+  background-color: #d9ecff;
+  border-radius: 3px 3px 0px 0px;
+}
+/* 英文 */
+/* ul.language_list > li:nth-child(2):active > a{
+  background-color: #D9ECFF;
+  border-radius: 3px 3px 0px 0px;
+} */
+
+/* 變換顏色 */
+/* ul.language_list > li.language_change.-on > a{
+  background-color: #D9ECFF;
+  border-radius: 3px 3px 0px 0px;
+}
+
+ul.language_list > li.language_change > a{
+  color: #08448F;
+  border-radius: 3px 3px 0px 0px;
+} */
+
+/* --------漢堡選單-------- */
+/* 隱藏漢堡選單 */
+header#header > div.block_1100 > button.hamburger {
+  display: none;
+}
+/* 漢堡選單-關閉X顯示在上方 */
+span.hamburger-box {
+  width: 30px;
+  z-index: 1;
+}
+/* 漢堡展開選單-背景 */
+div.burger_nav {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 70, 140, 0.95);
+  position: fixed;
+  top: 0px;
+  left: 0;
+}
+
+ul.burger_ul {
+  margin: 70px 0px 0px 0px;
+}
+ul.burger_ul > li {
+  /* padding: 15px 0px; */
+  /* border: 1px solid pink; */
+  cursor: pointer;
+}
+
+/* 漢堡選單-導覽列 */
+ul.burger_ul > li > div.burger_li {
+  padding: 15px 0px;
+  /* border: 1px solid green; */
+  position: relative;
+}
+/* 漢堡選單-分隔線*/
+ul.burger_ul > li > div.burger_li::after {
+  content: "";
+  width: 100%;
+  height: 0.5px;
+  background-color: rgba(256, 256, 256, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+
+/* ul.burger_nav > li.active{
+  background-color: rgba(18,30,46,.07);
+  border-radius: 3px 3px 0px 0px;
+} */
+
+/* 漢堡選單-導覽列字的大小*/
+ul.burger_ul > li > div.burger_li > a {
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 17px;
+  display: block;
+}
+/* 漢堡選單-加號+*/
+ul.burger_ul > li > div.burger_li > div.add-icon::after {
+  content: "\002B";
+  color: white;
+  font-size: 35px;
+  position: absolute;
+  right: 0px;
+  bottom: 3px;
+  font-weight: 300;
+}
+/* 漢堡選單-減號-*/
+ul.burger_ul > li > div.burger_li.active > div.add-icon::after {
+  content: "\2212";
+}
+/* 漢堡選單-隱藏+號的子選單*/
+ul.burger_ul > li > div.burger_content {
+  /* display: none; */
+  /* max-height: 0; */
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/* 漢堡選單-子選單文字 */
+ul.burger_ul > li > div.burger_content > a {
+  display: block;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+  font-weight: 300;
+  /* border: 1px solid pink; */
+  padding: 10px 0px 10px 30px;
+  position: relative;
+}
+/* 漢堡選單-子選單箭頭 */
+ul.burger_ul > li > div.burger_content > a::after {
+  content: "";
+  width: 9px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 19px;
+  transform: translate(-3px, 0px) rotate(44deg);
+}
+ul.burger_ul > li > div.burger_content > a::before {
+  content: "";
+  width: 9px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  left: 0px;
+  top: 25px;
+  transform: translate(-3px, 0px) rotate(-44deg);
+}
+/* 漢堡選單-子選單 hover */
+/* ul.burger_ul > li > div.burger_content > a:hover{
+  opacity: 0.8;
+  color: #55F4FF;
+} */
+/* 漢堡選單-語言*/
+ul.burger_language {
+  display: flex;
+  justify-content: center;
+}
+ul.burger_language > li {
+  padding: 0px 15px;
+  /* border: 1px solid pink; */
+  position: relative;
+}
+
+ul.burger_language > li > a {
+  color: white;
+  /* padding: 0px 15px; */
+  /* border: 1px solid red; */
+}
+/* 漢堡選單-語言 線條*/
+ul.burger_language > li::after {
+  content: "";
+  width: 1px;
+  height: 20px;
+  background-color: rgba(256, 256, 256, 0.4);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+/* 漢堡選單-語言 消除第一條的線條*/
+ul.burger_language > li:first-child::after {
+  display: none;
+}
+/* 漢堡選單-follow us*/
+div.burger_follow {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+div.burger_follow > a {
+  margin: 0px 10px;
+}
+/* 漢堡選單-follow us 圖片*/
+div.burger_follow > a > img {
+  width: 40px;
+  height: 40px;
+}
+
+/* @media (min-width: 1200px){
+  header#header > div.block_1100{
+    width: 1200px;
+  }
+}
+@media (max-width: 991.8px){
+  header#header > div.block_1100{
+    width: 100%;
+  }
+} */
+
+/* @media (max-width: 991.8px){
+  header#header > div.block_1100 > button.hamburger{
+    display: inline-block;
+    padding: 15px 0;
+  }
+  nav.nav{
+    display: none;
+  }
+  div.burger_container{
+    width: 100%;
+    padding: 0px 40px;
+  }
+  div.burger_container > ul{
+    width: 100%;
+  }
+} */
+
+/* @media (max-width: 991.8px){
+  header#header{
+    width: 100%;
+    min-width: auto;
+  }
+} */
+
+/* 語言選擇 */
+ul.burger_language > li.-on > a{
+  color: #55F4FF;
+}
