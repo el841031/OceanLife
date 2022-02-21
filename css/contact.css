@@ -226,6 +226,7 @@ section.contact > div.form > form > button.btn{
 
   /* margin: 40px 210px 90px 210px; */
   margin: 10px 210px 90px 210px;
+  cursor: pointer;
 }
 
 
